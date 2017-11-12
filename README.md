@@ -35,7 +35,7 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 [3] Plugin used to optimize performance if needed.
 
-[4] Plugin used to replace railway travel program, reduce many labor costs and material costs. Perhaps space, too. You're still able to build your own railway for freely.
+[4] Plugin used to replace railway travel program, reduce many labor costs and material costs. Perhaps space, too. You're still able to build your own railway if you want.
 
 [5] Plugin used to manage plugin and server admin permissions.
 

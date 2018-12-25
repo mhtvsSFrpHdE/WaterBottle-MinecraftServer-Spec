@@ -15,16 +15,17 @@ password_error_chars: '&4Your password contains illegal characters. Allowed char
 pass_len: '&cYour password is too short or too long! Please try with another one!'
 
 # Login
-usage_log: '&cUsage: /login <password>'
+usage_log: '&cUsage: /l <password>'
 wrong_pwd: '&cWrong password!'
-login: '&2Successful login!'
-login_msg: '&cPlease, login with the command: /login <password>'
+login: '&2Successful login! 你已登入。'
+login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登入。'
 timeout: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
 
 # Errors
 unknown_user: '&cThis user isn''t registered!'
-denied_command: '&cIn order to use this command you must be authenticated!'
-denied_chat: '&cIn order to chat you must be authenticated!'
+#'&cIn order to use this command you must be authenticated!'
+denied_command: '&cAumatic register disabled by admin. 自助注册被管理员停用。'
+denied_chat: '&cIn order to chat you must be authenticated! 登入后才可进行这个操作。'
 not_logged_in: '&cYou''re not logged in!'
 tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
 max_reg: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'

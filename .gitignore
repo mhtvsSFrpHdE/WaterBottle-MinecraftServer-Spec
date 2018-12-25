@@ -1,3 +1,7 @@
 *.db
 *.dat
 *.log
+
+# Essentials
+plugins/Essentials/userdata/*.yml
+plugins/Essentials/usermap.csv

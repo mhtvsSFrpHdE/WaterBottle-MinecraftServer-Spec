@@ -3,7 +3,7 @@
 auto-update: true
 
 # The cost of xp levels for repairing a item
-cost: 10
+cost: 1
 
 # The message to send to the player
 message:

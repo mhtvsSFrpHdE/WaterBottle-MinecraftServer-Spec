@@ -7,7 +7,7 @@ cost: 1
 
 # The message to send to the player
 message:
-  enabled: true
+  enabled: false
   text: '&cThe item in your inventory now will have an repair cost of %cost% levels'
   
 # Include here the items that are repairable

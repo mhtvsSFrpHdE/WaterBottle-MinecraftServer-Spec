@@ -115,7 +115,7 @@ settings:
         # The value 0 means an unlimited number of registrations!
         maxRegPerIp: 0
         # Minimum allowed username length
-        minNicknameLength: 3
+        minNicknameLength: 1
         # Maximum allowed username length
         maxNicknameLength: 16
         # When this setting is enabled, online players can't be kicked out

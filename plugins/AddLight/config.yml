@@ -1,0 +1,31 @@
+# ===--- AddLight ------------------------------------------------------------------------------------------------=== #
+#                                                                                                                      
+#     Quickly add invisible light sources                                                                              
+#                                                                                                                      
+# ===------------------------------------------------------------------------------------------ © 2017 Hexosse ---=== #
+
+
+# *---------------- Plugin configuration --------------------*
+plugin:
+  # Enable metrics
+  useMetrics: true
+  # Enable updater
+  useUpdater: true
+  # Download update
+  downloadUpdate: true
+
+# *-------------- ConnectedBlock configuration -----------------*
+connectedBlock:
+  # Limit the number of connected blocks
+  limit: 1024
+
+# *------------ Charge player for adding lights ----------------*
+cost:
+  # if > 0 user will have to pay this amount of glowstone to add lights
+  glowstone-dust: 6
+  # if > 0 user will have to pay this amount of money to add lights (This require vault to be installed)
+  money: 0
+
+
+ 
+# ===--- Enjoy -------------------------------------------------------------------------------- © 2017 Hexosse ---=== #

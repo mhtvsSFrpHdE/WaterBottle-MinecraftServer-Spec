@@ -1,0 +1,21 @@
+# BossShop
+# by Felix Neubauer
+# Check out following page for more information: http://dev.bukkit.org/bukkit-plugins/bossshop/pages/configuration/ 
+EnableSigns: true
+MainShop: Menu
+AdvancedSecurity: false
+HideItemsPlayersDoNotHavePermissionsFor: false
+CanPlayersSellItemsWithGreaterEnchants: false
+EnableTransactionLog: false
+SearchSubfoldersForShops: false
+ServerPingingDelay: 20
+AllowUnsafeEnchantments: false
+DisableUpdateNotifications: false
+MultiplierGroups:
+  Enabled: false
+  List:
+  - BossShop.PriceMultiplier.Points:points:0.75
+  - BossShop.PriceMultiplier.Money:money:0.5
+  - BossShop.PriceMultiplier.MoneyNegative:money:2.0
+  - BossShop.PriceMultiplier.Exp:exp:0.8
+PointsPlugin: auto-detect

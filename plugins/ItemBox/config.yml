@@ -1,0 +1,10 @@
+# 
+#   - [MATERIAL NAME],[CHANCE TO APPEAR OUT OF 100]
+# Do not use numeric IDs.
+# Search spigot material to find list of material names
+# Check console if plugin fails to startup due to a config change
+lang: eng
+dynamic-boxes:
+  default:
+  - IRON_CHESTPLATE,100
+  - IRON_SWORD,15

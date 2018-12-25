@@ -1,0 +1,62 @@
+# ===--- AddLight ------------------------------------------------------------------------------------------------=== #
+#                                                                                                                      
+#     Quickly add invisible light sources                                                                              
+#                                                                                                                      
+# ===------------------------------------------------------------------------------------------ © 2017 Hexosse ---=== #
+
+
+chat:
+  prefix: '&3[&bAddLight&3]&r'
+
+# List of Messages used in commands
+commands:
+  help:
+    cmd:
+      - Display AddLight help
+  reload:
+    cmd:
+      - Reload AddLight
+  eanble:
+    cmd: Enable lights creation!
+  disable:
+    cmd: Disable lights creation!
+  light:
+    level:
+      cmd: Lights intensity must be between 1 and 15.
+  connectedblocks: Toggle connected blocks mode
+
+# List of messages
+messages:
+  HelpNumber: Define light intensity (1 - 15)
+  HelpReload: Reload AddLight!
+  enable: is enable!
+  disable: is disable!
+  leftClick: left click an item with glowstone dust to add light!
+  rightClick: right click an item with glowstone dust to remove light!
+  LightsIntensity: Lights intensity
+  LightsCreated: lights created
+  LightsDeleted: lights deleted
+  Connectedblocks: Connected blocks
+
+# List of Messages used after a sucess command
+success:
+  relaod: AddLight has been reloaded
+  cost:
+    glowstone: '%s glowstones dust have been removed of your inventory for creating
+      a light.'
+    money: '%s %s have been withdraw of your account for creating a light.'
+
+# List of error messages
+errors:
+  AccesDenied: You don't have permission to do that!
+  UseConnected: You don't have permission to use connected blocks!
+  intensity:
+    number: Lights intensity must be between 1 and 15
+  player: This command can only be executed by a player
+  cost:
+    glowstone: You don't have enought glowstone to create ligths.
+    money: You don't have enought money to create ligths.
+
+
+ 
+# ===--- Enjoy -------------------------------------------------------------------------------- © 2017 Hexosse ---=== #

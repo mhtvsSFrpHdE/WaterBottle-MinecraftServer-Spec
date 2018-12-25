@@ -1,0 +1,11 @@
+getBackupFileDirectory: ''
+saveServerJar: false
+AutosaveDelay: 1D
+LastAutosave: 1545708533802
+enableautoSaving: true
+EnableFTP: false
+FTPAdress: www.example.com
+FTPPort: 80
+FTPUsername: User
+FTPPassword: password
+MaxSaveSize: 10G

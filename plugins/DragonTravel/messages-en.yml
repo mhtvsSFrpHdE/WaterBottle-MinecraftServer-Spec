@@ -1,0 +1,129 @@
+#                 INSTRUCTIONS
+#          for the usage of this file
+File:
+  Version: 1.1
+  Language: English
+Messages:
+  General:
+    Successful:
+      AddedStatDragon: '&aSuccessfully created stationary dragon &f{dragonname}&a.'
+      RemovedStatDragon: '&aSuccessfully removed stationary dragon &f{dragonname}&a.'
+      DismountedHere: '&aYou successfully dismounted your dragon.'
+      DismountedToStart: '&aYou cancelled your journey and were brought back to your
+        starting-point.'
+      ToggledPTravelOn: '&aYou now allow player-travels to you.'
+      ToggledPTravelOff: '&aYou now don''t allow player-travels to you.'
+    Error:
+      NoConsole: '&cThe console may not use this command in that way.'
+      NameTaken: '&cThat name is already taken.'
+      NoPermission: '&cYou do not have the permission to use this.'
+      NotMounted: '&cYou are not mounted.'
+      RequiredItemMissing: '&cYou do not have the required item in your inventory
+        to use the plugin.'
+      RequireSkyLightPlayer: '&cYou must have access to sky light for the dragon to
+        be able to start!'
+      RequireSkyLightDestination: '&cThere must not be any obstacles between your
+        destination and the sky, otherwise the dragon would not be able to land!'
+      DatabaseCorrupted: '&cThe database is corrupted, could not load the entry. Please
+        inform the admin.'
+      ReachedDragonLimit: '&cThe server already reached its limit, you cannot spawn
+        another dragon, please wait for another player to dismount.'
+      BelowMinMountHeight: '&cYou are below the minimum height required to mount a
+        dragon. Minimum height is &f{minheight}&c.'
+      DamageCooldown: '&cYou must wait &f{seconds} &cmore seconds before you can mount
+        a dragon.'
+      WorldNotFound: '&cCould not find the specified world.'
+      WorldOnBlacklistTo: '&cTarget world is on travel blacklist.'
+      WorldOnBlacklistFrom: '&cCurrent world is on travel blacklist.'
+      StatDragonNotExists: '&cThere is no stationary dragon &f{name}&c.'
+  Payment:
+    Free: '&aNo charge for you, hop on!'
+    Resources:
+      Successful:
+        WithdrawMessage: '&aSay bye to &f{amount}&a gold nugget(s).'
+      Error:
+        NotEnoughResources: '&cYou do not have enough resources.'
+    Economy:
+      Successful:
+        WithdrawMessage: '&aSay bye to &f{amount}&a coins.'
+      Error:
+        NotEnoughMoney: '&cYou do not have enough money.'
+  Signs:
+    Successful:
+      SignCreated: '&aSign was created successfully.'
+    Error:
+      SignCorrupted: '&cSign is corrupted.'
+      NoTargetStationSpecified: '&cPlease specify a travel.'
+      NoTargetFlightSpecified: '&cPlease specify a flight.'
+  Flights:
+    Successful:
+      StartingFlight: '&aStarting flight &f{flightname}&a.'
+      NowInFlightCreationMode: '&aYou are now in flight-creation mode. Use &f/dt setwp&a
+        to set waypoints and &f/dt saveflight&a to save the flight and exit the mode.'
+      WaypointAdded: '&aSuccessfully added a waypoint.'
+      WaypointRemoved: '&aSuccessfully removed the last waypoint.'
+      FlightSaved: '&aSuccessfully saved the flight.'
+      RemovedFlight: '&aSuccessfully removed the flight.'
+      SendingPlayer: '&aSending player &f{playername}&a on flight &f{flightname}&a.'
+      SentPlayer: '&aYou were sent on the flight &f{flightname} &aby an admin.'
+    Error:
+      FlightDoesNotExist: '&cFlight does not exist.'
+      FlightAlreadyExists: '&cFlight allready exists.'
+      FlightIsInDifferentWorld: '&cFlight is in a different world.'
+      AlreadyInFlightCreationMode: '&cYou already are in flight-creation mode.'
+      NotInFlightCreationMode: '&cYou are not in flight-creation mode.'
+      AtLeastOneWaypoint: '&cYou must create at least one waypoint.'
+      CannotDestroyMarkerByHand: '&cYou cannot destroy a marker by hand. Use &f/dt
+        remlastwp &cinstead.'
+      CouldNotfindPlayerToSend: '&cCouldn''t find the player &f{playername}&c.'
+      OnlySigns: '&cThis command has been disabled by the admin, you can only use
+        flights using signs.'
+  Travels:
+    Successful:
+      TravellingToRandomLocation: '&aTravelling to a random location.'
+      TravellingToCoordinatesSameWorld: '&aTravelling to coordinates &f{x}&a, &f{y}&a,
+        &f{z}&a.'
+      TravellingToCoordinatesOtherWorld: '&aTravelling to coordinates &f{x}&a, &f{y}&a,
+        &f{z}&a in world &f{worldname}&a.'
+      TravellingToHome: '&aTravelling to your home.'
+      TravellingToFactionHome: '&aTravelling to the faction home.'
+      TravellingToStation: '&aTravelling to &f{stationname}&a.'
+      TravellingToPlayer: '&aTravelling to &f{playername}&a.'
+      TravellingToTownSpawn: '&aTravelling to the town spawn.'
+      HomeSet: '&aHome set.'
+      SendingPlayer: '&aSending player &f{playername}&a on travel to station &f{stationname}&a.'
+      SentPlayer: '&aYou were sent on a travel to station &f{stationname} &aby an
+        admin.'
+    Error:
+      InvalidCoordinates: '&cInvalid Coordinates.'
+      PlayerNotOnline: '&cThe player &f{playername}&a isn''t online.'
+      NoHomeSet: '&cYou didn''t set a home yet.'
+      OnlySigns: '&cThis command has been disabled by the admin, you can only travel
+        using signs.'
+      WorldNotFound: '&cCould not find the specified world.'
+      TargetPlayerDoesnotAllowPTravel: '&cThe player &f{playername}&a does not allow
+        player-travels to him.'
+      CannotTravelToYourself: '&cIt doesn''t make sense to travel to yourself...'
+      MaxTravelDistanceExceeded: '&cThe distance to your destination is too big.'
+  Stations:
+    Successful:
+      StationCreated: '&aSuccessfully created the station &f{stationname}&a.'
+      StationRemoved: '&aSuccessfully removed the station &f{stationname}&a.'
+    Error:
+      StationAlreadyExists: '&cThe station &f{stationname}&a already exists.'
+      StationDoesNotExist: '&cThe station &f{stationname}&a does not exist.'
+      NotCreateStationWithRandomstatName: '&cYou cannot create a staion with the name
+        of the RandomDest.'
+      NotAtAStation: '&cYou must be at a station to mount a dragon.'
+      CouldNotCreateStation: '&cCouldn''t create station.'
+      CouldNotRemoveStation: '&cCouldn''t remove station.'
+  Factions:
+    Error:
+      FactionsNotInstalled: '&cFactions is not installed on this server.'
+      NoFactionMember: '&cYou are not a member of a faction.'
+      FactionHasNoHome: '&cYour faction does not have a home-point.'
+      NotYourFaction: '&cThis is not your faction.'
+  Towny:
+    Error:
+      TownyNotInstalled: '&c Towny is not installed on this server.'
+      NoTown: '&c You do not have a town.'

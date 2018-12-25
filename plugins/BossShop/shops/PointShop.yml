@@ -1,0 +1,96 @@
+ShopName: PointShop
+DisplayName: '&1&lPointShop &a[v]'
+signs:
+  text: '[PointShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  100Points:
+    RewardType: points
+    PriceType: money
+    Price: 1000
+    Reward: 100
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  500Points:
+    RewardType: points
+    PriceType: money
+    Price: 5000
+    Reward: 500
+    MenuItem:
+    - type:DIAMOND
+    - amount:5
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  1000Points:
+    RewardType: points
+    PriceType: money
+    Price: 10000
+    Reward: 1000
+    MenuItem:
+    - type:DIAMOND
+    - amount:10
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  500Money:
+    RewardType: money
+    PriceType: points
+    Price: 100
+    Reward: 500
+    MenuItem:
+    - type:EMERALD
+    - amount:5
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 19
+    ExtraPermission: ''
+  1000Money:
+    RewardType: money
+    PriceType: points
+    Price: 200
+    Reward: 1000
+    MenuItem:
+    - type:EMERALD
+    - amount:10
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+  5000Money:
+    RewardType: money
+    PriceType: points
+    Price: 1000
+    Reward: 5000
+    MenuItem:
+    - type:EMERALD
+    - amount:50
+    - name:&6%reward% %rewardtype%
+    - 'lore:&cPrice: %price% %pricetype%'
+    Message: '&eYou bought %reward% %rewardtype%! %pricetype% left: &c%left%'
+    InventoryLocation: 21
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the PointShop...'
+    InventoryLocation: 27
+    ExtraPermission: ''

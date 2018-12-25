@@ -1,0 +1,10 @@
+# Only touch this file if you are sure that you know what you are doing, 
+# otherwise you might corrupt it which leads to serious problems.
+
+Flights:
+    exampleflight:
+        displayname: 'ExampleFlight'
+        waypoints:
+            - 456%75%123%world
+            - 470%90%125%world
+            - 500%75%1350%world

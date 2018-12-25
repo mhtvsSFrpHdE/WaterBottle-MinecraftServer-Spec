@@ -63,7 +63,7 @@ General:
   limit: 8
   #  The cooldown, in seconds, between allowing players to send messages with items. Setting this to 0
   # will remove the cooldown entirely.
-  cooldown: 60
+  cooldown: 0
 
 
 #  Messages section. You can disable any of them by simply leaving them empty, like this: ""

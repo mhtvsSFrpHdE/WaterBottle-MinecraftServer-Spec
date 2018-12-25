@@ -5,3 +5,6 @@
 # Essentials
 plugins/Essentials/userdata/*.yml
 plugins/Essentials/usermap.csv
+
+# bStats
+plugins/bStats/config.yml

@@ -3,7 +3,7 @@ var:
   commandsonlyfromconsole: false
 save:
   interval: 900
-  broadcast: true
+  broadcast: false
   disablestructuresaving: false
   forceregioncachedump: true
   onplugindisable: true

@@ -21,10 +21,10 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 **Server hardware:**
 - Solution: HP DL160 G6
-- CPU: Intel Xeon E5506 2.13GHz * 2
-- Ram: 16GB DDR3 1333 MHz 4GB * 4
+- CPU: Intel Xeon L5630 2.13GHz * 2
+- Ram: 48GB DDR3 1333 MHz 4GB * 12
 - Hard drive: Seagate 1TB ST1000DM010-2EP102
-- Network: China Telecom 100Mbps Home network
+- Network: China Telecom 100Mbps Home network with ZeroTier One enabled
 - Router: NETGEAR genie R2000
 
 **Comments:**

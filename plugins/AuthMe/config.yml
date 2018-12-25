@@ -106,11 +106,11 @@ settings:
         # Allowed commands for unauthenticated players
         allowCommands: 
         - '/login'
-        - '/register'
+        #- '/register'
         - '/l'
-        - '/reg'
-        - '/email'
-        - '/captcha'
+        #- '/reg'
+        #- '/email'
+        #- '/captcha'
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
         maxRegPerIp: 1

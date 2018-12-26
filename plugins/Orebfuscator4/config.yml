@@ -35,7 +35,7 @@ Worlds:
     RandomBlocks: []
     ObfuscateBlocks: []
     ProximityHider:
-      Enabled: true
+      Enabled: false
       Distance: 8
       SpecialBlock: STONE
       Y: 255

@@ -693,9 +693,9 @@ protect:
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
-    tnt-explosion: false
+    tnt-explosion: true
     tnt-playerdamage: false
-    tnt-minecart-explosion: false
+    tnt-minecart-explosion: true
     tnt-minecart-playerdamage: false
     fireball-explosion: false
     fireball-fire: false

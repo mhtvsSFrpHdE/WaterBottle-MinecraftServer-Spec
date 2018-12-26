@@ -76,7 +76,7 @@ RequiredItem:
 OnlySigns: true
 PToggleDefault: true
 DismountOnShift: false
-DismountAtExactLocation: false
+DismountAtExactLocation: true
 MinimumMountHeight: -1
 DamageCooldown: -1
 RequireSkyLight: false

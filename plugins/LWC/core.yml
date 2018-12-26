@@ -44,6 +44,8 @@ protections:
     readonly-modify: false
     readonly-remove: false
     blocks:
+        anvil:
+            enabled: true
         chest:
             enabled: true
             autoRegister: private

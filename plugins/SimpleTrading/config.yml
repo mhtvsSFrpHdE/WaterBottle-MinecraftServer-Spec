@@ -63,7 +63,7 @@ global:
   # Specifies the timeout for trading requests in seconds
   timeout: 60
   # Specifies wether to use xp trading or not
-  use-xp-trading: true
+  use-xp-trading: false
   # Specifies wether to use money trading or not
   use-money-trading: true
   # Specifies wether to use the shift-right-click feature or not

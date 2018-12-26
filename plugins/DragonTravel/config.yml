@@ -73,7 +73,7 @@ RequiredItem:
     toTownSpawn: false
     toHome: false
     Flight: false
-OnlySigns: false
+OnlySigns: true
 PToggleDefault: true
 DismountOnShift: false
 DismountAtExactLocation: false

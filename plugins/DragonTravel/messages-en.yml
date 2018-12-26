@@ -8,9 +8,9 @@ Messages:
     Successful:
       AddedStatDragon: '&aSuccessfully created stationary dragon &f{dragonname}&a.'
       RemovedStatDragon: '&aSuccessfully removed stationary dragon &f{dragonname}&a.'
-      DismountedHere: '&aYou successfully dismounted your dragon.'
+      DismountedHere: '&aYou successfully dismounted your dragon. 已到达目标地点。'
       DismountedToStart: '&aYou cancelled your journey and were brought back to your
-        starting-point.'
+        starting-point. 取消了进度，已返回出发地点。'
       ToggledPTravelOn: '&aYou now allow player-travels to you.'
       ToggledPTravelOff: '&aYou now don''t allow player-travels to you.'
     Error:
@@ -87,7 +87,7 @@ Messages:
         &f{z}&a in world &f{worldname}&a.'
       TravellingToHome: '&aTravelling to your home.'
       TravellingToFactionHome: '&aTravelling to the faction home.'
-      TravellingToStation: '&aTravelling to &f{stationname}&a.'
+      TravellingToStation: '&aTravelling to &f{stationname}&a. 正前往目标地点。'
       TravellingToPlayer: '&aTravelling to &f{playername}&a.'
       TravellingToTownSpawn: '&aTravelling to the town spawn.'
       HomeSet: '&aHome set.'

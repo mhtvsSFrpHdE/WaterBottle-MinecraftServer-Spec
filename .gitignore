@@ -8,3 +8,6 @@ plugins/Essentials/usermap.csv
 
 # bStats
 plugins/bStats/*.yml
+
+# PluginMetrics
+plugins/PluginMetrics/config.yml

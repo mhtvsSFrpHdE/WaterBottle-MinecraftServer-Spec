@@ -1,9 +1,9 @@
 # [Configuration file for NotifyUser] (For message {placeholders}, see dev.bukkkit.org/projects/notifyuser)
 
 notifications:
-  sound-effect: BLOCK_NOTE_PLING
+  sound-effect: ENTITY_GENERIC_EXPLODE
   volume: 1.0
-  pitch: 2
+  pitch: 1
 chat:
   symbol: '@'
   highlight-color: '&d'

@@ -24,8 +24,8 @@ Worlds:
     Types:
     - DEFAULT
     Enabled: true
-    AntiTexturePackAndFreecam: true
-    AirGeneratorMaxChance: 43
+    AntiTexturePackAndFreecam: false
+    AirGeneratorMaxChance: 0
     DarknessHideBlocks: false
     BypassObfuscationForSignsWithText: false
     DarknessBlocks:

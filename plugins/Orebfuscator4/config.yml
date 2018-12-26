@@ -74,6 +74,11 @@ Worlds:
     - CLAY
     - EMERALD_ORE
     ObfuscateBlocks:
+    - LAVA
+    - STATIONARY_LAVA
+    - WATER
+    - STATIONARY_WATER
+    - BEDROCK
     - GOLD_ORE
     - IRON_ORE
     - COAL_ORE

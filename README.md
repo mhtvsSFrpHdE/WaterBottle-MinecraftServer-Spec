@@ -24,7 +24,7 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 - CPU: Intel Xeon L5630 2.13GHz * 2
 - Ram: 48GB DDR3 1333 MHz 4GB * 12
 - Hard drive: Seagate 1TB ST1000DM010-2EP102
-- Network: China Telecom 100Mbps Home network with ZeroTier One enabled
+- Network: China Unicom 300Mbps Home network with ZeroTier One enabled
 - Router: NETGEAR genie R2000
 
 **Comments:**

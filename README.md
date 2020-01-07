@@ -1,7 +1,7 @@
 # MinecraftServer-WaterBottle-Spec
 **Describe the server content and rules.**
 
-Water Bottle, the server name.
+The server codenamed, Water Bottle. Also called "Good old days".
 
 When you're fishing in Minecraft, sometimes you'll get a bottle of water instead of fishes. That was the source of this name.
 

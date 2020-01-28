@@ -1,6 +1,7 @@
 *.db
 *.dat
 *.log
+*.backup
 
 # Essentials
 plugins/Essentials/userdata/*.yml

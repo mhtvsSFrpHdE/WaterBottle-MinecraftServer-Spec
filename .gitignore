@@ -11,3 +11,4 @@ plugins/bStats/*.yml
 
 # PluginMetrics
 plugins/PluginMetrics/config.yml
+plugins/ProtocolLib/lastupdate

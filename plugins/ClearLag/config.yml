@@ -47,7 +47,7 @@ player-speed-limiter:
 # -- 'max-mobs' means how many bably/adult animals are allowed within the 'check-radius'
 # -- 'check-radius' is the radius of what clearlag will check for 'max-mobs'
 mob-breeding-limiter:
-  enabled: false
+  enabled: true
   max-mobs: 6
   check-radius: 15
 

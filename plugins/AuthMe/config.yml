@@ -82,10 +82,10 @@ settings:
         # The next time the player joins the server, if his IP
         # is the same as last time and the timeout hasn't
         # expired, he will not need to authenticate.
-        enabled: false
+        enabled: true
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
-        timeout: 10
+        timeout: 300
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
     messagesLanguage: 'en'

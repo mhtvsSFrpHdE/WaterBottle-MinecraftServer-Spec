@@ -1,0 +1,41 @@
+tpmessage: "&aYou were randomly teleported !"
+cantusemessage: "&cYou can't use that command for another $secondsLeft$ seconds!"
+cancelmessage: "&cTeleportation cancelled because you moved."
+permissionmessage: "&cYou are not allowed to do this."
+mustintegermessage: "&cThe value must be an integer !"
+setmessage: "&aThe RandomTeleport area has been set in a $value$ * $value$ square around you !"
+reloadmessage: "&7Configuration reloaded !"
+usagesetmessage: "&cUsage : /rtp set [Integer]"
+usagetpprotectionmessage: "&cUsage : /rtp tpprotection [True|False]"
+usagecooldownmessage: "&cUsage : /rtp cooldown [Integer]"
+usagedelaymessage: "&cUsage : /rtp delay [Integer]"
+cooldownsetmessage: "&aThe new teleportation cooldown has been set !"
+delaysetmessage: "&aThe new teleportation delay has been set !"
+delaystartmessage: "&aThe teleportation will start in $delay$ seconds. Don't move at all !"
+
+notonlinemessage: "&cError : That player isn't online !"
+doesntexistsmessage: "&cError : That world doesn't exists !"
+notfoundmessage: "&cError : Teleport location was not found."
+
+rtphelpmessage: "&c/rtp - /wild - /wilderness : &aTeleports in a random location"
+rtpothershelpmessage: "&c/rtp [player] [world] <biome> : &aTeleports someone into asked world."
+sethelpmessage: "&c/rtp set [size(Integer)] : &aSet the size of the teleportation area around you."
+cooldownhelpmessage: "&c/rtp cooldown [time(seconds)(integer)] : &aSet teleportation command cooldown."
+reloadhelpmessage: "&c/rtp reload : &aReloads the configuration file."
+tpprotectionhelpmessage: "&c/rtp tpprotection [True|False] : &aAllows players to be teleported in protected areas. If True, they will never be teleported into a protected area."
+delayhelpmessage: "&c/rtp delay [seconds] : &aSet the delay before teleporting the player."
+
+cooldown: 10
+delay: 60
+tpprotection: true
+Worlds:
+  world:
+    zMax: 2001
+    zMin: -2001
+    xMax: 2001
+    xMin: -2001 
+  world_nether:
+    zMax: 2007
+    zMin: -1995
+    xMax: 1995
+    xMin: -2007

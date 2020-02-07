@@ -1,24 +1,24 @@
 # Registration
-reg_msg: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
-usage_reg: '&cUsage: /register <password> <ConfirmPassword>'
-reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
-kicked_admin_registered: 'An admin just registered you; please log in again'
-registered: '&2Successfully registered!'
-reg_disabled: '&cIn-game registration is disabled!'
-user_regged: '&cYou already have registered this username!'
+reg_msg: '&3Register with: /reg <password> <password>.%nl%用"/reg 密码 密码" 临时注册，但尽快到QQ群联系管理员。%nl%QQ群号：1039770979'
+usage_reg: '&cUsage: /reg <password> <password>%nl%如何注册："/reg 密码 密码"'
+reg_only: '&4Only registered users can join the server! 仅限注册玩家活动。'
+kicked_admin_registered: 'An admin just registered you; please log in again 已完成注册，需要重新登陆。'
+registered: '&2Successfully registered! 已注册，但尽快到QQ群联系管理员。%nl%QQ群号：1039770979'
+reg_disabled: '&cIn-game registration is disabled! 游戏内注册被停用。'
+user_regged: '&cYou already have registered this username! 已经持有此玩家名的使用权。'
 
 # Password errors on registration
-password_error: '&cPasswords didn''t match, check them again!'
-password_error_nick: '&cYou can''t use your name as password, please choose another one...'
-password_error_unsafe: '&cThe chosen password isn''t safe, please choose another one...'
-password_error_chars: '&4Your password contains illegal characters. Allowed chars: REG_EX'
-pass_len: '&cYour password is too short or too long! Please try with another one!'
+password_error: '&cPasswords didn''t match! 两次输入的密码不一致。'
+password_error_nick: '&cYou can''t use your name as password. 不能使用和玩家名相同的密码，容易被破解。'
+password_error_unsafe: '&cThe chosen password isn''t safe. 设置的密码太简单，容易被破解。'
+password_error_chars: '&4Your password contains illegal characters. 含有不能使用的符号，允许使用的是 Allowed chars: REG_EX'
+pass_len: '&cYour password is too short or too long! 设置的密码长度不符合要求。'
 
 # Login
 usage_log: '&cUsage: /l <password>'
 wrong_pwd: '&cWrong password!'
-login: '&2Successful login! 你已登入。'
-login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登入。'
+login: '&2Successful login! 已登陆。'
+login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登陆。'
 timeout: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
 
 # Errors

@@ -108,7 +108,7 @@ settings:
         - '/login'
         #- '/register'
         - '/l'
-        #- '/reg'
+        - '/reg'
         #- '/email'
         #- '/captcha'
         # Max number of allowed registrations per IP

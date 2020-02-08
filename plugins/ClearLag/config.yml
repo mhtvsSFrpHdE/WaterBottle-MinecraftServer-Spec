@@ -48,8 +48,8 @@ player-speed-limiter:
 # -- 'check-radius' is the radius of what clearlag will check for 'max-mobs'
 mob-breeding-limiter:
   enabled: true
-  max-mobs: 6
-  check-radius: 15
+  max-mobs: 18
+  check-radius: 5
 
 #Should clearlag purge logs under /logs when the server starts?
 # -- 'days-old' means how many days old can the log be to be deleted

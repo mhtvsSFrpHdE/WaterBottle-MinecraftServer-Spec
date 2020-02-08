@@ -13,11 +13,10 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 **Implemented by(Plugin list):**
 - AuthMe[1]
-- ChangeSkin[2]
-- Clearlag[3[]
+- SkinRestorer[2]
+- Clearlag[3]
 - DragonTravel[4]
 - PermissionsEx[5]
-- ProtocolLib, required by ChangeSkin.[6]
 
 **Server hardware:**
 - Solution: HP DL160 G6
@@ -33,10 +32,8 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 [2] Offline server won't display skin from MOJANG by default even if gamer own valid license. The plugin used to display gamer's skin.
 
-[3] Plugin used to optimize performance if needed.
+[3] Plugin used to profile performance if needed.
 
 [4] Plugin used to replace railway travel program, reduce many labor costs and material costs. Perhaps space, too. You're still able to build your own railway if you want.
 
 [5] Plugin used to manage plugin and server admin permissions.
-
-[6] A reference plugin required by another plugin.

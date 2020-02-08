@@ -13,10 +13,14 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 **Implemented by(Plugin list):**
 - AuthMe[1]
-- SkinRestorer[2]
+- BossShop[6]
 - Clearlag[3]
+- CustomRepairCost[7]
 - DragonTravel[4]
+- Horizon[8]
+- Orebfuscator[9]
 - PermissionsEx[5]
+- SkinRestorer[2]
 
 **Server hardware:**
 - Solution: HP DL160 G6
@@ -30,10 +34,16 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 [1] Offline server, the plugin used to auth gamer identity.
 
+[6] Sell and buy shop.
+
+[3] Profile performance if needed.
+
+[7] Remove too expensive hint while using anvil.
+
+[4] Replace railway travel program, reduce many labor costs and material costs. Perhaps space, too. You're still able to build your own railway if you want.
+
+[8] [9] Anti cheats.
+
+[5] Manage plugin and server admin permissions.
+
 [2] Offline server won't display skin from MOJANG by default even if gamer own valid license. The plugin used to display gamer's skin.
-
-[3] Plugin used to profile performance if needed.
-
-[4] Plugin used to replace railway travel program, reduce many labor costs and material costs. Perhaps space, too. You're still able to build your own railway if you want.
-
-[5] Plugin used to manage plugin and server admin permissions.

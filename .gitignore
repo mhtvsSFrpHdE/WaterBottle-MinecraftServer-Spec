@@ -13,3 +13,17 @@ plugins/bStats/*.yml
 # PluginMetrics
 plugins/PluginMetrics/config.yml
 plugins/ProtocolLib/lastupdate
+
+# User cache
+usercache.json
+
+# Worlds
+world/
+world_nether/
+world_the_end/
+
+# Logs
+logs/
+
+# Temp
+temp/

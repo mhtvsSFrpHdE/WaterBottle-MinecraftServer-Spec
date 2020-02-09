@@ -34,3 +34,12 @@ plugins/SkinsRestorer/Skins
 
 # FreeFileSync config
 *.ffs_db
+
+# Crash reports
+crash-reports/
+
+# FirstJoinCommands user data
+plugins/FirstJoinCommands/UserData/
+
+# Orebfuscator cache
+orebfuscator_cache/

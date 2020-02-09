@@ -1,5 +1,7 @@
 # MinecraftServer-WaterBottle-Spec
-**Describe the server content and rules.**
+**Describe the server content, most are dev things**  
+**For end gamer rules and guide, see:**  
+https://github.com/mhtvsSFrpHdE/WatterBottle-MinecraftServer-Readme
 
 The server codenamed, Water Bottle. Also called "Good old days".
 

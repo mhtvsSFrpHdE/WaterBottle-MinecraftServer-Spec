@@ -1,4 +1,5 @@
 FirstJoinCommands:
+- pex user %player% timed add rtp.tp 259200
 JoinCommands:
 LeaveCommands:
 - say example

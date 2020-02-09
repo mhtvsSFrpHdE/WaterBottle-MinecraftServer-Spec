@@ -1,0 +1,35 @@
+#These are the commands that will be run the first time a player joins.
+FirstJoinCommands:
+- me example
+
+#These are the commands that will be run when the player joins(excluding the first time).
+JoinCommands:
+- me example
+
+#These are the commands that will be run after the first time a player leaves(run from the console).
+LeaveCommands:
+- say example
+
+#These are the commands that will be run the first time a player dies.
+FirstDeathCommands:
+- me example
+
+#These are the commands that will be run when the player dies(excluding the first time).
+DeathCommands:
+- me example
+
+#These are the commands that will be run the first time a player kills another player.
+FirstKillCommands:
+- me example
+
+#These are the commands that will be run when the player kills another player(excluding the first time).
+KillCommands:
+- me example
+
+#These are the commands that will be run when a op leaves the server.
+OpLeaveCommands:
+- me example
+
+#These are the commands that will be run when a op joins the server.
+OpJoinCommands:
+- me example

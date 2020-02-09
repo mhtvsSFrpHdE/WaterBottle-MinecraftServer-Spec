@@ -1,0 +1,13 @@
+FirstJoinCommandsEnabled: true
+JoinCommandsEnabled: true
+LeaveCommandsEnabled: true
+FirstDeathCommandsEnabled: true
+DeathCommandsEnabled: true
+FirstKillCommandsEnabled: true
+KillCommandsEnabled: true
+OpLeaveCommandsEnabled: true
+OpJoinCommandsEnabled: true
+SpecificPlayerJoinCommandsEnabled: true
+SpecificPlayerLeaveCommandsEnabled: true
+EveryJoinWorldsEnabled: true
+FirstJoinWorldsEnabled: true

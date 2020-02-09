@@ -1,0 +1,13 @@
+FirstJoinCommandsMode: op
+JoinCommandsMode: op
+LeaveCommandsMode: op
+FirstDeathCommandsMode: op
+DeathCommandsMode: op
+FirstKillCommandsMode: op
+KillCommandsMode: op
+OpLeaveCommandsMode: op
+OpJoinCommandsMode: op
+SpecificPlayerJoinCommandsMode: op
+SpecificPlayerLeaveCommandsMode: op
+EveryJoinWorldsMode: op
+FirstJoinWorldsMode: op

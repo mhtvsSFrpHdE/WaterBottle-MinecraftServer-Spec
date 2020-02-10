@@ -105,7 +105,7 @@ settings:
         hideChat: false
         # Allowed commands for unauthenticated players
         allowCommands: 
-        - '/login'
+        #- '/login'
         #- '/register'
         - '/l'
         - '/reg'

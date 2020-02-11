@@ -117,7 +117,7 @@ drop-items-if-full: false
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # The motd and rules are now configured in the files motd.txt and rules.txt.
 

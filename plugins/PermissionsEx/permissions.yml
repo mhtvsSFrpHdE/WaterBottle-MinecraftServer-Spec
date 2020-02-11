@@ -4,4 +4,9 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+  randomTeleport:
+    permissions:
+    - rtp.tp
+    inheritance:
+    - default
 schema-version: 1

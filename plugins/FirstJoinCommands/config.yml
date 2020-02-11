@@ -1,5 +1,5 @@
 FirstJoinCommands:
-- pex user %player% timed add rtp.tp 259200
+- pex user %player% group add randomTeleport "" 259200
 JoinCommands:
 - me example
 LeaveCommands:

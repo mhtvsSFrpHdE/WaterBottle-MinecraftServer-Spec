@@ -49,6 +49,7 @@ protections:
             autoRegister: private
         anvil:
             enabled: true
+            autoRegister: private
         chest:
             enabled: true
             autoRegister: private

@@ -32,6 +32,9 @@ temp/
 plugins/SkinsRestorer/userdata
 plugins/SkinsRestorer/Skins
 
+# SkinRestorer player self custom settings
+plugins/SkinsRestorer/Players/
+
 # FreeFileSync config
 *.ffs_db
 *.ffs_tmp

@@ -1,33 +1,33 @@
 # Registration
-reg_msg: '&3Register with: /reg <password> <password>.%nl%用"/reg 密码 密码" 临时注册，但尽快到QQ群联系管理员。%nl%QQ群号：1039770979'
+reg_msg: '&3Register with: /reg <password> <password>%nl%用"/reg 密码 密码" 临时注册，但尽快到QQ群联系管理员%nl%QQ群号：1039770979'
 usage_reg: '&cUsage: /reg <password> <password>%nl%如何注册："/reg 密码 密码"'
-reg_only: '&4Only registered users can join the server! 仅限注册玩家活动。'
-kicked_admin_registered: 'An admin just registered you; please log in again 已完成注册，需要重新登陆。'
-registered: '&2Successfully registered! 已注册，但尽快到QQ群联系管理员。%nl%QQ群号：1039770979'
-reg_disabled: '&cIn-game registration is disabled! 游戏内注册被停用。'
-user_regged: '&cYou already have registered this username! 已经持有此玩家名的使用权。'
+reg_only: '&4Only registered users can join the server%nl%仅限注册玩家活动'
+kicked_admin_registered: 'An admin just registered you; please log in again%nl%已完成注册，需要重新登陆'
+registered: '&aSuccessfully registered 已注册，但尽快到QQ群联系管理员%nl%&bQQ群号：1039770979'
+reg_disabled: '&cIn-game registration is disabled! 游戏内注册被停用'
+user_regged: '&cYou already have registered this username%nl%此玩家名已被注册'
 
 # Password errors on registration
-password_error: '&cPasswords didn''t match! 两次输入的密码不一致。'
-password_error_nick: '&cYou can''t use your name as password. 不能使用和玩家名相同的密码，容易被破解。'
-password_error_unsafe: '&cThe chosen password isn''t safe. 设置的密码太简单，容易被破解。'
-password_error_chars: '&4Your password contains illegal characters. 含有不能使用的符号，允许使用的是 Allowed chars: REG_EX'
-pass_len: '&cYour password is too short or too long! 设置的密码长度不符合要求。'
+password_error: '&cPasswords didn''t match%nl%两次输入的密码不一致'
+password_error_nick: '&cYou can''t use your name as password%nl%不能使用和玩家名相同的密码，容易被破解'
+password_error_unsafe: '&cThe chosen password isn''t safe%nl%设置的密码太简单，容易被破解'
+password_error_chars: '&4Illegal characters. Allowed: REG_EX%nl%含有不能使用的符号，允许使用的是： REG_EX'
+pass_len: '&cYour password is too short or too long%nl%设置的密码长度不符合要求'
 
 # Login
 usage_log: '&cUsage: /l <password>'
 wrong_pwd: '&cWrong password!'
-login: '&2Successful login! 已登陆。'
-login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登陆。'
-timeout: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
+login: '&aSuccessful login%nl%已登陆%nl%&eQQ群号：1039770979'
+login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登陆'
+timeout: '&4Login timeout 登陆超时'
 
 # Errors
-unknown_user: '&cThis user isn''t registered!'
+unknown_user: '&cThis user isn''t registered%nl%不在服务器上的用户'
 #'&cIn order to use this command you must be authenticated!'
-denied_command: '&cAumatic register disabled by admin. 自助注册被管理员停用。'
-denied_chat: '&cIn order to chat you must be authenticated! 登入后才可进行这个操作。'
-not_logged_in: '&cYou''re not logged in!'
-tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
+denied_command: '&cAumatic register disabled by admin%nl%自助注册被管理员停用'
+denied_chat: '&cLogin required for chat%nl%登陆后才能发送聊天消息'
+not_logged_in: '&cYou''re not logged in%nl%尚未登陆'
+tempban_max_logins: '&cTemporarily banned due to login failed too many times.'
 max_reg: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'
 no_perm: '&4You don''t have the permission to perform this action!'
 error: '&4An unexpected error occurred, please contact an administrator!'
@@ -58,7 +58,7 @@ usage_changepassword: '&cUsage: /changepassword <oldPassword> <newPassword>'
 
 # Session messages
 invalid_session: '&cYour IP has been changed and your session data has expired!'
-valid_session: '&2Logged-in due to Session Reconnection.'
+valid_session: '&aReconnected, no password required%nl%重新连接时不需要再次登陆'
 
 # Error messages when joining
 name_len: '&4Your username is either too short or too long!'

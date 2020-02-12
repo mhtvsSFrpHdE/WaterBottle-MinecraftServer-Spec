@@ -1,5 +1,13 @@
 FirstJoinCommands:
 - pex user %player% group add randomTeleport "" 259200
+- mail send %player% 这条消息发送给所有&a新加入服务器&f的玩家。
+- mail send %player% 由于游戏内没有提供阅读规则的办法，
+- mail send %player% 你可能意外的&c违反服务器规则&f。
+- mail send %player% 加入QQ群：&e1039770979&f后，在&e群文件&f下载规则和游戏内容说明书。
+- mail send %player% 此说明书中同时含有服务器&e常见问题&f以及&e各种功能说明&f，
+- mail send %player% 在提问前确保你&c读过&f和在说明书中找不到你的问题，
+- mail send %player% 否则你可能不被友好的对待。
+- mail send %player% 每次&c添加关键内容&f到服务器规则中时，你会再次收到此类消息。
 JoinCommands:
 - me example
 LeaveCommands:

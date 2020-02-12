@@ -1,9 +1,9 @@
 # Registration
-reg_msg: '&3Register with: /reg <password> <password>%nl%用"/reg 密码 密码" 临时注册，但尽快到QQ群联系管理员%nl%QQ群号：1039770979'
+reg_msg: '&3Register with: /reg <password> <password>%nl%用"/reg 密码 密码" 临时注册，但尽快到QQ群阅读服务器规则%nl%QQ群号：1039770979'
 usage_reg: '&cUsage: /reg <password> <password>%nl%如何注册："/reg 密码 密码"'
 reg_only: '&4Only registered users can join the server%nl%仅限注册玩家活动'
 kicked_admin_registered: 'An admin just registered you; please log in again%nl%已完成注册，需要重新登陆'
-registered: '&aSuccessfully registered 已注册，但尽快到QQ群联系管理员%nl%&bQQ群号：1039770979'
+registered: '&aSuccessfully registered%nl%已注册，但尽快到QQ群阅读服务器规则'
 reg_disabled: '&cIn-game registration is disabled! 游戏内注册被停用'
 user_regged: '&cYou already have registered this username%nl%此玩家名已被注册'
 

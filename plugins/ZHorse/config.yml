@@ -237,14 +237,14 @@ Protections:
   # Damages caused by players only.
 
   OWNER_ATTACK:
-    enabled: false
+    enabled: true
   PLAYER_ATTACK:
     enabled: true
 
   # All kind of damages except those caused by players.
 
   BLOCK_EXPLOSION:
-    enabled: false
+    enabled: true
   CONTACT:
     enabled: false
   CRAMMING:
@@ -258,23 +258,23 @@ Protections:
   ENTITY_ATTACK:
     enabled: false
   ENTITY_EXPLOSION:
-    enabled: false
+    enabled: true
   ENTITY_SWEEP_ATTACK:
-    enabled: false
+    enabled: true
   FALL:
     enabled: false
   FALLING_BLOCK:
     enabled: false
   FIRE:
-    enabled: false
+    enabled: true
   FIRE_TICK:
-    enabled: false
+    enabled: true
   FLY_INTO_WALL:
     enabled: false
   HOT_FLOOR:
     enabled: false
   LAVA:
-    enabled: false
+    enabled: true
   LIGHTNING:
     enabled: false
   MAGIC:
@@ -288,7 +288,7 @@ Protections:
   STARVATION:
     enabled: false
   SUFFOCATION:
-    enabled: false
+    enabled: true
   SUICIDE:
     enabled: false
   THORNS:

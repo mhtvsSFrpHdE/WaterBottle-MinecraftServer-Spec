@@ -319,10 +319,10 @@ Settings:
   claim-on-tame: false
 
   # Set to true to make player execute /zh lock on horse claim.
-  lock-on-claim: false
+  lock-on-claim: true
 
   # Set to true to make player execute /zh protect on horse claim.
-  protect-on-claim: false
+  protect-on-claim: true
 
   # Set to true to make player execute /zh share on horse claim.
   share-on-claim: false

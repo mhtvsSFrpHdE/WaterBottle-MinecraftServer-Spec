@@ -353,7 +353,7 @@ Settings:
   # The number of dead horses kept in the database for each player.
   # Higher values allow players to resurrect more dead horses.
   # Lower values (including 0, to disable) use less space in the database.
-  rez-stack-size: 5
+  rez-stack-size: 50
 
   # Set to true to make default stats display mode use unrounded horse stats.
   # Does not affect actual horse stats, only applies to /zh spawn and /zh info.

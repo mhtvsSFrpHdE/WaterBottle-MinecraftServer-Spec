@@ -135,6 +135,14 @@ Groups:
   # The permission is optional if the group is defined in a perms plugin.
   # Membership of the group is simulated for whoever has the permission.
 
+  default:
+    color: <dark_aqua>
+    color-bypass: false
+    claims-limit: -1
+  randomTeleport:
+    color: <dark_aqua>
+    color-bypass: false
+    claims-limit: -1
   visitor:
     color: <f>
     color-bypass: false

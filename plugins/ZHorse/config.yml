@@ -301,7 +301,7 @@ Protections:
 Settings:
 
   # Set to false to block foal riding and claiming.
-  allow-foal-riding: true
+  allow-foal-riding: false
 
   # Set to false to block leashes on (tamed adult) undead horses.
   allow-leash-on-undead-horse: true

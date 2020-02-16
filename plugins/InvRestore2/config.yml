@@ -25,7 +25,7 @@ schedulers:
   saveData: 1800
   # How long to keep a recvoverable inventory, this will also remove
   # it from a player's recovered inventory if they haven't accepted it yet
-  removeRecoverableInventory: 172800 # counted in seconds, 48 hours (2 days)
+  removeRecoverableInventory: 604800 # counted in seconds, 48 hours (2 days)
 
 ############################################################
 # +------------------------------------------------------+ #

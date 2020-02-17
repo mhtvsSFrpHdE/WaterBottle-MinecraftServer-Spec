@@ -9,4 +9,9 @@ groups:
     - rtp.tp
     inheritance:
     - default
+  trialMessage:
+    inheritance:
+    - default
+    permissions:
+    - automessager.trialMessage
 schema-version: 1

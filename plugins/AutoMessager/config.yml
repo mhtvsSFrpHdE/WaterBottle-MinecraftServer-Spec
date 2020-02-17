@@ -56,12 +56,12 @@ placeholder-format:
       format: "dd/MM/yyyy"
 
 # Time interval for sending messages.
-time: 3
+time: 10
 
 # Time settings
 # Variables: ticks, second (or sec), minute (or min), hour (or h)
 # Example: 20 ticks = 1 second; 1 second = 20 ticks; 1 minute = 60 second; 1 hour = 60 minute
-time-setup: min
+time-setup: sec
 
 # Want to broadcast the messages in ordered or randomly?
 # Minimum 2 message needed to get a random message!

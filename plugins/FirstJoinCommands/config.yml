@@ -1,5 +1,6 @@
 FirstJoinCommands:
 - pex user %player% group add randomTeleport "" 259200
+- pex user %player% group add trialMessage
 - mail send %player% 这条消息发送给所有&a新加入服务器&f的玩家。
 - mail send %player% 由于游戏内没有提供阅读规则的办法，
 - mail send %player% 你可能意外的&c违反服务器规则&f。

@@ -44,6 +44,8 @@ protections:
     readonly-modify: false
     readonly-remove: false
     blocks:
+        dirt:
+            enabled: true
         bed:
             enabled: true
             autoRegister: private

@@ -82,7 +82,7 @@ run-commands:
 # 1.9+: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
 # 1.8.x: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
 sound:
-  enable: false
+  enable: true
 
   # Example: 1.9+: ENTITY_EXPERIENCE_ORB_PICKUP; 1.8: ORB_PICKUP
   # Usage: SOUND_NAME, volume, pitch

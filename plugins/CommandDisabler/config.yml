@@ -1,0 +1,31 @@
+#Hello this plugin is made by OnlineMetlesley.
+#If you have any questions or bug reports, please join our discord. https://discord.gg/xAHP8cA
+
+
+commands:
+  #What Message should the plugin send when the player tried to execute it?
+  BlockMessage: '&cYou are not allowed to use that command!'
+  #Allow players to use the commands below
+  permissionNode: "commanddisabler.usecommands"
+  #Enable sound? Get sounds from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  Sounds: true
+  Sound: 'ENTITY_VILLAGER_NO'
+  #Enable Particles? Get particles from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  Particles: true
+  Particle: 'HEART'
+  configReloaded: '&bThe config.yml has been reloaded!'
+  commands:
+  - pl
+  - plugins
+  - version
+  - ver
+  - '?'
+  - icanhasbukkit
+  - about
+  - 'bukkit:ver'
+  - 'bukkit:plugins'
+  - 'bukkit:versions'
+  - 'bukkit:help'
+  - 'bukkit:about'
+  - 'bukkit:?'
+  - 'bukkit:pl'

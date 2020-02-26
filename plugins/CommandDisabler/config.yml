@@ -8,10 +8,10 @@ commands:
   #Allow players to use the commands below
   permissionNode: "commanddisabler.usecommands"
   #Enable sound? Get sounds from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
-  Sounds: true
+  Sounds: false
   Sound: 'ENTITY_VILLAGER_NO'
   #Enable Particles? Get particles from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
-  Particles: true
+  Particles: false
   Particle: 'HEART'
   configReloaded: '&bThe config.yml has been reloaded!'
   commands:

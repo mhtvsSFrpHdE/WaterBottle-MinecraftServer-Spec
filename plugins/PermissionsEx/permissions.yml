@@ -9,8 +9,10 @@ groups:
         permissions:
         - rtp.tp
   randomTeleport:
-    permissions:
-    - rtp.tp
+    worlds:
+      world:
+        permissions:
+        - rtp.tp
     inheritance:
     - default
   trialMessage:

@@ -6,6 +6,12 @@ bidTimeoutTicks: 600
 marketPlaySound: true
 marketBroadcast: true
 marketBroadcastCooldown: 120
+database:
+  provider: sqlite
+  connection:
+    autoscan: true
+    package: cat.nyaa.HamsterEcoHelper.database
+    file: HamsterEcoHelper.db
 requisitionIntervalTicks: 72000
 auctionMaxDelayTicks: 2000
 requisitionMaxDelayTicks: 2000
@@ -52,6 +58,7 @@ search:
   lore_additional_tick: 200
   ench_additional_tick: 200
 database_version: 1
+signshop_yaml_to_nbt: true
 marketSlot:
   default: 10
   builder: 15

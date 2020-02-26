@@ -1,0 +1,57 @@
+# 
+# default 120 sec
+language: en_US
+auctionIntervalTicks: 72000
+bidTimeoutTicks: 600
+marketPlaySound: true
+marketBroadcast: true
+marketBroadcastCooldown: 120
+requisitionIntervalTicks: 72000
+auctionMaxDelayTicks: 2000
+requisitionMaxDelayTicks: 2000
+auctionMinimalPlayer: 5
+requisitionMinimalPlayer: 2
+requisitionHintInterval: 600
+market_tax: 5
+market_offer_fee: 10
+market_placement_fee: 1
+playerAuctionTimeoutTicks: 1000
+playerAuctionCooldownTicks: 3000
+playerAuctionCommissionFee: 0
+playerRequisitionTimeoutTicks: 1000
+playerRequisitionCooldownTicks: 3000
+enable_balance: false
+balance_SaveIntervalTicks: 12000
+system_balance_log: false
+death_penalty:
+  worlds: []
+  penalty:
+    min: 100
+    max: 1000
+    percent: 10
+signshop:
+  tax: 0
+  sign_limit: {}
+  slot_limit: {}
+ads:
+  interval: 600
+  count_afk: false
+  count_self: false
+  price: 5
+  max_display: 100
+  min_display: 20
+  color: true
+  formatting: []
+  limit_total: 100
+  limit_text: 50
+  limit_group: {}
+lotto:
+  force_locked: false
+search:
+  cooldown_tick: 200
+  lore_additional_tick: 200
+  ench_additional_tick: 200
+database_version: 1
+marketSlot:
+  default: 10
+  builder: 15

@@ -1,0 +1,390 @@
+user:
+  signshop:
+    lotto:
+      info: 'Chest location: world: %s, x: %d, y: %d, z: %d'
+      notice_with_tax: '%s get {itemName} *{amount} for %s from you (%s tax)'
+      confirm: Please right click sign to confirm.
+      notice: '%s get {itemName} *{amount} for %s from you'
+      select_chest: Please right click a chest
+      set_storage: Please use §b/heh shop lotto set§r to set a chest
+      success: You pay %s to %s and get {itemName} *{amount}
+      set_success: Success set chest
+      fail: You failed to pay %s to %s. Internal server error.
+    storage:
+      info: 'Chest location: world: %s, x: %d, y: %d, z: %d'
+      set: Please use §b/heh shop storage set§r to set a chest
+      select_chest: Please right click a chest
+      set_success: Success set chest
+    break:
+      success: sign removed
+      no_permission: You can not break this sign
+    sell:
+      success: You sell {itemName} *{amount} to %s for %.2f
+      unit_price: '{itemName} *{amount} Unit Price: §f%s'
+      invalid: You can not sell this item to this shop
+      not_enough_money: This shop owner does not have enough money
+      notice: '%s sell {itemName} *{amount} to you for %.2f'
+      title: Sell to %s
+      add: Success add item to shop
+      not_enough_space: This shop is not enough space
+      unit_price_with_tax: '{itemName} *{amount} Unit Price: %s (tax: %s)'
+    search:
+      page_out_of_bound: Page out of bound
+      sign_of: Sign of %s's shop at x:%d y:%d z:%d
+      no_result: Not found
+      page: Page %d of %d
+      result: '{itemName} *{amount} in %s''s shop for %.2f each'
+      no_recent_result: You have no recent search result
+    create_success: Sign created
+    sign:
+      line_1: §3§l[shop]
+      line_2_buy: §a§lBUY
+      line_2_lotto: §a§lLOTTO
+      line_2_sell: §9§lSELL
+    not_sign: You must target a sign
+    remove:
+      no_sign: this player does not have any signshop
+      success: 'signshop removed at (%s, X: %d,Y: %d, Z: %d)'
+    not_enough_slot: Not enough slot
+    empty: This shop is empty
+    invalid_location: invalid location
+    chest_must_locked: You must be the owner of this chest
+    print_shop_info: 'Shop owner: %s, shop mode: %s'
+    sign_invalid: Sign format invalid
+    edit: Click to remove
+    buy:
+      add: Success add item to shop
+      notice: '%s bought {itemName} *{amount} for %.2f from you'
+      title: Buy from %s
+      success: You bought {itemName} *{amount} from %s for $%.2f
+    create_fail: You can not create more sign
+  auc:
+    new_auction_unknown: 'NEW AUCTION: MYSTERY ITEM; Starts from %.2f$ with step price
+      %.2f$; Please response in %d seconds with ''/heh bid [price]'''
+    mystery_item_placeholder: MYSTERY ITEM
+    third: '%.2f$ third'
+    new_auction_0: 'NEW AUCTION: '
+    new_auction_1: ; Starts from %.2f$ with step price %.2f$; Please response in %d
+      seconds with '/heh bid [price]'
+    second: '%.2f$ second'
+    new_price_success: You've put a new price!
+    first: '%.2f$ first'
+    fail: 'Auction finished. No one gets the item: '
+    player_auction_0: '%s start a auction: '
+    player_auction_1: ; Starts from %.2f$ with step price %.2f$; Please response in
+      %d seconds with '/heh bid [price]'
+    success_1: ' was given to player %s'
+    success_0: 'DONE! Item: '
+    step_price_error: Step price must be higher than zero
+    halted: Current auction halted
+    item_given_INVENTORY: Item has been put into your inventory
+    reserve_price_error: Reserve price must be higher than base price
+    item_given_TEMPORARY_STORAGE: Item has been put into your temporary storage. Acquire
+      with '/heh retrieve'
+    item_given_ENDER_CHEST: Item has been put into your EnderChest
+    new_price_1: ' : %.2f$'
+    new_price_0: 'Player %s gives a higher price for '
+  info:
+    player_not_found: Player %s not found
+    no_current_auction: No ongoing auction
+    cooldown: Please wait %d seconds
+    next_page: §fNext page
+    has_temporary_storage: You have item in temporary storage. Acquire with '/heh
+      retrieve'
+    no_current_requisition: No ongoing requisition
+    mute: You will no longer receive this broadcast. Use '/heh unmute' to unmute
+    not_item_hand: No item in hand
+    unmute: Unmute success.
+    command_complete: Command Executed!
+    balance: '§aBalance: §f%.2f'
+    not_player: Only players can do this
+    back: §fBack
+  ads:
+    add:
+      preview: 'Preview:'
+      confirm: Use §b/heh ads add `%s` %d confirm§r to confirm
+      full: ads list is full
+      invalid_amount: display amount must be between %d and %d
+      fail: You can not add more ad
+      price: 'Unit price: %d, total price: %d'
+      success: Success add
+    message: '[Ads by %s] §r%s§r'
+    message_too_long: ad text max length is %d
+    mute: You will no longer receive ads. Use '/heh ads unmute' to unmute
+    revoke:
+      no_permission: You can not remove this ad
+      success: remove success
+    unmute: Unmute success.
+    no_adid: No such AdsID
+    list:
+      line_1: '- [AD ID] [ad text] (displayed/total)'
+      line_0: 'Your active ads:'
+      line_2: '[%d] [§r%s§r] (%d/%d)'
+  market:
+    unit_price_with_tax: '§aUnit Price: §f%s §aplus §f%s §a(§f%d%% §atax)'
+    my_items: §aMy items (%d/%d)
+    not_enough_slot: Not enough slot
+    buy_fail: You failed to buy {itemName} from %s for $%.2f. Internal server error.
+    title: §2[Market]
+    broadcast: 'New market offer: {itemName} *{amount} use ''/heh view'' view the
+      items.'
+    someone_bought: '%s bought {itemName} for $%.2f from you.'
+    unit_price: '§aUnit Price: §f%s'
+    offered: '§aoffered by: §f%s'
+    buy_success: You bought {itemName} from %s for $%.2f.
+  req:
+    not_enough: No enough items in hand.
+    sell_amount_limit: You can sell at most %d items.
+    not_match: Item in hand does not match.
+    player_req_1: '*%d with price %.2f; Last for %.2f seconds. Please response with
+      ''/heh sell [amount]'''
+    player_req_0: '%s start a requisition: '
+    finish: Requisition finished.
+    hint_req_1: ; Need %d more; Unit price %.2f; %.2f seconds remains. Please response
+      with '/heh sell [amount]'
+    hint_req_0: 'ONGOING REQUISITION: '
+    new_req_0: 'NEW REQUISITION: '
+    new_req_1: '*%d with price %.2f; Last for %.2f seconds. Please response with ''/heh
+      sell [amount]'''
+    sold_amount_0: 'Player %s has sold %d '
+    sold_amount_1: '! %d remains.'
+    success: Item sold. $%.2f added to your account.
+    sell_to_self: You cannot sell to yourself
+    fail: You cannot sell the item.
+    halted: Current requisition halted.
+    sold_out: Requisition limit reached. Requisition finished.
+  balance:
+    current_balance: 'Current balance: %.2f'
+    pay: Sent %.2f to player %s
+    pay_notice: '%.2f has been added to your account'
+    take_fail: Player %s no enough money
+    take_notice: '%.2f has been removed from your account'
+    take: Take %.2f from player %s
+  death_penalty:
+    message: You lost %.2f
+  retrieve:
+    need_confirm: The items will drop from your current position. Please ensure the
+      safety. Use '/heh retrieve confirm'
+    no_item: You have no item to retrieve.
+  error:
+    command_exception: Internal server error. Unable to run command.
+    unknown_item: 'unknown item: %s'
+    not_sign: You must look at a sign
+    not_int: Not a valid integer
+    shulker_box_contains_book: You can't sell shulker box contains book
+    not_double: Not a valid number
+    bad_enum: 'Invalid enum type: %s. Values: %s'
+    bad_command: 'Wrong command: %s'
+  warn:
+    no_enough_money: You do not have that much money
+    not_high_enough: Invalid price, at least %.2f$
+manual:
+  ads:
+    list:
+      usage: 'Usage: /heh ads list'
+      description: list ads
+    unmute:
+      description: unmute ads
+      usage: 'Usage: /heh ads unmute'
+    add:
+      usage: 'Usage: /heh ads add [text] [display amount]'
+      description: add ad
+    revoke:
+      description: remove ad
+      usage: 'Usage: /heh ads revoke [ad id]'
+    description: add/remove ads
+    mute:
+      description: mute ads
+      usage: 'Usage: /heh ads mute'
+  requisition:
+    runreq:
+      description: Start a system requisition.
+      usage: 'Usage: /heh requisition runreq'
+    description: Requisition commands
+    addreq:
+      description: Add item in hand into system requisition list.
+      usage: 'Usage: /heh requisition addreq [minUnitPrice|int] [maxUnitPrice|int]
+        [minAmount|int] [maxAmount|int] [randomWeigth|double] [timeoutTicks|int] [exactMatch|bool]
+        [minDamageValue|int] [maxDamageValue|int] [enchantMatch|string:EXACT:CONTAINS:ARBITRARY]
+        [loreMatch|string:EXACT:EXACT_TEXT:CONTAINS:ARBITRARY] [nameMatch|string:EXACT:EXACT_TEXT:ARBITRARY]'
+    sell:
+      description: Sell item in hand to the ongoing requisition.
+      usage: 'Usage: /heh requisition sell [Amount|int]'
+    req:
+      usage: 'Usage: /heh requisition req [itemName] [unitPrice|int] [Amount|int]'
+      description: Start a requisition.
+    haltreq:
+      usage: 'Usage: /heh requisition haltreq'
+      description: Stop the ongoing requisition.
+    usage: 'Usage: /heh requisition help'
+  shop:
+    lotto:
+      set:
+        description: Set storage location
+        usage: 'Usage: /heh shop lotto set'
+      info:
+        description: Show storage info
+        usage: 'Usage: /heh shop lotto info'
+      description: Show/set lotto storage info
+    remove:
+      usage: 'Usage: /heh shop remove [player] [removeBlock]'
+      description: Remove a player's all signshop
+    storage:
+      info:
+        usage: 'Usage: /heh shop storage info'
+        description: Show storage info
+      set:
+        description: Set storage location
+        usage: 'Usage: /heh shop storage set'
+      description: Show/set shop storage info
+    sell:
+      description: Sell item
+      usage: 'Usage: /heh shop sell [UnitPrice|double]'
+    description: Buy/sell items
+    buy:
+      usage: 'Usage: /heh shop buy [UnitPrice|double]'
+      description: Buy item
+  auction:
+    bid:
+      description: Give price for the ongoing auction.
+      usage: 'Usage: /heh auction bid [price|int]'
+    haltauc:
+      description: Stop the ongoing auction.
+      usage: 'Usage: /heh auction haltauc'
+    usage: 'Usage: /heh auction help'
+    addauc:
+      usage: 'Usage: /heh auction addauc [basePrice|int] [stepPrice|int] [randomWeight|double]
+        [hideName|bool] [waitTimeTicks|int]'
+      description: Add item in hand into system auction list.
+    runauc:
+      usage: 'Usage: /heh auction runauc'
+      description: Start an system auction.
+    auc:
+      usage: 'Usage: /heh auction auc [basePrice|int] [stepPrice|int] [reservePrice|int]'
+      description: Start a auction.
+    description: Auction commands
+  balance:
+    take:
+      usage: 'Usage: /heh balance take [player] [amount]'
+      description: Take money from a player
+    pay:
+      description: Send money to a player
+      usage: 'Usage: /heh balance pay amount [amount] [player] or /heh pay percent
+        [percent] [player] [min|optional] [max|optional]'
+    view:
+      usage: 'Usage: /heh balance view'
+      description: View current balance
+  market:
+    usage: 'Usage: /heh market help'
+    view:
+      usage: 'Usage: /heh market view'
+      description: view market
+    offer:
+      usage: 'Usage: /heh market offer [UnitPrice|double]'
+      description: add item to market
+    description: sell/buy item
+  force-load:
+    description: Load config. Discarding unsaved changes.
+    usage: 'Usage: /heh force-load'
+  save:
+    usage: 'Usage: /heh save'
+    description: Force save.
+  retrieve:
+    usage: 'Usage: /heh retrieve [confirm]'
+    description: Retrieve the items in the temporary storage.
+  version:
+    description: Display version and license
+    usage: 'Usage: /heh version'
+  license: |-
+    Hamster Economy Helper version %s for Spigot 1.11.2
+    Brings auction, requisition and world shop to Minecraft.
+    Copyright (C) 2017  %s
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software Foundation,
+    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+  no_description: No description
+  search:
+    description: Search item in shops
+    usage: "Usage: /heh search keyword(s).. [i|item:item id or name] [p|player:player\
+      \ name] [r|range:range in int] [a|advanced:ench|lore|enchonly|loreonly] \nUse\
+      \ /heh searchpage page to view page"
+  no_usage: No usage
+log:
+  info:
+    signshop_remove: 'Remove sign: {player: "%s", mode: "%s", world: "%s", x: "%d",
+      y: "%d", z:"%d"}'
+    auc_start: 'Auction started: {item: "%s", amount: %d, hideName: %s, start: %.2f,
+      step: %.2f, id: "%s"}'
+    ads_remove: 'remove ads: {id: %d, text: "%s", player: "%s"}'
+    req_start: 'Requisition started: {item: "%s", amount: %d, price: %.2f, timeout:
+      %d, id: "%s"}'
+    placement_fee: 'placement fee: {itemCount: "%d", fail: "%d"}'
+    auc_scheduled: An auction is scheduled after %d ticks
+    player_req_start: 'Requisition started: {itemid: %d, player: "%s", item: "%s",
+      amount: %d, price: %.2f, timeout: %d, id: "%s"}'
+    auc_not_enough_player: 'About to start an auction but not enough players: %d (%d
+      required)'
+    market_offer: 'offer: {id: %d, item: "%s", amount: %d, unit_price: %.2f, player:
+      "%s"}'
+    signshop_sell: '[signshop] sell: {item: "%s", amount: %d, price: %.2f, player:
+      "%s", to: "%s"}'
+    using_language: 'Using language: %s'
+    ads_add: 'add ads: {id: %d, amount: %d, text: "%s", player: "%s"}'
+    market_bought: 'bought: {id: %d, item: "%s", amount: %d, price: %.2f, player:
+      "%s", from: "%s"}'
+    installing_db: Installing database...
+    player_auc_start: 'Auction started: {itemid: %d, player: "%s", item: "%s", amount:
+      %d, hideName: %s, start: %.2f, step: %.2f, id: "%s"}'
+    req_finish: 'Requisition finished: {id: "%s", total_sold: %d, reason: "%s"}'
+    placement_fee_fail: 'placement fee: {id: "%d", player: "%s", reason:"%s"}'
+    auc_finish: 'Auction finished: {id: "%s", price: %.2f, player: "%s", reason: "%s"}'
+    req_scheduled: a requisition is scheduled after %d ticks
+    system_balance: 'system balance {type: %s, amount: %s, current_balance: %s, plugin:
+      %s}'
+    req_not_enough_player: 'About to start a requisition but not enough players: %d
+      (%d required)'
+    signshop_create: 'Create sign: {player: "%s", mode: "%s", world: "%s", x: "%d",
+      y: "%d", z:"%d"}'
+    withdraw_fail: 'Withdraw failed: {buyer: "%s", seller: "%s", item: "%s", price:
+      %.2f, tax: %.2f, message: "%s"}'
+    current_balance: 'current balance: %.2f'
+    req_sell: 'Player sold item: {id: "%s", amount: %d, remain: %d, player: "%s"}'
+    signshop_create_lotto: 'Create lotto sign: {player: "%s", price: %s, world: "%s",
+      x: "%d", y: "%d", z:"%d"}'
+    auc_bid: 'Player gives price: {id: "%s", player: "%s", price: %.2f} '
+    signshop_lotto: 'lotto: {item: "%s", amount: %d, price: %.2f, player: "%s", from:
+      "%s"}'
+    signshop_bought: '[signshop] bought: {item: "%s", amount: %d, price: %.2f, player:
+      "%s", from: "%s"}'
+  error:
+    transaction_fail_dump: 'item json: "%s"'
+    enable_fail: Plugin failed to enable
+    transaction_fail_rollback_money: 'Rollback money transaction: {player: "%s", price:
+      %.2f, status: "%s", message: "%s"}'
+    transaction_fail_rollback_tax: 'Rollback TransactionApiEvent: {tax: %.2f}'
+    transaction_fail: 'Transaction failed: {buyer: "%s", seller: "%s", item: "%s",
+      price: %.2f, tax: %.2f}'
+    missing_sqlite_driver: SQLite Driver not found. Plugin disabled.
+  warn:
+    bad_subcommand: 'Bad subcommand handler: %s'
+    lang_not_found: Language %s not found.
+admin:
+  error:
+    run_req_fail: Cannot start requisition. May have ongoing requisition.
+    req_id_oor: Requisition Id out of range %d~%d
+    auc_id_oor: Auction Id out of range %d~%d
+    run_auc_fail: Cannot start auction. May have ongoing auction.
+  info:
+    load_done: Force load done.
+    save_done: Force save done.

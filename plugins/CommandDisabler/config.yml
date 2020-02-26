@@ -29,3 +29,14 @@ commands:
   #- 'bukkit:about'
   #- 'bukkit:?'
   #- 'bukkit:pl'
+  - heh ads
+  - heh auction
+  - heh balance
+  - heh help
+  - heh mute
+  - heh requisition
+  - heh retrieve
+  - heh search
+  - heh shop
+  - heh unmute
+  

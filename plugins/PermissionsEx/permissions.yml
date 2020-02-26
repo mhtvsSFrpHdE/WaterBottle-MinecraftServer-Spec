@@ -4,6 +4,10 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+    worlds:
+      Dig:
+        permissions:
+        - rtp.tp
   randomTeleport:
     permissions:
     - rtp.tp

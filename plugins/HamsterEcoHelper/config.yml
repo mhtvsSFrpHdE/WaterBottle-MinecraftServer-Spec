@@ -18,9 +18,9 @@ requisitionMaxDelayTicks: 2000
 auctionMinimalPlayer: 5
 requisitionMinimalPlayer: 2
 requisitionHintInterval: 600
-market_tax: 5
-market_offer_fee: 10
-market_placement_fee: 1
+market_tax: 0
+market_offer_fee: 0
+market_placement_fee: 0
 playerAuctionTimeoutTicks: 1000
 playerAuctionCooldownTicks: 3000
 playerAuctionCommissionFee: 0

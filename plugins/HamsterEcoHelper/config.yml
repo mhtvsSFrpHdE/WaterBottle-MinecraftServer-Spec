@@ -1,6 +1,6 @@
 # 
 # default 120 sec
-language: en_US
+language: zh_CN
 auctionIntervalTicks: 72000
 bidTimeoutTicks: 600
 marketPlaySound: true

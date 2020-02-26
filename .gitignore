@@ -50,3 +50,6 @@ orebfuscator_cache/
 
 # InvRestore2 player data
 plugins/InvRestore2/players.json
+
+# MultiWorld sensitive data
+plugins/Multiverse-Core/worlds.yml

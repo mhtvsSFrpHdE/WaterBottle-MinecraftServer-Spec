@@ -15,17 +15,17 @@ commands:
   Particle: 'HEART'
   configReloaded: '&bThe config.yml has been reloaded!'
   commands:
-  - pl
-  - plugins
-  - version
-  - ver
-  - '?'
-  - icanhasbukkit
-  - about
-  - 'bukkit:ver'
-  - 'bukkit:plugins'
-  - 'bukkit:versions'
-  - 'bukkit:help'
-  - 'bukkit:about'
-  - 'bukkit:?'
-  - 'bukkit:pl'
+  #- pl
+  #- plugins
+  #- version
+  #- ver
+  #- '?'
+  #- icanhasbukkit
+  #- about
+  #- 'bukkit:ver'
+  #- 'bukkit:plugins'
+  #- 'bukkit:versions'
+  #- 'bukkit:help'
+  #- 'bukkit:about'
+  #- 'bukkit:?'
+  #- 'bukkit:pl'

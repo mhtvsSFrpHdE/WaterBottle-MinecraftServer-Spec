@@ -77,7 +77,7 @@ history:
     size: 15
     expiration: 10
 
-wand-item: 271
+wand-item: 280
 shell-save-type:
 no-double-slash: false
 no-op-permissions: false

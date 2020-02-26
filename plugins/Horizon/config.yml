@@ -114,7 +114,7 @@ fastbreak:
   modules:
     Limit:
       # Do you want to enable the Limit check?
-      enabled: true
+      enabled: false
       vl_addition: 1
   # Action map
   action:

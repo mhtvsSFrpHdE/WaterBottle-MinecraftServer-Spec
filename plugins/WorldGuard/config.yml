@@ -90,7 +90,7 @@ ignition:
     block-tnt-block-damage: false
     block-lighter: false
 fire:
-    disable-lava-fire-spread: true
+    disable-lava-fire-spread: false
     disable-all-fire-spread: false
     disable-fire-spread-blocks: []
     lava-spread-blocks: []

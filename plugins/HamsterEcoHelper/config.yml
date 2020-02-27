@@ -60,5 +60,5 @@ search:
 database_version: 1
 signshop_yaml_to_nbt: true
 marketSlot:
-  default: 10
+  default: 6
   builder: 15

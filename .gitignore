@@ -1,4 +1,5 @@
 *.db
+*.sqlite
 *.dat
 *.log
 *.backup
@@ -18,9 +19,10 @@ plugins/ProtocolLib/lastupdate
 usercache.json
 
 # Worlds
-world/
-world_nether/
-world_the_end/
+world/*
+world_nether/*
+world_the_end/*
+Dig/*
 
 # Logs
 logs/
@@ -53,4 +55,4 @@ plugins/InvRestore2/players.json
 
 # MultiWorld sensitive data
 plugins/Multiverse-Core/worlds.yml
-Dig/
+

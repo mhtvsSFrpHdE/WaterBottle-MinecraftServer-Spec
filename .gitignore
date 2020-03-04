@@ -23,6 +23,7 @@ world/*
 world_nether/*
 world_the_end/*
 Dig/*
+DigTheEnd/*
 
 # Logs
 logs/
@@ -56,3 +57,5 @@ plugins/InvRestore2/players.json
 # MultiWorld sensitive data
 plugins/Multiverse-Core/worlds.yml
 
+# WorldGuard sensitive data
+plugins/WorldGuard/report.txt

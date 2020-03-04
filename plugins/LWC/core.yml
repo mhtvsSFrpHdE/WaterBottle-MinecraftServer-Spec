@@ -44,6 +44,54 @@ protections:
     readonly-modify: false
     readonly-remove: false
     blocks:
+        white_shulker_box:
+            enabled: true
+            autoRegister: private
+        silver_shulker_box:
+            enabled: true
+            autoRegister: private
+        gray_shulker_box:
+            enabled: true
+            autoRegister: private
+        black_shulker_box:
+            enabled: true
+            autoRegister: private
+        lime_shulker_box:
+            enabled: true
+            autoRegister: private
+        green_shulker_box:
+            enabled: true
+            autoRegister: private
+        blue_shulker_box:
+            enabled: true
+            autoRegister: private
+        light_blue_shulker_box:
+            enabled: true
+            autoRegister: private
+        cyan_shulker_box:
+            enabled: true
+            autoRegister: private
+        yellow_shulker_box:
+            enabled: true
+            autoRegister: private
+        orange_shulker_box:
+            enabled: true
+            autoRegister: private
+        brown_shulker_box:
+            enabled: true
+            autoRegister: private
+        pink_shulker_box:
+            enabled: true
+            autoRegister: private
+        magenta_shulker_box:
+            enabled: true
+            autoRegister: private
+        purple_shulker_box:
+            enabled: true
+            autoRegister: private
+        red_shulker_box:
+            enabled: true
+            autoRegister: private
         ender_chest:
             enabled: true
             autoRegister: public

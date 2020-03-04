@@ -4,7 +4,7 @@ usage_reg: '&cUsage: /reg <password> <password>%nl%如何注册："/reg 密码 �
 reg_only: '&4Only registered users can join the server%nl%仅限注册玩家活动'
 kicked_admin_registered: 'An admin just registered you; please log in again%nl%已完成注册，需要重新登陆'
 registered: '&aSuccessfully registered%nl%已注册，但尽快到QQ群阅读服务器规则'
-reg_disabled: '&cIn-game registration is disabled! 游戏内注册被停用'
+reg_disabled: '&cIn-game registration is disabled!%nl%游戏内注册被停用，QQ群号：1039770979'
 user_regged: '&cYou already have registered this username%nl%此玩家名已被注册'
 
 # Password errors on registration
@@ -18,7 +18,7 @@ pass_len: '&cYour password is too short or too long%nl%设置的密码长度不�
 usage_log: '&cUsage: /l <password>'
 wrong_pwd: '&cWrong password!'
 login: '&aSuccessful login%nl%已登陆%nl%&eQQ群号：1039770979'
-login_msg: '&cLogin with: /l <password> 输入 "/l 密码" 登陆'
+login_msg: '&cLogin with: /l <password>%nl%输入 "/l 密码" 登陆'
 timeout: '&4Login timeout 登陆超时'
 
 # Errors

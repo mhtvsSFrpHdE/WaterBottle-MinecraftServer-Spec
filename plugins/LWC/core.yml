@@ -44,6 +44,9 @@ protections:
     readonly-modify: false
     readonly-remove: false
     blocks:
+        ender_chest:
+            enabled: true
+            autoRegister: public
         dirt:
             enabled: true
         bed:

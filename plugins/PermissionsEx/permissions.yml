@@ -20,4 +20,11 @@ groups:
     - default
     permissions:
     - automessager.trialMessage
+  newReception:
+    inheritance:
+    - default
+    permissions:
+    - permissions.manage.membership.trialMessage
+    - authme.admin.unregister
+    - authme.admin.register
 schema-version: 1

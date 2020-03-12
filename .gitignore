@@ -59,3 +59,6 @@ plugins/Multiverse-Core/worlds.yml
 
 # WorldGuard sensitive data
 plugins/WorldGuard/report.txt
+
+# IllegalSack sensitive data
+plugins/IllegalStack/OffenseLog.txt

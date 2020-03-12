@@ -173,7 +173,7 @@ settings:
         DenyTabCompleteBeforeLogin: false
         # Should we display all other accounts from a player when he joins?
         # permission: /authme.admin.accounts
-        displayOtherAccounts: true
+        displayOtherAccounts: false
         # Spawn priority; values: authme, essentials, multiverse, default
         spawnPriority: 'authme,essentials,multiverse,default'
         # Maximum Login authorized by IP

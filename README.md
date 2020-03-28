@@ -8,10 +8,10 @@ The server codenamed, Water Bottle. Also called "Good old days".
 When you're fishing in Minecraft, sometimes you'll get a bottle of water instead of fishes. That was the source of this name.
 
 **Goal:**
-- Create a gamer-centric experience with near vanilla game content.
+- Create a gamer-centric experience.
 - No unlimited system-shop.
 - Everything you can get in the vanilla game is all available. No TNT or lava are blocked.
-- No teleport or warp point, but free fast-travel between station via riding an end dragon. And create station is free.
+- No teleport or warp point, but free fast-travel between station via riding an end dragon.
 
 **Implemented by(Plugin list):**
 - Not list yet

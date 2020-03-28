@@ -9,7 +9,7 @@ When you're fishing in Minecraft, sometimes you'll get a bottle of water instead
 
 **Goal:**
 - Create a gamer-centric experience with near vanilla game content.
-- No economy plugin, no system-shop, barter-based.
+- No unlimited system-shop.
 - Everything you can get in the vanilla game is all available. No TNT or lava are blocked.
 - No teleport or warp point, but free fast-travel between station via riding an end dragon. And create station is free.
 

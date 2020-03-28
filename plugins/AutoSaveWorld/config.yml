@@ -6,7 +6,7 @@ save:
   broadcast: false
   disablestructuresaving: false
   forceregioncachedump: true
-  onplugindisable: true
+  onplugindisable: false
 backup:
   enabled: false
   interval: 21600

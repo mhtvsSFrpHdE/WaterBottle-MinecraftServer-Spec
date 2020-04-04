@@ -5,7 +5,7 @@
 *.backup
 
 # Essentials
-plugins/Essentials/userdata/*.yml
+plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 
 # bStats
@@ -19,11 +19,11 @@ plugins/ProtocolLib/lastupdate
 usercache.json
 
 # Worlds
-world/*
-world_nether/*
-world_the_end/*
-Dig/*
-DigTheEnd/*
+world/
+world_nether/
+world_the_end/
+Dig/
+DigTheEnd/
 
 # Logs
 logs/
@@ -62,3 +62,10 @@ plugins/WorldGuard/report.txt
 
 # IllegalSack sensitive data
 plugins/IllegalStack/OffenseLog.txt
+
+# Web map non config files
+plugins/dynmap/colorschemes/
+plugins/dynmap/renderdata/
+plugins/dynmap/templates/
+plugins/dynmap/texturepacks/
+plugins/dynmap/web/

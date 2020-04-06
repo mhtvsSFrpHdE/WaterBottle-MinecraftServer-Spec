@@ -195,7 +195,7 @@ components:
   #  stuff: "This is some configuration-value"
 
 # Treat hiddenplayers.txt as a whitelist for players to be shown on the map? (Default false)
-display-whitelist: false
+display-whitelist: true
 
 # How often a tile gets rendered (in seconds).
 renderinterval: 1

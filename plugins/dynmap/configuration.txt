@@ -41,7 +41,7 @@ components:
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
     sendposition: true
-    allowwebchat: true
+    allowwebchat: false
     webchat-interval: 5
     hidewebchatip: false
     trustclientname: false
@@ -129,36 +129,36 @@ components:
     # (optional) show world border (vanilla 1.8+)
     showworldborder: true
     
-  - class: org.dynmap.ClientComponent
-    type: chat
-    allowurlname: false
-  - class: org.dynmap.ClientComponent
-    type: chatballoon
-    focuschatballoons: false
-  - class: org.dynmap.ClientComponent
-    type: chatbox
-    showplayerfaces: true
-    messagettl: 5
+  #- class: org.dynmap.ClientComponent
+  #  type: chat
+  #  allowurlname: false
+  #- class: org.dynmap.ClientComponent
+  #  type: chatballoon
+  #  focuschatballoons: false
+  #- class: org.dynmap.ClientComponent
+  #  type: chatbox
+  #  showplayerfaces: true
+  #  messagettl: 5
     # Optional: set number of lines in scrollable message history: if set, messagettl is not used to age out messages
     #scrollback: 100
     # Optional: set maximum number of lines visible for chatbox
     #visiblelines: 10
     # Optional: send push button
-    sendbutton: false
-  - class: org.dynmap.ClientComponent
-    type: playermarkers
-    showplayerfaces: true
-    showplayerhealth: true
+  #  sendbutton: false
+  #- class: org.dynmap.ClientComponent
+  #  type: playermarkers
+  #  showplayerfaces: true
+  #  showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true
-    showplayerbody: false
+  #  showplayerbody: false
     # Option to make player faces small - don't use with showplayerhealth
-    smallplayerfaces: false
+  #  smallplayerfaces: false
     # Optional - make player faces layer hidden by default
-    hidebydefault: false
+  #  hidebydefault: false
     # Optional - ordering priority in layer menu (low goes before high - default is 0)
-    layerprio: 0
+  #  layerprio: 0
     # Optional - label for player marker layer (default is 'Players')
-    label: "Players"
+  #  label: "Players"
     
   #- class: org.dynmap.ClientComponent
   #  type: digitalclock

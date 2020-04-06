@@ -63,9 +63,13 @@ plugins/WorldGuard/report.txt
 # IllegalSack sensitive data
 plugins/IllegalStack/OffenseLog.txt
 
-# Web map non config files
+# Dynmap non config files
 plugins/dynmap/colorschemes/
 plugins/dynmap/renderdata/
-plugins/dynmap/templates/
 plugins/dynmap/texturepacks/
 plugins/dynmap/web/
+plugins/dynmap/*.pending
+
+# Dynmap sensitive data
+plugins/dynmap/hiddenplayers.txt
+plugins/dynmap/ids-by-ip.txt

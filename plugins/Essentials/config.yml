@@ -521,7 +521,7 @@ command-cooldowns:
 #  home: 0
   
 # Whether command cooldowns should be persistent past server shutdowns
-command-cooldown-persistence: true
+command-cooldown-persistence: false
 
 # Whether NPC balances should be listed in balance ranking features such as /balancetop.
 # NPC balances can include features like factions from FactionsUUID plugin.

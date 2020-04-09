@@ -4,6 +4,9 @@ groups:
       default: true
     permissions:
     - chatitem.use
+    - itembox.send
+    - itembox.claimall
+    - itembox.open
     - essentials.mail.*
     - essentials.mail
     - essentials.balance

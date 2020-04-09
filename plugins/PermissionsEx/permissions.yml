@@ -3,6 +3,7 @@ groups:
     options:
       default: true
     permissions:
+    - chatitem.use
     - essentials.mail.*
     - essentials.mail
     - essentials.balance

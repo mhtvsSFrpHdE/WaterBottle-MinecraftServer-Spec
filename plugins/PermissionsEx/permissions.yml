@@ -8,6 +8,7 @@ groups:
     - essentials.signs.format
     - essentials.signs.magic
     - essentials.signs.color
+    - BossShop.open
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

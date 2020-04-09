@@ -11,6 +11,7 @@ groups:
     - zh.free
     - zh.claim
     - essentials.home
+    - essentials.list
     - essentials.sethome.bed
     - essentials.signs.format
     - essentials.signs.magic

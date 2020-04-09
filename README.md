@@ -1,3 +1,7 @@
+# Important
+**Due to remove large file and sensitive data, some file is broken.**  
+**This require some time to fix, until that, do not run server.**
+
 # MinecraftServer-WaterBottle-Spec
 **Describe the server content, most are dev things**  
 **For end gamer rules and guide, see:**  

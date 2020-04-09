@@ -20,6 +20,7 @@ groups:
     - simpletrading.trade.accept
     - simpletrading.trade.initiate
     - dt.travel.*
+    - bukkit.command.tps
     - authme.player.changepassword
     - horizon.notification
     - skinsrestorer.command.gui

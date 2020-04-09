@@ -4,6 +4,111 @@ signs:
   text: '[SellShop]'
   NeedPermissionToCreateSign: true
 shop:
+  IronOre:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:1
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 10 Money'
+    RewardType: Money
+    Reward: 10
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  IronOreAmount2:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:2
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 20 Money'
+    RewardType: Money
+    Reward: 20
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:2
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  IronOreAmount4:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:4
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 40 Money'
+    RewardType: Money
+    Reward: 40
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:4
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  IronOreAmount8:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:8
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 80 Money'
+    RewardType: Money
+    Reward: 80
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:8
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  IronOreAmount16:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:16
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 160 Money'
+    RewardType: Money
+    Reward: 160
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:16
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  IronOreAmount32:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:32
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 320 Money'
+    RewardType: Money
+    Reward: 320
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:32
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  IronOreAmount64:
+    MenuItem:
+    - type:IRON_ORE
+    - amount:64
+    - name:&b1 Iron Ore
+    - 'lore:&2Get 获得: 640 Money'
+    RewardType: Money
+    Reward: 640
+    PriceType: Item
+    Price:
+    - - type:IRON_ORE
+      - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 7
   Back:
     MenuItem:
     - type:REDSTONE

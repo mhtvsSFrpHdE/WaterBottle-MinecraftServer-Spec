@@ -16,7 +16,7 @@ backup:
   localfs:
     enabled: true
     destinationfolders:
-    - C:\MinecraftServer\Spigot
+    - D:\MinecraftServer\Spigot
     worlds:
     - '*'
     MaxNumberOfWorldsBackups: 15

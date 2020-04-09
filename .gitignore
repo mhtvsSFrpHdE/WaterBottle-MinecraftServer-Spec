@@ -73,3 +73,4 @@ plugins/dynmap/*.pending
 # Dynmap sensitive data
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
+plugins/Essentials/upgrades-done.yml

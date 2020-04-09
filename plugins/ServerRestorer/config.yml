@@ -1,7 +1,7 @@
-LastAutosave: 1545708533802
-getBackupFileDirectory: C:\MinecraftServer\Backup\ServerRestorer
+getBackupFileDirectory: S:\MinecraftServer\Backup\ServerRestorer
 saveServerJar: true
 AutosaveDelay: 12H
+LastAutosave: 1586403390370
 enableautoSaving: true
 EnableFTP: false
 FTPAdress: www.example.com
@@ -9,3 +9,21 @@ FTPPort: 80
 FTPUsername: User
 FTPPassword: password
 MaxSaveSize: 10G
+savePluginJars: false
+FileNameFormat: Backup-%date%
+prefix: '&6[&3ServerRestorer&6]&8'
+kickMessage: '&6[&3ServerRestorer&6]&8 Restoring server to previous save. Please rejoin
+  in a few seconds.'
+EnableFTPS: false
+EnableSFTP: false
+FTP_Directory: ''
+exceptions:
+- logs
+- crash-reports
+- backups
+- dynamap
+- pixelprinter
+- backups
+MaxFileSaved: 1000
+DeleteZipOnFTPTransfer: false
+DeleteZipIfFailed: false

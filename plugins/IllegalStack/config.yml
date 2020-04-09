@@ -49,7 +49,7 @@ Exploits:
     BlockNonPlayersInNetherPortal: true
     NotifyBlockedPortalAttempts: false
     EndWhiteListMode: true
-    NetherWhiteList: []
+    EndWhiteList: []
     NetherWhiteListMode: true
   1_12_Exploits:
     PreventRecipeDupe: true

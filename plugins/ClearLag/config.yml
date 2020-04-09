@@ -8,19 +8,50 @@
 #--------------------------------------------------------------------#
 #          All possible mob names: https://goo.gl/cch8YK             #
 #--------------------------------------------------------------------#
+config-version: 17
+
+# -- 'use-internal-tps' Should clearlag just use the calculated internal TPS? (Improves accuracy)
+# -- 'language' Clearlag supports multiple languages (English, Spanish, Japanese) translated by the community
 settings:
-  auto-update: true
-  config-version: 11
+  auto-update: false
   enable-api: true
+  use-internal-tps: true
+
+#Controls ALL of Clearlag's broadcasting. Disabling this will disable ALL broadcasting on Clearlag
+# -- 'enabled' Should clearlag broadcast messages at all? (Example: Auto-removal, warnings, ect)
+# -- 'use-permission-for-broadcasts' Should clearlag use permissions?
+# -- 'permission' What is the permission? (By default, it's bukkit's default)
+global-broadcasts:
+  enabled: true
+  use-permission-for-broadcasts: false
+  permission: bukkit.broadcast
+
+#Monitors your server's main thread for locking/freezing. Helps figure out what's causing lag-spikes
+# NOTE: This will outprint mostly just stacktraces. It's up to YOU to interpret the stacktrace
+# NOTE: (!Important!) Clearlag will print EVERYTHING to your Spigot/Bukkit server logs!
+# NOTE: A large 'Garbage collection time' generally means the spike was caused by the Garbage collector (Memory issue basically..)
+# -- 'enabled' Should this be enabled (Prints data to your logs, not ingame chat)
+# -- 'min-elapsed-time' How long (IN MILLISECONDS) of a server-tick constitutes a freeze/lock? I don't recommend going under ~80
+# -- 'check-interval' How often (IN MILLISECONDS) should the server be checked? Lower the number, more accurate the timings
+# -- 'follow-stack' Should Clearlag keep printing the stacktrace every time it changes (Can be very spammy)?
+# Help-> https://dev.bukkit.org/projects/clearlagg/pages/finding-the-cause-of-lag-spikes
+lag-spike-helper:
+  enabled: false
+  min-elapsed-time: 500
+  check-interval: 100
+  follow-stack: true
 
 #Limits the amount of item transfers for all the hoppers in a single chunk
 # -- 'transfer-limit' How many transfers per check interval until the hopper should be disabled
 # -- 'check-interval' In seconds, on what interval should the transfer limit be reset
 hopper-limiter:
+  enabled: false
   transfer-limit: 5
   check-interval: 1
 
-#Meters your ram usage, if it goes above 'limit', run 'commands:'
+#Meters your ram usage. If it goes above 'limit', run 'commands:'
+# NOTE: It's perfectly normal for your server to be using a lot of memory. The JVM's garbage collector will automatically free memory.
+# NOTE: Only use this if you have very little memory that can't support the server
 # -- 'ram-limit' is in MB, do not set it exactly to your max allocated ram amount
 # -- 'interval' is how often clearlag will check your ram usage
 # -- 'commands' lists the commands that will be ran upon hitting your ram-limit
@@ -33,14 +64,66 @@ ram-meter:
     - 'lagg clear'
     - 'lagg gc'
 
+#Configure what the '/lagg halt' command does
+# -- 'remove-entities' remove entities such as items, primed-tnt, and mobs
+# -- 'disable-natural-entity-spawning' disables the server's natural world spawning
+# -- 'halted' this section defines which actions should be halted during '/lagg halt'
+halt-command:
+  remove-entities: true
+  disable-natural-entity-spawning: true
+  halted:
+    fire: true
+    fire-burn: true
+    explosion: true
+    decay: true
+    block-fade: true
+    block-form: true
+    block-spread: true
+    block-natural-change: true
+
 #This limits how fast a user can move by walking or flying in a single tick (20 ticks a second)
 #I HIGHLY recommend you use this on servers with increased player-speed/fly to prevent chunk overload
+#You may also use Spigot's internal speed limiters to achieve the same goal if present on your version (better performance)
 # -- 'move-max-speed' Max speed on foot
 # -- 'fly-max-speed'  Max speed while flying
 player-speed-limiter:
   enabled: false
   move-max-speed: 0.7
   fly-max-speed: 0.8
+
+#Set the age of specific items when they're first spawned so they naturally despawn faster, or slower then others
+#Recommended for servers with a lot of item-entities consisting mostly of useless items (Such as stone)
+#Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# -- 'items' Lists the material names of the entities with their spawn-age (In seconds)
+item-spawn-age-setter:
+  enabled: false
+  items:
+    stone: 240
+    grass: 240
+    cobblestone: 240
+    log: 240
+    stone_axe: 240
+    stone_pickaxe: 240
+    stone_sword: 240
+    wooden_axe: 240
+    wooden_pickaxe: 240
+    wooden_sword: 240
+    rotten_flesh: 240
+    gravel: 240
+    dirt: 240
+    leather: 200
+    sand: 240
+    bone: 240
+    beef: 240
+    chicken: 160
+    rabbit: 240
+    salmon: 240
+    cactus: 210
+    wool: 180
+    arrow: 160
+    PORKCHOP: 240
+    potato: 240
+    RED_TULIP: 240
 
 #Should mobs be nerfed to prevent over-breeding to reduce CPU usage (And possibly raise TPS)
 #When mobs are stuck too close, collisions are extremely intensive putting a pretty mean load on the server
@@ -59,12 +142,12 @@ log-purger:
 
 #What type of entities SHOULD NOT be removed while doing /lagg area?
 area-filter:
-    - Itemframe
-    - Minecart
-    - Wolf
-    - Villager
-    - Horse
-    - ARMOR_STAND
+  - Itemframe
+  - Minecart
+  - Wolf
+  - Villager
+  - Horse
+  - ARMOR_STAND
 
 #Should clearlag reset the config, or attempt to update your config on updates
 # -- 'force-update' is whether or not clearlag will reset your config with a newer version
@@ -191,14 +274,14 @@ tps-meter:
 # -- 'remove-named', when FALSE entities with custom names will NOT be removed
 # -- 'mob-filter' lists which mobs will be IGNORED during /lagg killmobs
 kill-mobs:
-   remove-named: false
-   mob-filter:
-   - Villager
-   - Wolf
+  remove-named: false
+  mob-filter:
+    - Villager
+    - Wolf
+    - ARMOR_STAND
+    - Horse
 #  - Pig !name="Test" <- This entity will filtered if the name does NOT equal "Test"
 #  - Zombie hasName <- This entity will be filtered if it HAS a name
-   - ARMOR_STAND
-   - Horse
 
 #This nerfs mob-spawners (Natural and player-made)
 #-------------------------------------------------
@@ -230,8 +313,10 @@ item-merger:
 #
 # -- 'remove-entities' lists what entities should be REMOVED on removal
 # -- 'warnings' list warnings to be given out at specified times
+# -- 'item-filter' What ground-items should NOT be removed during removal
+# -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
-  enabled: true
+  enabled: false
   broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
   autoremoval-interval: 460
@@ -247,8 +332,8 @@ auto-removal:
   minecart: true
   primed-tnt: true
   item-filter:
-  # - 264
-  # - 444 <-This item-id will be ignored during removal!
+  # - Stone <-This item-id will be ignored during removal!
+  # - Grass
   remove-entities:
   # - cow <- This mob-type will be REMOVED during removal!
   # - MINECART_MOB_SPAWNER
@@ -256,10 +341,10 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+    - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+    - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
-#What should be removed during /lagg clear
+#What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:
   world-filter:
   # - this_world <-This world will be ignored during removal!
@@ -274,8 +359,8 @@ command-remove:
   minecart: true
   primed-tnt: true
   item-filter:
-  # - 222 <-This item-id will be ignored during removal!
-  # - 265
+  # - Stone <-This item-id will be ignored during removal!
+  # - Grass
   remove-entities:
   # - cow <- This mob-type will be REMOVED during removal!
   # - MINECART_MOB_SPAWNER
@@ -283,6 +368,8 @@ command-remove:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
 
+#Very very old, but still works. Just specifies a global entity limit. I'd recommend 'custom-trigger-removal' instead
+# -- 'max' max entities allowed before the entity removal is activated
 limit:
   enabled: false
   max: 1000
@@ -301,5 +388,61 @@ limit:
   minecart: true
   primed-tnt: true
   item-filter:
-  # - 264
-  # - 232 <-This item-id will be ignored during removal!
+  # - Stone
+  # - Grass <-This item-id will be ignored during removal!
+
+
+# Create your own custom removal stuff!
+# -- warnings works like this; time = the time warning should be given, msg = warning message at that time
+# -- NOTE: The below 'remove' section applies to this remover!
+# \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/
+# >    READ FOR HELP -> https://dev.bukkit.org/projects/clearlagg/pages/config-setup <- READ FOR HELP    <
+# /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\
+custom-trigger-removal:
+  enabled: false
+  triggers:
+    trigger1:
+      trigger-type: tps-trigger
+      run-interval: 5
+      tps-trigger: 14.0
+      tps-recover: 19.0
+      jobs:
+        command-executor:
+          commands:
+            - 'lagg killmobs'
+            - 'lagg clear'
+            - 'lagg halt'
+          recover-commands:
+            - 'lagg halt'
+        entity-clearer:
+          execute-job-time: 120
+          warnings:
+            - 'time:60 msg:&4[ClearLag] &cEntities/drops will be purged in &7+remaining &cseconds!'
+            - 'time:100 msg:&4[ClearLag] &cEntities/drops will be purged in &720 &cseconds!'
+            - 'time:110 msg:&4[ClearLag] &cEntities/drops will be purged in &710 &cseconds!'
+          world-filter:
+          # - world <-This world will be ignored during removal
+          removeEntities:
+            - item
+            - zombie !hasName
+            - skeleton !hasName
+            - pig !hasName
+            - cow !hasName
+    trigger2:
+      trigger-type: entity-limit-trigger
+      run-interval: 25
+      limit: 200
+      world-filter:
+        # - world <-This world will be ignored during checking
+      entity-limits:
+        - zombie
+        - skeleton
+        - enderman
+      jobs:
+        entity-clearer:
+          world-filter:
+          # - world <-This world will be ignored during removal
+          remove-entities:
+            - zombie
+            - skeleton
+            - enderman

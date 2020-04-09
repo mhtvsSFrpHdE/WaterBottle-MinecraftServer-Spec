@@ -3,6 +3,13 @@ groups:
     options:
       default: true
     permissions:
+    - zh.friend.*
+    - zh.give
+    - zh.info
+    - zh.rename
+    - zh.help
+    - zh.free
+    - zh.claim
     - essentials.home
     - essentials.sethome.bed
     - essentials.signs.format

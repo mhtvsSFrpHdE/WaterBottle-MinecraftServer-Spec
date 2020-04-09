@@ -3,6 +3,8 @@ groups:
     options:
       default: true
     permissions:
+    - essentials.home
+    - essentials.sethome.bed
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

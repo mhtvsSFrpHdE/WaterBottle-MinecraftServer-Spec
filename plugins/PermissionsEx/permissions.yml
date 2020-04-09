@@ -12,6 +12,7 @@ groups:
     - simpletrading.trade.deny
     - simpletrading.trade.accept
     - simpletrading.trade.initiate
+    - dt.travel.*
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

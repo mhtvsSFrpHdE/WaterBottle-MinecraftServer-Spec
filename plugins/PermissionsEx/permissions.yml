@@ -14,6 +14,7 @@ groups:
     - simpletrading.trade.initiate
     - dt.travel.*
     - authme.player.changepassword
+    - horizon.notification
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

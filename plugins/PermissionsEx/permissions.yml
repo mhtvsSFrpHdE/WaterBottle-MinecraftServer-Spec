@@ -5,6 +5,9 @@ groups:
     permissions:
     - essentials.home
     - essentials.sethome.bed
+    - essentials.signs.format
+    - essentials.signs.magic
+    - essentials.signs.color
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

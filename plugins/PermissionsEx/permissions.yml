@@ -3,6 +3,9 @@ groups:
     options:
       default: true
     permissions:
+    - coreprotect.help
+    - coreprotect.inspect
+    - coreprotect.lookup
     - chatitem.use
     - itembox.send
     - itembox.claimall

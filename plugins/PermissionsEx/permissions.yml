@@ -13,6 +13,7 @@ groups:
     - simpletrading.trade.accept
     - simpletrading.trade.initiate
     - dt.travel.*
+    - authme.player.changepassword
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

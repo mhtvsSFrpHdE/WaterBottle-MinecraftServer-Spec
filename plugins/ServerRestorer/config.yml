@@ -8,7 +8,7 @@ FTPAdress: www.example.com
 FTPPort: 80
 FTPUsername: User
 FTPPassword: password
-MaxSaveSize: 10G
+MaxSaveSize: 20G
 savePluginJars: false
 FileNameFormat: Backup-%date%
 prefix: '&6[&3ServerRestorer&6]&8'

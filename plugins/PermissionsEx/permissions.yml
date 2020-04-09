@@ -9,6 +9,9 @@ groups:
     - essentials.signs.magic
     - essentials.signs.color
     - BossShop.open
+    - simpletrading.trade.deny
+    - simpletrading.trade.accept
+    - simpletrading.trade.initiate
     - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect

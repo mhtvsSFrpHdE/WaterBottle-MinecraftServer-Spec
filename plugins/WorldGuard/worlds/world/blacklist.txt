@@ -63,3 +63,8 @@
 #[wood:0;>=2]
 #ignore-groups=admins,mods
 #on-break=notify,deny,log
+
+# Deny spawning wither in a normal world to prevent friendly mobs be killed
+[397:1]
+on-use=deny,tell
+message=&cRefused to use %s &f此世界不能使用

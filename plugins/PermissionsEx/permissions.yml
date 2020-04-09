@@ -3,6 +3,18 @@ groups:
     options:
       default: true
     permissions:
+    - essentials.mail.*
+    - essentials.mail
+    - essentials.balance
+    - essentials.sell.*
+    - essentials.sell
+    - essentials.gc
+    - essentials.near
+    - essentials.msg.*
+    - essentials.msg
+    - essentials.help
+    - essentials.pay
+    - essentials.worth
     - modifyworld.*
     worlds:
       Dig:

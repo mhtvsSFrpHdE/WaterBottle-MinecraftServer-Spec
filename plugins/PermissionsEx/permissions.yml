@@ -3,6 +3,7 @@ groups:
     options:
       default: true
     permissions:
+    - minecraft.command.say
     - coreprotect.help
     - coreprotect.inspect
     - coreprotect.lookup

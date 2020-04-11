@@ -1,7 +1,7 @@
 getBackupFileDirectory: S:\MinecraftServer\Backup\ServerRestorer
 saveServerJar: true
-AutosaveDelay: 12H
 LastAutosave: 1586403390370
+AutosaveDelay: 7D
 enableautoSaving: true
 EnableFTP: false
 FTPAdress: www.example.com

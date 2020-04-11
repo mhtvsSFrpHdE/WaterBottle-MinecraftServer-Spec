@@ -14,7 +14,7 @@ Exploits:
   Nether:
     ExcludeNetherWorldFromHeightCheck: []
     NetherYLevel: 128
-    BlockPlayersAboveNether: true
+    BlockPlayersAboveNether: false
   OverStack:
     FixOverstackedItemInstead: false
     PreventOverStackedItemInHoppers: true

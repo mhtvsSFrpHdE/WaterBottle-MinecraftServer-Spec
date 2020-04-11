@@ -1,21 +1,23 @@
+# Common binary files
 *.db
 *.sqlite
 *.dat
 *.log
 *.backup
 
-# Essentials
-plugins/Essentials/userdata/
-plugins/Essentials/usermap.csv
 
-# bStats
-plugins/bStats/*.yml
 
-# PluginMetrics
-plugins/PluginMetrics/config.yml
-plugins/ProtocolLib/lastupdate
+# FreeFileSync
 
-# User cache
+# Non config files
+*.ffs_db
+*.ffs_tmp
+
+
+
+# Server
+
+# Sensitive data
 usercache.json
 
 # Worlds
@@ -28,49 +30,98 @@ DigTheEnd/
 # Logs
 logs/
 
-# Temp
-temp/
-
-# SkinRestorer binary files
-plugins/SkinsRestorer/userdata
-plugins/SkinsRestorer/Skins
-
-# SkinRestorer player self custom settings
-plugins/SkinsRestorer/Players/
-
-# FreeFileSync config
-*.ffs_db
-*.ffs_tmp
-
 # Crash reports
 crash-reports/
 
-# FirstJoinCommands user data
+# Other non config files
+#
+# bStats
+plugins/bStats/*.yml
+#
+# PluginMetrics
+plugins/PluginMetrics/config.yml
+plugins/ProtocolLib/lastupdate
+
+
+
+# Essentials
+
+# Sensitive data
+plugins/Essentials/userdata/
+plugins/Essentials/usermap.csv
+
+# Upgrade process log
+plugins/Essentials/upgrades-done.yml
+
+# World spawn
+plugins/Essentials/spawn.yml
+
+
+
+# SkinRestorer
+
+# Binary files
+plugins/SkinsRestorer/userdata
+plugins/SkinsRestorer/Skins
+
+# Sensitive data
+plugins/SkinsRestorer/Players/
+
+
+
+# FirstJoinCommands
+
+# Sensitive data
 plugins/FirstJoinCommands/UserData/
 
-# Orebfuscator cache
+
+
+# Orebfuscator
+
+# Cache
 orebfuscator_cache/
 
-# InvRestore2 player data
+
+
+# InvRestore2
+
+# Sensitive data
 plugins/InvRestore2/players.json
 
-# MultiWorld sensitive data
+
+
+# MultiWorld
+
+# Sensitive data
 plugins/Multiverse-Core/worlds.yml
 
-# WorldGuard sensitive data
+
+
+# WorldGuard
+
+# Sensitive data
 plugins/WorldGuard/report.txt
 
-# IllegalSack sensitive data
+
+
+# IllegalSack
+
+# Sensitive data
 plugins/IllegalStack/OffenseLog.txt
 
-# Dynmap non config files
+
+
+# Dynmap
+
+# Non config files
 plugins/dynmap/colorschemes/
 plugins/dynmap/renderdata/
 plugins/dynmap/texturepacks/
 plugins/dynmap/web/
 plugins/dynmap/*.pending
 
-# Dynmap sensitive data
+# Sensitive data
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
-plugins/Essentials/upgrades-done.yml
+
+

@@ -4,7 +4,7 @@ Exploits:
     PreventItemSwapLagExploit: true
     PreventInvalidPotions: true
     PreventRailDupe: true
-    PreventInvalidElytraFlight: true
+    PreventInvalidElytraFlight: false
     PreventNestedShulkers: true
     DisableChestsOnMobs: false
     PreventHoppersToUnloadedChunks: true

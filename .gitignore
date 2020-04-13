@@ -125,3 +125,10 @@ plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
 
 
+# Spartan
+
+# Sensitive data
+plugins/Spartan/wave.yml
+plugins/Spartan/bans.yml
+
+

@@ -1,0 +1,72 @@
+AcidRain:
+  enabled: true
+  force: false
+AdvancedAbilities:
+  enabled: true
+  force: false
+CrackShot:
+  enabled: true
+  force: false
+CraftBook:
+  enabled: true
+  force: false
+Essentials:
+  enabled: true
+  force: false
+MagicSpells:
+  enabled: true
+  force: false
+ProtocolLib:
+  enabled: true
+  force: false
+mcMMO:
+  enabled: true
+  force: false
+NoHitDelay:
+  enabled: true
+  force: false
+ProjectKorra:
+  enabled: true
+  force: false
+TreeFeller:
+  enabled: true
+  force: false
+VeinMiner:
+  enabled: true
+  force: false
+GrapplingHook:
+  enabled: true
+  force: false
+ViaRewind:
+  enabled: true
+  force: false
+RecentPvPMechanics:
+  enabled: true
+  force: false
+MineBomb:
+  enabled: true
+  force: false
+SmashHit:
+  enabled: true
+  force: false
+SuperPickaxe:
+  enabled: true
+  force: false
+RealDualWield:
+  enabled: true
+  force: false
+UltimateStatistics:
+  enabled: true
+  force: false
+MythicMobs:
+  enabled: true
+  force: false
+ViaVersion:
+  enabled: true
+  force: false
+ItemAttributes:
+  enabled: false
+  force: false
+AutoSync:
+  enabled: true
+  force: false

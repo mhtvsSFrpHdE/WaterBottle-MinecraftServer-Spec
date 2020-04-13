@@ -1,0 +1,4 @@
+blocked_commands:
+  '1': blocked_commands_here
+blocked_words:
+  '1': blocked_words_here

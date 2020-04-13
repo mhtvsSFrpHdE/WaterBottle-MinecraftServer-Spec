@@ -8,7 +8,7 @@ Exploits:
     PreventNestedShulkers: true
     DisableChestsOnMobs: false
     PreventHoppersToUnloadedChunks: true
-    PreventBedrockDestruction: true
+    PreventBedrockDestruction: false
   SignExploit:
     DestroyBadSignsOnChunkLoad: false
   Nether:
@@ -25,7 +25,7 @@ Exploits:
     AllowStack:
     - POTION
   Teleport:
-    PearlPhasing: true
+    PearlPhasing: false
   FishMod:
     WatchForAutoFishMod: false
     MaxFishToNotifyStaffThenBlock: 5
@@ -55,7 +55,7 @@ Exploits:
     PreventRecipeDupe: true
     PreventItemFramePistonDupe: true
   Fishing:
-    KickForAutoClickerFishing: true
+    KickForAutoClickerFishing: false
   BookExploit:
     LimitNumberOfPages: 0
     DisableBookWriting: false
@@ -68,7 +68,7 @@ Exploits:
   TNTDupe:
     PreventIndirectTNTPowerDupe: true
   DropperDupe:
-    BlockLoopedDroppers: false
+    BlockLoopedDroppers: true
   3rdParty:
     BlockCMIShulkerStacking: true
 UserRequested:

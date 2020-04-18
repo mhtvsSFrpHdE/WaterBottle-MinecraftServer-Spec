@@ -102,6 +102,6 @@ Misc:
 Exploit:
   LagMachines:
     End Crystal: true
-    ArmorStand: true
+    ArmorStand: false
   Teleport:
     CorrectionNotify: false

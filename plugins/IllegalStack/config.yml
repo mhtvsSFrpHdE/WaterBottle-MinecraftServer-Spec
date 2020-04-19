@@ -101,7 +101,7 @@ Misc:
   LogOffensesInSeparateFile: true
 Exploit:
   LagMachines:
-    End Crystal: true
+    End Crystal: false
     ArmorStand: false
   Teleport:
     CorrectionNotify: false

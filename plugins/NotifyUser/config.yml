@@ -1,7 +1,7 @@
 # [Configuration file for NotifyUser] (For message {placeholders}, see dev.bukkkit.org/projects/notifyuser)
 
 notifications:
-  sound-effect: ENTITY_GENERIC_EXPLODE
+  sound-effect: BLOCK_GLASS_BREAK
   volume: 1.0
   pitch: 1
 chat:

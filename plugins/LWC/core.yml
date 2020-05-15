@@ -1,5 +1,5 @@
 core:
-    locale: en
+    locale: cn
     flushInterval: 10
     cacheSize: 10000
     precache: -1

@@ -113,7 +113,7 @@ AutoRespawn:
       '1': spartan warn {player} You were detected for {detection}
       '2': spartan kick {player} {detection}
 InventoryClicks:
-  enabled: true
+  enabled: false
   name: InventoryClicks
   violation_divisor: 1
   disabled_worlds: ''

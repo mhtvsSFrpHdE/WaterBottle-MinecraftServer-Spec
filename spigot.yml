@@ -103,7 +103,7 @@ world-settings:
       tile: 50
     max-tnt-per-tick: 100
     merge-radius:
-      exp: 3
+      exp: 0
       item: 2.5
     mob-spawn-range: 4
     nerf-spawner-mobs: false

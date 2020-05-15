@@ -62,7 +62,7 @@ stats:
   forced-stats: {}
 world-settings:
   default:
-    arrow-despawn-rate: 1200
+    arrow-despawn-rate: 72000
     dragon-death-sound-radius: 0
     enable-zombie-pigmen-portal-spawns: true
     entity-activation-range:

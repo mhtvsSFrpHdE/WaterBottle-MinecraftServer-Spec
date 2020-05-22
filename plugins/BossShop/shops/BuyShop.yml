@@ -30,7 +30,7 @@ shop:
     - - type:IRON_ORE
       - amount:2
     PriceType: Money
-    Price: 10
+    Price: 20
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 2
@@ -45,7 +45,7 @@ shop:
     - - type:IRON_ORE
       - amount:4
     PriceType: Money
-    Price: 10
+    Price: 40
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 3
@@ -60,7 +60,7 @@ shop:
     - - type:IRON_ORE
       - amount:8
     PriceType: Money
-    Price: 10
+    Price: 80
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 4
@@ -75,7 +75,7 @@ shop:
     - - type:IRON_ORE
       - amount:16
     PriceType: Money
-    Price: 10
+    Price: 160
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 5
@@ -90,7 +90,7 @@ shop:
     - - type:IRON_ORE
       - amount:32
     PriceType: Money
-    Price: 10
+    Price: 320
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 6
@@ -105,7 +105,7 @@ shop:
     - - type:IRON_ORE
       - amount:64
     PriceType: Money
-    Price: 10
+    Price: 640
     Message: '&eYou bought %itemname%&e! Money left: &c%left%'
     ExtraPermission: ''
     InventoryLocation: 7

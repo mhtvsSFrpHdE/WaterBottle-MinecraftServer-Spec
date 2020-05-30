@@ -34,11 +34,6 @@ GENERIC_ERROR: '&e[&2SkinsRestorer&e] &4Error&8: &cAn error occurred while reque
   skin data, please try again later!'
 WAIT_A_MINUTE: '&e[&2SkinsRestorer&e] &4Error&8: &cPlease wait a minute before requesting
   that skin again. (Rate Limited)'
-MENU_OPEN: '&2Opening the skins menu...'
-NEXT_PAGE: '&aNext &f下页'
-PREVIOUS_PAGE: '&ePrevious &f上页'
-REMOVE_SKIN: '&cReset &f重设'
-SELECT_SKIN: '&2Click to select &f点击选择'
 ADMIN_SET_SKIN: '&e[&2SkinsRestorer&e] &2You set %player''s skin.'
 SKIN_DATA_DROPPED: '&e[&2SkinsRestorer&e] &2Skin data for player %player dropped.'
 STATUS_OK: '&e[&2SkinsRestorer&e] &2Mojang API connection successful!'
@@ -57,3 +52,17 @@ HELP_PLAYER: |2-
      &2/skin <skinname> &7-&f Changes your skin.
       &2/skin update &7-&f Updates your skin.
       &2/skin clear &7-&f Clears your skin.
+PREFIX: '&e[&2SkinsRestorer&e] '
+ERROR_UPDATING_URL: "&4Error&8: &cYou can't update custom url skins! \n&cRequest again\
+  \ using /skin url"
+ERROR_INVALID_URLSKIN: "&4Error&8: &cInvalid skin url or format, \n&c try uploading\
+  \ your skin to imgur and right click copy imgurl \n&cFor guide see: \n&c&o skinsrestorer.net/skinurl"
+ERROR_MOJANG_outage: "&4Error&8: &4&nMojang skin service is down. \n&cWe can only\
+  \ provide already recently requested skins. \n&cNew ones will fail to request..."
+SKINSMENU_OPEN: '&2Opening the skins menu &f打开皮肤列表'
+SKINSMENU_TITLE: '&9Skins Menu - Page '
+SKINSMENU_NEXT_PAGE: '&aNext &f下页'
+SKINSMENU_PREVIOUS_PAGE: '&ePrevious &f上页'
+SKINSMENU_REMOVE_SKIN: '&cReset &f重设'
+SKINSMENU_SELECT_SKIN: '&2Click to select &f点击选择'
+ERROR_NO_SKIN: '&4Error&8: &cThis player has no skin set.'

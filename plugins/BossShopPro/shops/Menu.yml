@@ -1,0 +1,42 @@
+ShopName: Menu
+DisplayName: '&0&lBoss Shop Menu 商店菜单'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+  playerstats:
+    MenuItem:
+      - 'lore:&2Balance &f余额#&e%balance%##&9Points &f高级物品点数#&e%balancepoints%'
+      - name:&5&l%displayname%
+      - amount:1
+      - type:PLAYER_HEAD
+      - playerhead:%name%
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  MenuBuyShop:
+    MenuItem:
+      - lore:&f取回铁矿石
+      - name:&c&lRetrieve iron ore
+      - amount:1
+      - type:DIAMOND
+    RewardType: Shop
+    Reward: BuyShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  MenuSellShop:
+    MenuItem:
+      - lore:&f出售铁矿石
+      - name:&2&lSell iron ore
+      - amount:1
+      - type:WHEAT
+    RewardType: Shop
+    Reward: SellShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3

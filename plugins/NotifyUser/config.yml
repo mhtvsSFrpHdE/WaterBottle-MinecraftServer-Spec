@@ -8,8 +8,8 @@ chat:
   symbol: '@'
   highlight-color: '&d'
   message-color: '&r'
-  highlight-for-all: true
   min-name-length: 3
+  highlight-for-all: false
   allow-partial: true
   notify: true
 mute:

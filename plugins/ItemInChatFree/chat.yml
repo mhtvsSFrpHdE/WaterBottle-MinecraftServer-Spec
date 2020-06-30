@@ -23,7 +23,7 @@ chat:
     identifier: '[item]'
     format: §7<§6%s§7>§r
   inventoy:
-    identifier: '[inventory]'
+    identifier: '[UNSTIPNEQ3WJ]'
   inventory:
     format: §7<§6%s's Inventory§7>§r
   format:

@@ -221,7 +221,7 @@ BlockReach:
       '1': spartan warn {player} You were detected for {detection}
       '2': spartan kick {player} {detection}
 ElytraMove:
-  enabled: true
+  enabled: false
   name: ElytraMove
   violation_divisor: 4
   disabled_worlds: ''

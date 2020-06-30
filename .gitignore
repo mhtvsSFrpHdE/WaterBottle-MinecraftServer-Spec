@@ -125,6 +125,7 @@ plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
 
 
+
 # Spartan
 
 # Sensitive data
@@ -132,4 +133,15 @@ plugins/Spartan/wave.yml
 plugins/Spartan/bans.yml
 
 
+
+# ProtocolLib
+
+# Update check file
 plugins/ProtocolLib/lastupdate
+
+
+
+# LuckPerms
+
+# Dependencies jar
+plugins/LuckPerms/libs/

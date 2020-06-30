@@ -67,6 +67,7 @@ groups:
     inheritance:
     - default
     permissions:
+    - minecraft.command.whitelist
     - permissions.manage.membership.trialMessage
     - authme.admin.unregister
     - authme.admin.register

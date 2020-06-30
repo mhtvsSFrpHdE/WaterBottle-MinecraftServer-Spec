@@ -70,3 +70,6 @@ ItemAttributes:
 AutoSync:
   enabled: true
   force: false
+PrinterMode:
+  enabled: true
+  force: false

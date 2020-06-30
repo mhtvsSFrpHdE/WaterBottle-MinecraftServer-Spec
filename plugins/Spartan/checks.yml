@@ -3,6 +3,7 @@ FastPlace:
 Exploits:
   check_ping_spoof: true
   check_undetected_movement: true
+  check_packet_overflow: true
 FastHeal:
   check_unusual: true
   check_illegal: true
@@ -145,6 +146,8 @@ NoSlowdown:
   check_bow_shots: true
   check_food_eating: true
   check_cobweb_movement: true
+  check_packets: true
+  check_potion: true
 MorePackets:
   check_blink: true
   check_overall: true

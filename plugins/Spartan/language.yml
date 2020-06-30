@@ -64,3 +64,6 @@ not_enough_saved_logs: '&8[&2Spartan&8]&c Not enough saved logs. Must be at leas
 unknown_command: '&fUnknown command. Please type "/help" for help.'
 failed_command: '&8[&2Spartan&8]&c Command failed. Please check your arguments and
   try again.'
+mining_message: '&8[&2Spartan&8] &c{player} &7found &4{material} §7on §8{material-x}§7,
+  §8{material-y}§7, §8{material-z}'
+awareness_notification: '&8[&2Spartan Notification&8]&a {info}'

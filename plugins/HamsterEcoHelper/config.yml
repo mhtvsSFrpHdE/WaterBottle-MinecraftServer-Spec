@@ -57,8 +57,14 @@ search:
   cooldown_tick: 200
   lore_additional_tick: 200
   ench_additional_tick: 200
-database_version: 1
-signshop_yaml_to_nbt: true
+database_version: 2
+signshop_yaml_to_nbt: false
+transaction:
+  active_time_out_tick: 12000
+  max_open_sellside: 20
+  list_closed_per_page: 5
+  tax: 5
+  require_confirm_seller: false
 marketSlot:
   default: 6
   builder: 15

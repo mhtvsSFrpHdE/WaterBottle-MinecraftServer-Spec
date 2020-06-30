@@ -111,3 +111,24 @@ IllegalEnchantLevel: '§aFixed Enchantment Level ~enchant~.(~lvl~) on ~item~ fou
   on player: ~player~'
 IllegalEnchantType: '§aCould not fix Enchantment ~enchant~.(~lvl~) on ~item~ found
   on player: ~player~ this enchantment is not valid for this item type!'
+StaffChestPunishment: punished ~player~ for continuing to try to put chests on a creature.  A
+  ~entity~ was removed, the player's inventory has been cleared and the player has
+  been kicked from the server. @
+RemovedRenamedItem: Removed a renamed item ~item~ from the inventory of ~name~
+BlockedTripwireDupe: Player ~name~ attempted to place a tripwire hook on a trap door,
+  it has been removed (PreventTripwireDupe = true)
+PlayerTrappedPortalMsg: §cSorry ~name~ but that portal appears to not have a valid
+  exit!  You would be trapped if you went through it!
+PlayerCommandSleepMsg: §cSorry but all commands are disabled while sleeping!
+PlayerKickForChestMsg: §cYou were warned about chests on mobs, stop trying.
+StaffMsgEndGatewayVehicleRemoved: player ~name~ attempted to take a ~vehicle~ through
+  an end gateway, it has been removed.
+StaffMsgBlockedPortalLogin: broke a trapped nether portal @
+StaffMsgBlockedPortal: ~player~ was prevented from going through a blocked/trapped
+  nether portal @
+StaffNoNBTAPI: 'NBT-Api was not found on your server and is needed for ~prot~ since
+  it is enabled!  Please download and install it from:  https://www.spigotmc.org/resources/nbt-api.7939/'
+StaffEndPortalProtected: Prevented the end portal from being broken using a dispenser
+  @
+StaffMsgNoPerm: 'You do not have permission to use that IllegalStack feature, node
+  required: ~perm~'

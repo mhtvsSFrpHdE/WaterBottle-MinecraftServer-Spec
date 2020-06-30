@@ -16,9 +16,6 @@ Integers:
 Strings:
   CacheLocation: orebfuscator_cache
   NoObfuscationForMetadataTagName: NPC
-Lists:
-  TransparentBlocks: []
-  NonTransparentBlocks: []
 Worlds:
   Default:
     Types:
@@ -29,11 +26,10 @@ Worlds:
     DarknessHideBlocks: false
     BypassObfuscationForSignsWithText: false
     DarknessBlocks:
-    - MOB_SPAWNER
     - CHEST
+    - SPAWNER
     Mode1Block: STONE
     RandomBlocks: []
-    ObfuscateBlocks: []
     ProximityHider:
       Enabled: false
       Distance: 8
@@ -42,17 +38,19 @@ Worlds:
       UseSpecialBlock: true
       ObfuscateAboveY: false
       ProximityHiderBlocks:
-      - DISPENSER
-      - MOB_SPAWNER
-      - CHEST
-      - DIAMOND_ORE
-      - WORKBENCH
-      - FURNACE
-      - BURNING_FURNACE
-      - ENCHANTMENT_TABLE
-      - EMERALD_ORE
-      - ENDER_CHEST
       - ANVIL
+      - CHEST
+      - CHIPPED_ANVIL
+      - CRAFTING_TABLE
+      - DAMAGED_ANVIL
+      - DIAMOND_ORE
+      - DISPENSER
+      - EMERALD_ORE
+      - ENCHANTING_TABLE
+      - ENDER_CHEST
+      - FURNACE
+      - HOPPER
+      - SPAWNER
       - TRAPPED_CHEST
       UseFastGazeCheck: true
   Normal:
@@ -60,47 +58,47 @@ Worlds:
     - NORMAL
     Mode1Block: STONE
     RandomBlocks:
-    - STONE
+    - CLAY
+    - COAL_ORE
     - COBBLESTONE
-    - WOOD
+    - DIAMOND_ORE
+    - EMERALD_ORE
     - GOLD_ORE
     - IRON_ORE
-    - COAL_ORE
     - LAPIS_ORE
     - MOSSY_COBBLESTONE
+    - OAK_PLANKS
     - OBSIDIAN
-    - DIAMOND_ORE
     - REDSTONE_ORE
-    - CLAY
-    - EMERALD_ORE
+    - STONE
+    - TNT
     ObfuscateBlocks:
-    - LAVA
-    - STATIONARY_LAVA
-    - WATER
-    - STATIONARY_WATER
     - BEDROCK
-    - GOLD_ORE
-    - IRON_ORE
-    - COAL_ORE
-    - LAPIS_ORE
     - CHEST
+    - CLAY
+    - COAL_ORE
     - DIAMOND_ORE
-    - REDSTONE_ORE
-    - GLOWING_REDSTONE_ORE
     - EMERALD_ORE
     - ENDER_CHEST
+    - GOLD_ORE
+    - IRON_ORE
+    - LAPIS_ORE
+    - LAVA
+    - REDSTONE_ORE
+    - STONE
+    - WATER
   TheEnd:
     Types:
     - THE_END
-    Mode1Block: ENDER_STONE
+    Mode1Block: END_STONE
     RandomBlocks:
     - BEDROCK
+    - END_STONE
+    - END_STONE_BRICKS
     - OBSIDIAN
-    - ENDER_STONE
     - PURPUR_BLOCK
-    - END_BRICKS
     ObfuscateBlocks:
-    - ENDER_STONE
+    - END_STONE
   Nether:
     Types:
     - NETHER
@@ -108,9 +106,9 @@ Worlds:
     RandomBlocks:
     - GRAVEL
     - NETHERRACK
+    - NETHER_BRICKS
+    - NETHER_QUARTZ_ORE
     - SOUL_SAND
-    - NETHER_BRICK
-    - QUARTZ_ORE
     ObfuscateBlocks:
     - NETHERRACK
-    - QUARTZ_ORE
+    - NETHER_QUARTZ_ORE

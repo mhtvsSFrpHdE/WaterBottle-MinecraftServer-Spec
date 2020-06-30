@@ -27,3 +27,4 @@ exceptions:
 MaxFileSaved: 1000
 DeleteZipOnFTPTransfer: false
 DeleteZipIfFailed: false
+CompressionLevel_Max_9: 9

@@ -130,6 +130,31 @@ user:
     item_given_ENDER_CHEST: 物品已放入你的末影箱
     new_price_1: ' ：%.2f$'
     new_price_0: '玩家 %s 给出了更高的价格 '
+  kit:
+    not_enough_space: not enough inventory space
+    create:
+      success: kit %s created
+      empty: your inventory is empty
+      exist: kit %s already exist
+    sign:
+      remove: sign removed
+      buy:
+        success: you bought kit %s for %.2f
+        error: you can not buy this kit again
+      line_0:
+        RESET: §1[§2resetkit§1]
+        BUY: §1[§2kit§1]
+      reset:
+        success: your kit record has been reset
+        not_exist: you do not need to reset it
+    not_exist: kit %s does not exist
+    give:
+      receive: You received %s
+      success: given %s to %s
+      error: '%s does not have enough inventory space'
+    reset:
+      success: reset success
+    remove: kit %s removed
   error:
     no_self: 目标不能是自己
     command_exception: 内部错误，无法执行此命令。
@@ -347,6 +372,19 @@ manual:
   force-load:
     description: 强制重新加载配置，并丢弃未保存的配置信息。
     usage: 用法：/heh force-load
+  kit:
+    view:
+      description: view a kit
+      usage: 'Usage: /heh kit view [name]'
+    create:
+      description: create a kit
+      usage: 'Usage: /heh kit create [name]'
+    remove:
+      description: remove a kit
+      usage: 'Usage: /heh kit remove [name]'
+    give:
+      usage: 'Usage: /heh kit give [name] [player]'
+      description: give kit to player
   save:
     usage: 用法：/heh save
     description: 强制保存配置。

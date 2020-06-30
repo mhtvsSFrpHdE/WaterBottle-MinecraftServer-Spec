@@ -1,0 +1,7 @@
+2020 25-06 at 10:24:19 PM (Thu): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: http://dev.bukkit.org/server-mods/vault/'
+2020 28-06 at 10:44:18 PM (Sun): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 18, column 21:
+          Message: Message: '&2Success\n&f交易成功'
+                          ^

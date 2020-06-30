@@ -73,3 +73,9 @@ AutoSync:
 PrinterMode:
   enabled: true
   force: false
+Vehicles:
+  enabled: true
+  force: false
+MineTinker:
+  enabled: true
+  force: false

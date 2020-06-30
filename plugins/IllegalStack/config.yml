@@ -9,6 +9,10 @@ Exploits:
     DisableChestsOnMobs: false
     PreventHoppersToUnloadedChunks: true
     PreventBedrockDestruction: false
+    PunishForChestsOnMobs: false
+    PreventCommandsInBed: true
+    PreventZeroTickExploit: true
+    PreventEndPortalDestruction: true
   SignExploit:
     DestroyBadSignsOnChunkLoad: false
   Nether:
@@ -51,26 +55,32 @@ Exploits:
     EndWhiteListMode: true
     EndWhiteList: []
     NetherWhiteListMode: true
-  1_12_Exploits:
-    PreventRecipeDupe: true
-    PreventItemFramePistonDupe: true
+  1_12_Exploits: {}
   Fishing:
     KickForAutoClickerFishing: false
-  BookExploit:
-    LimitNumberOfPages: 0
-    DisableBookWriting: false
-    RemoveBooksNotMatchingCharset: true
-    PageCountThreshold: 5
-    ValidCharset: US-ASCII
-    BookAuthorWhitelist: []
+  BookExploit: {}
   RNGEnchant:
     PreventRNGEnchant: true
   TNTDupe:
     PreventIndirectTNTPowerDupe: true
   DropperDupe:
-    BlockLoopedDroppers: true
+    BlockLoopedDroppers: false
   3rdParty:
     BlockCMIShulkerStacking: true
+  1_14_Exploits:
+    Traders:
+      ZombieVillagerTransformChance: 0
+      BlockVillagerTradeCheesing: true
+      VillagerRestockTime: 0
+  Looting:
+    PreventLootingExploit: true
+  1_15_Exploits:
+    Dupes:
+      PreventTripwireDupe: true
+  NetherPortal:
+    PreventPortalTrap: true
+  EndGateway:
+    PreventEndGatewayCrashExploit: true
 UserRequested:
   Obscure:
     HopperCheck:
@@ -92,6 +102,9 @@ UserRequested:
     NotifyInsteadOfBlock: []
   Mobs:
     PreventZombieItemPickup: false
+  Obsure:
+    Misc:
+      RemoveAllRenamedItems: false
 Misc:
   DisableInWorlds: []
   NotifyNearbyPlayers: false

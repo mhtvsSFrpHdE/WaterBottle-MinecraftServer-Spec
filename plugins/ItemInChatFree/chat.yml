@@ -1,0 +1,30 @@
+chat:
+  enabled: true
+  notify:
+    enabled: true
+    tag:
+      sound:
+        enabled: true
+        type: BLOCK_ANVIL_HIT
+      everyone: everyone
+    join:
+      sound:
+        type: BLOCK_ANVIL_HIT
+        enabled: true
+    identifier:
+      everyone: '@'
+      player: ''
+  permission:
+    required: false
+  item:
+    whitelist:
+      exclude: []
+      enabled: false
+    identifier: '[item]'
+    format: §7<§6%s§7>§r
+  inventoy:
+    identifier: '[inventory]'
+  inventory:
+    format: §7<§6%s's Inventory§7>§r
+  format:
+    care: true

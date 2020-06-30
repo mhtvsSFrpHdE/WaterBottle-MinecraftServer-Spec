@@ -1,0 +1,2965 @@
+item:
+  enchantments:
+    fire_protection: Fire Protection
+    sharpness: Sharpness
+    flame: Flame
+    aqua_affinity: Aqua Affinity
+    punch: Punch
+    loyalty: Loyalty
+    depth_strider: Depth Strider
+    vanishing_curse: Vanishing Curse
+    unbreaking: Unbreaking
+    knockback: Knockback
+    luck_of_the_sea: Luck Of The Sea
+    binding_curse: Binding Curse
+    fortune: Fortune
+    protection: Protection
+    efficiency: Efficiency
+    mending: Mending
+    frost_walker: Frost Walker
+    lure: Lure
+    looting: Looting
+    piercing: Piercing
+    blast_protection: Blast Protection
+    smite: Smite
+    multishot: Multishot
+    fire_aspect: Fire Aspect
+    channeling: Channeling
+    sweeping: Sweeping
+    thorns: Thorns
+    bane_of_arthropods: Bane Of Arthropods
+    respiration: Respiration
+    riptide: Riptide
+    silk_touch: Silk Touch
+    quick_charge: Quick Charge
+    projectile_protection: Projectile Protection
+    impaling: Impaling
+    feather_falling: Feather Falling
+    power: Power
+    infinity: Infinity
+  info:
+    acacia_boat:
+      name: Acacia Boat
+      linkable: true
+    acacia_button:
+      name: Acacia Button
+      linkable: true
+    acacia_door:
+      name: Acacia Door
+      linkable: true
+    acacia_fence:
+      name: Acacia Fence
+      linkable: true
+    acacia_fence_gate:
+      name: Acacia Fence Gate
+      linkable: true
+    acacia_leaves:
+      name: Acacia Leaves
+      linkable: true
+    acacia_log:
+      name: Acacia Log
+      linkable: true
+    acacia_planks:
+      name: Acacia Planks
+      linkable: true
+    acacia_pressure_plate:
+      name: Acacia Pressure Plate
+      linkable: true
+    acacia_sapling:
+      name: Acacia Sapling
+      linkable: true
+    acacia_sign:
+      name: Acacia Sign
+      linkable: true
+    acacia_slab:
+      name: Acacia Slab
+      linkable: true
+    acacia_stairs:
+      name: Acacia Stairs
+      linkable: true
+    acacia_trapdoor:
+      name: Acacia Trapdoor
+      linkable: true
+    acacia_wall_sign:
+      name: Acacia Wall Sign
+      linkable: true
+    acacia_wood:
+      name: Acacia Wood
+      linkable: true
+    activator_rail:
+      name: Activator Rail
+      linkable: true
+    air:
+      name: Air
+      linkable: true
+    allium:
+      name: Allium
+      linkable: true
+    andesite:
+      name: Andesite
+      linkable: true
+    andesite_slab:
+      name: Andesite Slab
+      linkable: true
+    andesite_stairs:
+      name: Andesite Stairs
+      linkable: true
+    andesite_wall:
+      name: Andesite Wall
+      linkable: true
+    anvil:
+      name: Anvil
+      linkable: true
+    apple:
+      name: Apple
+      linkable: true
+    armor_stand:
+      name: Armor Stand
+      linkable: true
+    arrow:
+      name: Arrow
+      linkable: true
+    attached_melon_stem:
+      name: Attached Melon Stem
+      linkable: true
+    attached_pumpkin_stem:
+      name: Attached Pumpkin Stem
+      linkable: true
+    azure_bluet:
+      name: Azure Bluet
+      linkable: true
+    baked_potato:
+      name: Baked Potato
+      linkable: true
+    bamboo:
+      name: Bamboo
+      linkable: true
+    bamboo_sapling:
+      name: Bamboo Sapling
+      linkable: true
+    barrel:
+      name: Barrel
+      linkable: true
+    barrier:
+      name: Barrier
+      linkable: true
+    bat_spawn_egg:
+      name: Bat Spawn Egg
+      linkable: true
+    beacon:
+      name: Beacon
+      linkable: true
+    bedrock:
+      name: Bedrock
+      linkable: true
+    beef:
+      name: Beef
+      linkable: true
+    beehive:
+      name: Beehive
+      linkable: true
+    beetroot:
+      name: Beetroot
+      linkable: true
+    beetroots:
+      name: Beetroots
+      linkable: true
+    beetroot_seeds:
+      name: Beetroot Seeds
+      linkable: true
+    beetroot_soup:
+      name: Beetroot Soup
+      linkable: true
+    bee_nest:
+      name: Bee Nest
+      linkable: true
+    bee_spawn_egg:
+      name: Bee Spawn Egg
+      linkable: true
+    bell:
+      name: Bell
+      linkable: true
+    birch_boat:
+      name: Birch Boat
+      linkable: true
+    birch_button:
+      name: Birch Button
+      linkable: true
+    birch_door:
+      name: Birch Door
+      linkable: true
+    birch_fence:
+      name: Birch Fence
+      linkable: true
+    birch_fence_gate:
+      name: Birch Fence Gate
+      linkable: true
+    birch_leaves:
+      name: Birch Leaves
+      linkable: true
+    birch_log:
+      name: Birch Log
+      linkable: true
+    birch_planks:
+      name: Birch Planks
+      linkable: true
+    birch_pressure_plate:
+      name: Birch Pressure Plate
+      linkable: true
+    birch_sapling:
+      name: Birch Sapling
+      linkable: true
+    birch_sign:
+      name: Birch Sign
+      linkable: true
+    birch_slab:
+      name: Birch Slab
+      linkable: true
+    birch_stairs:
+      name: Birch Stairs
+      linkable: true
+    birch_trapdoor:
+      name: Birch Trapdoor
+      linkable: true
+    birch_wall_sign:
+      name: Birch Wall Sign
+      linkable: true
+    birch_wood:
+      name: Birch Wood
+      linkable: true
+    black_banner:
+      name: Black Banner
+      linkable: true
+    black_bed:
+      name: Black Bed
+      linkable: true
+    black_carpet:
+      name: Black Carpet
+      linkable: true
+    black_concrete:
+      name: Black Concrete
+      linkable: true
+    black_concrete_powder:
+      name: Black Concrete Powder
+      linkable: true
+    black_dye:
+      name: Black Dye
+      linkable: true
+    black_glazed_terracotta:
+      name: Black Glazed Terracotta
+      linkable: true
+    black_shulker_box:
+      name: Black Shulker Box
+      linkable: true
+    black_stained_glass:
+      name: Black Stained Glass
+      linkable: true
+    black_stained_glass_pane:
+      name: Black Stained Glass Pane
+      linkable: true
+    black_terracotta:
+      name: Black Terracotta
+      linkable: true
+    black_wall_banner:
+      name: Black Wall Banner
+      linkable: true
+    black_wool:
+      name: Black Wool
+      linkable: true
+    blast_furnace:
+      name: Blast Furnace
+      linkable: true
+    blaze_powder:
+      name: Blaze Powder
+      linkable: true
+    blaze_rod:
+      name: Blaze Rod
+      linkable: true
+    blaze_spawn_egg:
+      name: Blaze Spawn Egg
+      linkable: true
+    blue_banner:
+      name: Blue Banner
+      linkable: true
+    blue_bed:
+      name: Blue Bed
+      linkable: true
+    blue_carpet:
+      name: Blue Carpet
+      linkable: true
+    blue_concrete:
+      name: Blue Concrete
+      linkable: true
+    blue_concrete_powder:
+      name: Blue Concrete Powder
+      linkable: true
+    blue_dye:
+      name: Blue Dye
+      linkable: true
+    blue_glazed_terracotta:
+      name: Blue Glazed Terracotta
+      linkable: true
+    blue_ice:
+      name: Blue Ice
+      linkable: true
+    blue_orchid:
+      name: Blue Orchid
+      linkable: true
+    blue_shulker_box:
+      name: Blue Shulker Box
+      linkable: true
+    blue_stained_glass:
+      name: Blue Stained Glass
+      linkable: true
+    blue_stained_glass_pane:
+      name: Blue Stained Glass Pane
+      linkable: true
+    blue_terracotta:
+      name: Blue Terracotta
+      linkable: true
+    blue_wall_banner:
+      name: Blue Wall Banner
+      linkable: true
+    blue_wool:
+      name: Blue Wool
+      linkable: true
+    bone:
+      name: Bone
+      linkable: true
+    bone_block:
+      name: Bone Block
+      linkable: true
+    bone_meal:
+      name: Bone Meal
+      linkable: true
+    book:
+      name: Book
+      linkable: true
+    bookshelf:
+      name: Bookshelf
+      linkable: true
+    bow:
+      name: Bow
+      linkable: true
+    bowl:
+      name: Bowl
+      linkable: true
+    brain_coral:
+      name: Brain Coral
+      linkable: true
+    brain_coral_block:
+      name: Brain Coral Block
+      linkable: true
+    brain_coral_fan:
+      name: Brain Coral Fan
+      linkable: true
+    brain_coral_wall_fan:
+      name: Brain Coral Wall Fan
+      linkable: true
+    bread:
+      name: Bread
+      linkable: true
+    brewing_stand:
+      name: Brewing Stand
+      linkable: true
+    brick:
+      name: Brick
+      linkable: true
+    bricks:
+      name: Bricks
+      linkable: true
+    brick_slab:
+      name: Brick Slab
+      linkable: true
+    brick_stairs:
+      name: Brick Stairs
+      linkable: true
+    brick_wall:
+      name: Brick Wall
+      linkable: true
+    brown_banner:
+      name: Brown Banner
+      linkable: true
+    brown_bed:
+      name: Brown Bed
+      linkable: true
+    brown_carpet:
+      name: Brown Carpet
+      linkable: true
+    brown_concrete:
+      name: Brown Concrete
+      linkable: true
+    brown_concrete_powder:
+      name: Brown Concrete Powder
+      linkable: true
+    brown_dye:
+      name: Brown Dye
+      linkable: true
+    brown_glazed_terracotta:
+      name: Brown Glazed Terracotta
+      linkable: true
+    brown_mushroom:
+      name: Brown Mushroom
+      linkable: true
+    brown_mushroom_block:
+      name: Brown Mushroom Block
+      linkable: true
+    brown_shulker_box:
+      name: Brown Shulker Box
+      linkable: true
+    brown_stained_glass:
+      name: Brown Stained Glass
+      linkable: true
+    brown_stained_glass_pane:
+      name: Brown Stained Glass Pane
+      linkable: true
+    brown_terracotta:
+      name: Brown Terracotta
+      linkable: true
+    brown_wall_banner:
+      name: Brown Wall Banner
+      linkable: true
+    brown_wool:
+      name: Brown Wool
+      linkable: true
+    bubble_column:
+      name: Bubble Column
+      linkable: true
+    bubble_coral:
+      name: Bubble Coral
+      linkable: true
+    bubble_coral_block:
+      name: Bubble Coral Block
+      linkable: true
+    bubble_coral_fan:
+      name: Bubble Coral Fan
+      linkable: true
+    bubble_coral_wall_fan:
+      name: Bubble Coral Wall Fan
+      linkable: true
+    bucket:
+      name: Bucket
+      linkable: true
+    cactus:
+      name: Cactus
+      linkable: true
+    cake:
+      name: Cake
+      linkable: true
+    campfire:
+      name: Campfire
+      linkable: true
+    carrot:
+      name: Carrot
+      linkable: true
+    carrots:
+      name: Carrots
+      linkable: true
+    carrot_on_a_stick:
+      name: Carrot On A Stick
+      linkable: true
+    cartography_table:
+      name: Cartography Table
+      linkable: true
+    carved_pumpkin:
+      name: Carved Pumpkin
+      linkable: true
+    cat_spawn_egg:
+      name: Cat Spawn Egg
+      linkable: true
+    cauldron:
+      name: Cauldron
+      linkable: true
+    cave_air:
+      name: Cave Air
+      linkable: true
+    cave_spider_spawn_egg:
+      name: Cave Spider Spawn Egg
+      linkable: true
+    chainmail_boots:
+      name: Chainmail Boots
+      linkable: true
+    chainmail_chestplate:
+      name: Chainmail Chestplate
+      linkable: true
+    chainmail_helmet:
+      name: Chainmail Helmet
+      linkable: true
+    chainmail_leggings:
+      name: Chainmail Leggings
+      linkable: true
+    chain_command_block:
+      name: Chain Command Block
+      linkable: true
+    charcoal:
+      name: Charcoal
+      linkable: true
+    chest:
+      name: Chest
+      linkable: true
+    chest_minecart:
+      name: Chest Minecart
+      linkable: true
+    chicken:
+      name: Chicken
+      linkable: true
+    chicken_spawn_egg:
+      name: Chicken Spawn Egg
+      linkable: true
+    chipped_anvil:
+      name: Chipped Anvil
+      linkable: true
+    chiseled_quartz_block:
+      name: Chiseled Quartz Block
+      linkable: true
+    chiseled_red_sandstone:
+      name: Chiseled Red Sandstone
+      linkable: true
+    chiseled_sandstone:
+      name: Chiseled Sandstone
+      linkable: true
+    chiseled_stone_bricks:
+      name: Chiseled Stone Bricks
+      linkable: true
+    chorus_flower:
+      name: Chorus Flower
+      linkable: true
+    chorus_fruit:
+      name: Chorus Fruit
+      linkable: true
+    chorus_plant:
+      name: Chorus Plant
+      linkable: true
+    clay:
+      name: Clay
+      linkable: true
+    clay_ball:
+      name: Clay Ball
+      linkable: true
+    clock:
+      name: Clock
+      linkable: true
+    coal:
+      name: Coal
+      linkable: true
+    coal_block:
+      name: Coal Block
+      linkable: true
+    coal_ore:
+      name: Coal Ore
+      linkable: true
+    coarse_dirt:
+      name: Coarse Dirt
+      linkable: true
+    cobblestone:
+      name: Cobblestone
+      linkable: true
+    cobblestone_slab:
+      name: Cobblestone Slab
+      linkable: true
+    cobblestone_stairs:
+      name: Cobblestone Stairs
+      linkable: true
+    cobblestone_wall:
+      name: Cobblestone Wall
+      linkable: true
+    cobweb:
+      name: Cobweb
+      linkable: true
+    cocoa:
+      name: Cocoa
+      linkable: true
+    cocoa_beans:
+      name: Cocoa Beans
+      linkable: true
+    cod:
+      name: Cod
+      linkable: true
+    cod_bucket:
+      name: Cod Bucket
+      linkable: true
+    cod_spawn_egg:
+      name: Cod Spawn Egg
+      linkable: true
+    command_block:
+      name: Command Block
+      linkable: true
+    command_block_minecart:
+      name: Command Block Minecart
+      linkable: true
+    comparator:
+      name: Comparator
+      linkable: true
+    compass:
+      name: Compass
+      linkable: true
+    composter:
+      name: Composter
+      linkable: true
+    conduit:
+      name: Conduit
+      linkable: true
+    cooked_beef:
+      name: Cooked Beef
+      linkable: true
+    cooked_chicken:
+      name: Cooked Chicken
+      linkable: true
+    cooked_cod:
+      name: Cooked Cod
+      linkable: true
+    cooked_mutton:
+      name: Cooked Mutton
+      linkable: true
+    cooked_porkchop:
+      name: Cooked Porkchop
+      linkable: true
+    cooked_rabbit:
+      name: Cooked Rabbit
+      linkable: true
+    cooked_salmon:
+      name: Cooked Salmon
+      linkable: true
+    cookie:
+      name: Cookie
+      linkable: true
+    cornflower:
+      name: Cornflower
+      linkable: true
+    cow_spawn_egg:
+      name: Cow Spawn Egg
+      linkable: true
+    cracked_stone_bricks:
+      name: Cracked Stone Bricks
+      linkable: true
+    crafting_table:
+      name: Crafting Table
+      linkable: true
+    creeper_banner_pattern:
+      name: Creeper Banner Pattern
+      linkable: true
+    creeper_head:
+      name: Creeper Head
+      linkable: true
+    creeper_spawn_egg:
+      name: Creeper Spawn Egg
+      linkable: true
+    creeper_wall_head:
+      name: Creeper Wall Head
+      linkable: true
+    crossbow:
+      name: Crossbow
+      linkable: true
+    cut_red_sandstone:
+      name: Cut Red Sandstone
+      linkable: true
+    cut_red_sandstone_slab:
+      name: Cut Red Sandstone Slab
+      linkable: true
+    cut_sandstone:
+      name: Cut Sandstone
+      linkable: true
+    cut_sandstone_slab:
+      name: Cut Sandstone Slab
+      linkable: true
+    cyan_banner:
+      name: Cyan Banner
+      linkable: true
+    cyan_bed:
+      name: Cyan Bed
+      linkable: true
+    cyan_carpet:
+      name: Cyan Carpet
+      linkable: true
+    cyan_concrete:
+      name: Cyan Concrete
+      linkable: true
+    cyan_concrete_powder:
+      name: Cyan Concrete Powder
+      linkable: true
+    cyan_dye:
+      name: Cyan Dye
+      linkable: true
+    cyan_glazed_terracotta:
+      name: Cyan Glazed Terracotta
+      linkable: true
+    cyan_shulker_box:
+      name: Cyan Shulker Box
+      linkable: true
+    cyan_stained_glass:
+      name: Cyan Stained Glass
+      linkable: true
+    cyan_stained_glass_pane:
+      name: Cyan Stained Glass Pane
+      linkable: true
+    cyan_terracotta:
+      name: Cyan Terracotta
+      linkable: true
+    cyan_wall_banner:
+      name: Cyan Wall Banner
+      linkable: true
+    cyan_wool:
+      name: Cyan Wool
+      linkable: true
+    damaged_anvil:
+      name: Damaged Anvil
+      linkable: true
+    dandelion:
+      name: Dandelion
+      linkable: true
+    dark_oak_boat:
+      name: Dark Oak Boat
+      linkable: true
+    dark_oak_button:
+      name: Dark Oak Button
+      linkable: true
+    dark_oak_door:
+      name: Dark Oak Door
+      linkable: true
+    dark_oak_fence:
+      name: Dark Oak Fence
+      linkable: true
+    dark_oak_fence_gate:
+      name: Dark Oak Fence Gate
+      linkable: true
+    dark_oak_leaves:
+      name: Dark Oak Leaves
+      linkable: true
+    dark_oak_log:
+      name: Dark Oak Log
+      linkable: true
+    dark_oak_planks:
+      name: Dark Oak Planks
+      linkable: true
+    dark_oak_pressure_plate:
+      name: Dark Oak Pressure Plate
+      linkable: true
+    dark_oak_sapling:
+      name: Dark Oak Sapling
+      linkable: true
+    dark_oak_sign:
+      name: Dark Oak Sign
+      linkable: true
+    dark_oak_slab:
+      name: Dark Oak Slab
+      linkable: true
+    dark_oak_stairs:
+      name: Dark Oak Stairs
+      linkable: true
+    dark_oak_trapdoor:
+      name: Dark Oak Trapdoor
+      linkable: true
+    dark_oak_wall_sign:
+      name: Dark Oak Wall Sign
+      linkable: true
+    dark_oak_wood:
+      name: Dark Oak Wood
+      linkable: true
+    dark_prismarine:
+      name: Dark Prismarine
+      linkable: true
+    dark_prismarine_slab:
+      name: Dark Prismarine Slab
+      linkable: true
+    dark_prismarine_stairs:
+      name: Dark Prismarine Stairs
+      linkable: true
+    daylight_detector:
+      name: Daylight Detector
+      linkable: true
+    dead_brain_coral:
+      name: Dead Brain Coral
+      linkable: true
+    dead_brain_coral_block:
+      name: Dead Brain Coral Block
+      linkable: true
+    dead_brain_coral_fan:
+      name: Dead Brain Coral Fan
+      linkable: true
+    dead_brain_coral_wall_fan:
+      name: Dead Brain Coral Wall Fan
+      linkable: true
+    dead_bubble_coral:
+      name: Dead Bubble Coral
+      linkable: true
+    dead_bubble_coral_block:
+      name: Dead Bubble Coral Block
+      linkable: true
+    dead_bubble_coral_fan:
+      name: Dead Bubble Coral Fan
+      linkable: true
+    dead_bubble_coral_wall_fan:
+      name: Dead Bubble Coral Wall Fan
+      linkable: true
+    dead_bush:
+      name: Dead Bush
+      linkable: true
+    dead_fire_coral:
+      name: Dead Fire Coral
+      linkable: true
+    dead_fire_coral_block:
+      name: Dead Fire Coral Block
+      linkable: true
+    dead_fire_coral_fan:
+      name: Dead Fire Coral Fan
+      linkable: true
+    dead_fire_coral_wall_fan:
+      name: Dead Fire Coral Wall Fan
+      linkable: true
+    dead_horn_coral:
+      name: Dead Horn Coral
+      linkable: true
+    dead_horn_coral_block:
+      name: Dead Horn Coral Block
+      linkable: true
+    dead_horn_coral_fan:
+      name: Dead Horn Coral Fan
+      linkable: true
+    dead_horn_coral_wall_fan:
+      name: Dead Horn Coral Wall Fan
+      linkable: true
+    dead_tube_coral:
+      name: Dead Tube Coral
+      linkable: true
+    dead_tube_coral_block:
+      name: Dead Tube Coral Block
+      linkable: true
+    dead_tube_coral_fan:
+      name: Dead Tube Coral Fan
+      linkable: true
+    dead_tube_coral_wall_fan:
+      name: Dead Tube Coral Wall Fan
+      linkable: true
+    debug_stick:
+      name: Debug Stick
+      linkable: true
+    detector_rail:
+      name: Detector Rail
+      linkable: true
+    diamond:
+      name: Diamond
+      linkable: true
+    diamond_axe:
+      name: Diamond Axe
+      linkable: true
+    diamond_block:
+      name: Diamond Block
+      linkable: true
+    diamond_boots:
+      name: Diamond Boots
+      linkable: true
+    diamond_chestplate:
+      name: Diamond Chestplate
+      linkable: true
+    diamond_helmet:
+      name: Diamond Helmet
+      linkable: true
+    diamond_hoe:
+      name: Diamond Hoe
+      linkable: true
+    diamond_horse_armor:
+      name: Diamond Horse Armor
+      linkable: true
+    diamond_leggings:
+      name: Diamond Leggings
+      linkable: true
+    diamond_ore:
+      name: Diamond Ore
+      linkable: true
+    diamond_pickaxe:
+      name: Diamond Pickaxe
+      linkable: true
+    diamond_shovel:
+      name: Diamond Shovel
+      linkable: true
+    diamond_sword:
+      name: Diamond Sword
+      linkable: true
+    diorite:
+      name: Diorite
+      linkable: true
+    diorite_slab:
+      name: Diorite Slab
+      linkable: true
+    diorite_stairs:
+      name: Diorite Stairs
+      linkable: true
+    diorite_wall:
+      name: Diorite Wall
+      linkable: true
+    dirt:
+      name: Dirt
+      linkable: true
+    dispenser:
+      name: Dispenser
+      linkable: true
+    dolphin_spawn_egg:
+      name: Dolphin Spawn Egg
+      linkable: true
+    donkey_spawn_egg:
+      name: Donkey Spawn Egg
+      linkable: true
+    dragon_breath:
+      name: Dragon Breath
+      linkable: true
+    dragon_egg:
+      name: Dragon Egg
+      linkable: true
+    dragon_head:
+      name: Dragon Head
+      linkable: true
+    dragon_wall_head:
+      name: Dragon Wall Head
+      linkable: true
+    dried_kelp:
+      name: Dried Kelp
+      linkable: true
+    dried_kelp_block:
+      name: Dried Kelp Block
+      linkable: true
+    dropper:
+      name: Dropper
+      linkable: true
+    drowned_spawn_egg:
+      name: Drowned Spawn Egg
+      linkable: true
+    egg:
+      name: Egg
+      linkable: true
+    elder_guardian_spawn_egg:
+      name: Elder Guardian Spawn Egg
+      linkable: true
+    elytra:
+      name: Elytra
+      linkable: true
+    emerald:
+      name: Emerald
+      linkable: true
+    emerald_block:
+      name: Emerald Block
+      linkable: true
+    emerald_ore:
+      name: Emerald Ore
+      linkable: true
+    enchanted_book:
+      name: Enchanted Book
+      linkable: true
+    enchanted_golden_apple:
+      name: Enchanted Golden Apple
+      linkable: true
+    enchanting_table:
+      name: Enchanting Table
+      linkable: true
+    enderman_spawn_egg:
+      name: Enderman Spawn Egg
+      linkable: true
+    endermite_spawn_egg:
+      name: Endermite Spawn Egg
+      linkable: true
+    ender_chest:
+      name: Ender Chest
+      linkable: true
+    ender_eye:
+      name: Ender Eye
+      linkable: true
+    ender_pearl:
+      name: Ender Pearl
+      linkable: true
+    end_crystal:
+      name: End Crystal
+      linkable: true
+    end_gateway:
+      name: End Gateway
+      linkable: true
+    end_portal:
+      name: End Portal
+      linkable: true
+    end_portal_frame:
+      name: End Portal Frame
+      linkable: true
+    end_rod:
+      name: End Rod
+      linkable: true
+    end_stone:
+      name: End Stone
+      linkable: true
+    end_stone_bricks:
+      name: End Stone Bricks
+      linkable: true
+    end_stone_brick_slab:
+      name: End Stone Brick Slab
+      linkable: true
+    end_stone_brick_stairs:
+      name: End Stone Brick Stairs
+      linkable: true
+    end_stone_brick_wall:
+      name: End Stone Brick Wall
+      linkable: true
+    evoker_spawn_egg:
+      name: Evoker Spawn Egg
+      linkable: true
+    experience_bottle:
+      name: Experience Bottle
+      linkable: true
+    farmland:
+      name: Farmland
+      linkable: true
+    feather:
+      name: Feather
+      linkable: true
+    fermented_spider_eye:
+      name: Fermented Spider Eye
+      linkable: true
+    fern:
+      name: Fern
+      linkable: true
+    filled_map:
+      name: Filled Map
+      linkable: true
+    fire:
+      name: Fire
+      linkable: true
+    firework_rocket:
+      name: Firework Rocket
+      linkable: true
+    firework_star:
+      name: Firework Star
+      linkable: true
+    fire_charge:
+      name: Fire Charge
+      linkable: true
+    fire_coral:
+      name: Fire Coral
+      linkable: true
+    fire_coral_block:
+      name: Fire Coral Block
+      linkable: true
+    fire_coral_fan:
+      name: Fire Coral Fan
+      linkable: true
+    fire_coral_wall_fan:
+      name: Fire Coral Wall Fan
+      linkable: true
+    fishing_rod:
+      name: Fishing Rod
+      linkable: true
+    fletching_table:
+      name: Fletching Table
+      linkable: true
+    flint:
+      name: Flint
+      linkable: true
+    flint_and_steel:
+      name: Flint And Steel
+      linkable: true
+    flower_banner_pattern:
+      name: Flower Banner Pattern
+      linkable: true
+    flower_pot:
+      name: Flower Pot
+      linkable: true
+    fox_spawn_egg:
+      name: Fox Spawn Egg
+      linkable: true
+    frosted_ice:
+      name: Frosted Ice
+      linkable: true
+    furnace:
+      name: Furnace
+      linkable: true
+    furnace_minecart:
+      name: Furnace Minecart
+      linkable: true
+    ghast_spawn_egg:
+      name: Ghast Spawn Egg
+      linkable: true
+    ghast_tear:
+      name: Ghast Tear
+      linkable: true
+    glass:
+      name: Glass
+      linkable: true
+    glass_bottle:
+      name: Glass Bottle
+      linkable: true
+    glass_pane:
+      name: Glass Pane
+      linkable: true
+    glistering_melon_slice:
+      name: Glistering Melon Slice
+      linkable: true
+    globe_banner_pattern:
+      name: Globe Banner Pattern
+      linkable: true
+    glowstone:
+      name: Glowstone
+      linkable: true
+    glowstone_dust:
+      name: Glowstone Dust
+      linkable: true
+    golden_apple:
+      name: Golden Apple
+      linkable: true
+    golden_axe:
+      name: Golden Axe
+      linkable: true
+    golden_boots:
+      name: Golden Boots
+      linkable: true
+    golden_carrot:
+      name: Golden Carrot
+      linkable: true
+    golden_chestplate:
+      name: Golden Chestplate
+      linkable: true
+    golden_helmet:
+      name: Golden Helmet
+      linkable: true
+    golden_hoe:
+      name: Golden Hoe
+      linkable: true
+    golden_horse_armor:
+      name: Golden Horse Armor
+      linkable: true
+    golden_leggings:
+      name: Golden Leggings
+      linkable: true
+    golden_pickaxe:
+      name: Golden Pickaxe
+      linkable: true
+    golden_shovel:
+      name: Golden Shovel
+      linkable: true
+    golden_sword:
+      name: Golden Sword
+      linkable: true
+    gold_block:
+      name: Gold Block
+      linkable: true
+    gold_ingot:
+      name: Gold Ingot
+      linkable: true
+    gold_nugget:
+      name: Gold Nugget
+      linkable: true
+    gold_ore:
+      name: Gold Ore
+      linkable: true
+    granite:
+      name: Granite
+      linkable: true
+    granite_slab:
+      name: Granite Slab
+      linkable: true
+    granite_stairs:
+      name: Granite Stairs
+      linkable: true
+    granite_wall:
+      name: Granite Wall
+      linkable: true
+    grass:
+      name: Grass
+      linkable: true
+    grass_block:
+      name: Grass Block
+      linkable: true
+    grass_path:
+      name: Grass Path
+      linkable: true
+    gravel:
+      name: Gravel
+      linkable: true
+    gray_banner:
+      name: Gray Banner
+      linkable: true
+    gray_bed:
+      name: Gray Bed
+      linkable: true
+    gray_carpet:
+      name: Gray Carpet
+      linkable: true
+    gray_concrete:
+      name: Gray Concrete
+      linkable: true
+    gray_concrete_powder:
+      name: Gray Concrete Powder
+      linkable: true
+    gray_dye:
+      name: Gray Dye
+      linkable: true
+    gray_glazed_terracotta:
+      name: Gray Glazed Terracotta
+      linkable: true
+    gray_shulker_box:
+      name: Gray Shulker Box
+      linkable: true
+    gray_stained_glass:
+      name: Gray Stained Glass
+      linkable: true
+    gray_stained_glass_pane:
+      name: Gray Stained Glass Pane
+      linkable: true
+    gray_terracotta:
+      name: Gray Terracotta
+      linkable: true
+    gray_wall_banner:
+      name: Gray Wall Banner
+      linkable: true
+    gray_wool:
+      name: Gray Wool
+      linkable: true
+    green_banner:
+      name: Green Banner
+      linkable: true
+    green_bed:
+      name: Green Bed
+      linkable: true
+    green_carpet:
+      name: Green Carpet
+      linkable: true
+    green_concrete:
+      name: Green Concrete
+      linkable: true
+    green_concrete_powder:
+      name: Green Concrete Powder
+      linkable: true
+    green_dye:
+      name: Green Dye
+      linkable: true
+    green_glazed_terracotta:
+      name: Green Glazed Terracotta
+      linkable: true
+    green_shulker_box:
+      name: Green Shulker Box
+      linkable: true
+    green_stained_glass:
+      name: Green Stained Glass
+      linkable: true
+    green_stained_glass_pane:
+      name: Green Stained Glass Pane
+      linkable: true
+    green_terracotta:
+      name: Green Terracotta
+      linkable: true
+    green_wall_banner:
+      name: Green Wall Banner
+      linkable: true
+    green_wool:
+      name: Green Wool
+      linkable: true
+    grindstone:
+      name: Grindstone
+      linkable: true
+    guardian_spawn_egg:
+      name: Guardian Spawn Egg
+      linkable: true
+    gunpowder:
+      name: Gunpowder
+      linkable: true
+    hay_block:
+      name: Hay Block
+      linkable: true
+    heart_of_the_sea:
+      name: Heart Of The Sea
+      linkable: true
+    heavy_weighted_pressure_plate:
+      name: Heavy Weighted Pressure Plate
+      linkable: true
+    honeycomb:
+      name: Honeycomb
+      linkable: true
+    honeycomb_block:
+      name: Honeycomb Block
+      linkable: true
+    honey_block:
+      name: Honey Block
+      linkable: true
+    honey_bottle:
+      name: Honey Bottle
+      linkable: true
+    hopper:
+      name: Hopper
+      linkable: true
+    hopper_minecart:
+      name: Hopper Minecart
+      linkable: true
+    horn_coral:
+      name: Horn Coral
+      linkable: true
+    horn_coral_block:
+      name: Horn Coral Block
+      linkable: true
+    horn_coral_fan:
+      name: Horn Coral Fan
+      linkable: true
+    horn_coral_wall_fan:
+      name: Horn Coral Wall Fan
+      linkable: true
+    horse_spawn_egg:
+      name: Horse Spawn Egg
+      linkable: true
+    husk_spawn_egg:
+      name: Husk Spawn Egg
+      linkable: true
+    ice:
+      name: Ice
+      linkable: true
+    infested_chiseled_stone_bricks:
+      name: Infested Chiseled Stone Bricks
+      linkable: true
+    infested_cobblestone:
+      name: Infested Cobblestone
+      linkable: true
+    infested_cracked_stone_bricks:
+      name: Infested Cracked Stone Bricks
+      linkable: true
+    infested_mossy_stone_bricks:
+      name: Infested Mossy Stone Bricks
+      linkable: true
+    infested_stone:
+      name: Infested Stone
+      linkable: true
+    infested_stone_bricks:
+      name: Infested Stone Bricks
+      linkable: true
+    ink_sac:
+      name: Ink Sac
+      linkable: true
+    iron_axe:
+      name: Iron Axe
+      linkable: true
+    iron_bars:
+      name: Iron Bars
+      linkable: true
+    iron_block:
+      name: Iron Block
+      linkable: true
+    iron_boots:
+      name: Iron Boots
+      linkable: true
+    iron_chestplate:
+      name: Iron Chestplate
+      linkable: true
+    iron_door:
+      name: Iron Door
+      linkable: true
+    iron_helmet:
+      name: Iron Helmet
+      linkable: true
+    iron_hoe:
+      name: Iron Hoe
+      linkable: true
+    iron_horse_armor:
+      name: Iron Horse Armor
+      linkable: true
+    iron_ingot:
+      name: Iron Ingot
+      linkable: true
+    iron_leggings:
+      name: Iron Leggings
+      linkable: true
+    iron_nugget:
+      name: Iron Nugget
+      linkable: true
+    iron_ore:
+      name: Iron Ore
+      linkable: true
+    iron_pickaxe:
+      name: Iron Pickaxe
+      linkable: true
+    iron_shovel:
+      name: Iron Shovel
+      linkable: true
+    iron_sword:
+      name: Iron Sword
+      linkable: true
+    iron_trapdoor:
+      name: Iron Trapdoor
+      linkable: true
+    item_frame:
+      name: Item Frame
+      linkable: true
+    jack_o_lantern:
+      name: Jack O Lantern
+      linkable: true
+    jigsaw:
+      name: Jigsaw
+      linkable: true
+    jukebox:
+      name: Jukebox
+      linkable: true
+    jungle_boat:
+      name: Jungle Boat
+      linkable: true
+    jungle_button:
+      name: Jungle Button
+      linkable: true
+    jungle_door:
+      name: Jungle Door
+      linkable: true
+    jungle_fence:
+      name: Jungle Fence
+      linkable: true
+    jungle_fence_gate:
+      name: Jungle Fence Gate
+      linkable: true
+    jungle_leaves:
+      name: Jungle Leaves
+      linkable: true
+    jungle_log:
+      name: Jungle Log
+      linkable: true
+    jungle_planks:
+      name: Jungle Planks
+      linkable: true
+    jungle_pressure_plate:
+      name: Jungle Pressure Plate
+      linkable: true
+    jungle_sapling:
+      name: Jungle Sapling
+      linkable: true
+    jungle_sign:
+      name: Jungle Sign
+      linkable: true
+    jungle_slab:
+      name: Jungle Slab
+      linkable: true
+    jungle_stairs:
+      name: Jungle Stairs
+      linkable: true
+    jungle_trapdoor:
+      name: Jungle Trapdoor
+      linkable: true
+    jungle_wall_sign:
+      name: Jungle Wall Sign
+      linkable: true
+    jungle_wood:
+      name: Jungle Wood
+      linkable: true
+    kelp:
+      name: Kelp
+      linkable: true
+    kelp_plant:
+      name: Kelp Plant
+      linkable: true
+    knowledge_book:
+      name: Knowledge Book
+      linkable: true
+    ladder:
+      name: Ladder
+      linkable: true
+    lantern:
+      name: Lantern
+      linkable: true
+    lapis_block:
+      name: Lapis Block
+      linkable: true
+    lapis_lazuli:
+      name: Lapis Lazuli
+      linkable: true
+    lapis_ore:
+      name: Lapis Ore
+      linkable: true
+    large_fern:
+      name: Large Fern
+      linkable: true
+    lava:
+      name: Lava
+      linkable: true
+    lava_bucket:
+      name: Lava Bucket
+      linkable: true
+    lead:
+      name: Lead
+      linkable: true
+    leather:
+      name: Leather
+      linkable: true
+    leather_boots:
+      name: Leather Boots
+      linkable: true
+    leather_chestplate:
+      name: Leather Chestplate
+      linkable: true
+    leather_helmet:
+      name: Leather Helmet
+      linkable: true
+    leather_horse_armor:
+      name: Leather Horse Armor
+      linkable: true
+    leather_leggings:
+      name: Leather Leggings
+      linkable: true
+    lectern:
+      name: Lectern
+      linkable: true
+    lever:
+      name: Lever
+      linkable: true
+    light_blue_banner:
+      name: Light Blue Banner
+      linkable: true
+    light_blue_bed:
+      name: Light Blue Bed
+      linkable: true
+    light_blue_carpet:
+      name: Light Blue Carpet
+      linkable: true
+    light_blue_concrete:
+      name: Light Blue Concrete
+      linkable: true
+    light_blue_concrete_powder:
+      name: Light Blue Concrete Powder
+      linkable: true
+    light_blue_dye:
+      name: Light Blue Dye
+      linkable: true
+    light_blue_glazed_terracotta:
+      name: Light Blue Glazed Terracotta
+      linkable: true
+    light_blue_shulker_box:
+      name: Light Blue Shulker Box
+      linkable: true
+    light_blue_stained_glass:
+      name: Light Blue Stained Glass
+      linkable: true
+    light_blue_stained_glass_pane:
+      name: Light Blue Stained Glass Pane
+      linkable: true
+    light_blue_terracotta:
+      name: Light Blue Terracotta
+      linkable: true
+    light_blue_wall_banner:
+      name: Light Blue Wall Banner
+      linkable: true
+    light_blue_wool:
+      name: Light Blue Wool
+      linkable: true
+    light_gray_banner:
+      name: Light Gray Banner
+      linkable: true
+    light_gray_bed:
+      name: Light Gray Bed
+      linkable: true
+    light_gray_carpet:
+      name: Light Gray Carpet
+      linkable: true
+    light_gray_concrete:
+      name: Light Gray Concrete
+      linkable: true
+    light_gray_concrete_powder:
+      name: Light Gray Concrete Powder
+      linkable: true
+    light_gray_dye:
+      name: Light Gray Dye
+      linkable: true
+    light_gray_glazed_terracotta:
+      name: Light Gray Glazed Terracotta
+      linkable: true
+    light_gray_shulker_box:
+      name: Light Gray Shulker Box
+      linkable: true
+    light_gray_stained_glass:
+      name: Light Gray Stained Glass
+      linkable: true
+    light_gray_stained_glass_pane:
+      name: Light Gray Stained Glass Pane
+      linkable: true
+    light_gray_terracotta:
+      name: Light Gray Terracotta
+      linkable: true
+    light_gray_wall_banner:
+      name: Light Gray Wall Banner
+      linkable: true
+    light_gray_wool:
+      name: Light Gray Wool
+      linkable: true
+    light_weighted_pressure_plate:
+      name: Light Weighted Pressure Plate
+      linkable: true
+    lilac:
+      name: Lilac
+      linkable: true
+    lily_of_the_valley:
+      name: Lily Of The Valley
+      linkable: true
+    lily_pad:
+      name: Lily Pad
+      linkable: true
+    lime_banner:
+      name: Lime Banner
+      linkable: true
+    lime_bed:
+      name: Lime Bed
+      linkable: true
+    lime_carpet:
+      name: Lime Carpet
+      linkable: true
+    lime_concrete:
+      name: Lime Concrete
+      linkable: true
+    lime_concrete_powder:
+      name: Lime Concrete Powder
+      linkable: true
+    lime_dye:
+      name: Lime Dye
+      linkable: true
+    lime_glazed_terracotta:
+      name: Lime Glazed Terracotta
+      linkable: true
+    lime_shulker_box:
+      name: Lime Shulker Box
+      linkable: true
+    lime_stained_glass:
+      name: Lime Stained Glass
+      linkable: true
+    lime_stained_glass_pane:
+      name: Lime Stained Glass Pane
+      linkable: true
+    lime_terracotta:
+      name: Lime Terracotta
+      linkable: true
+    lime_wall_banner:
+      name: Lime Wall Banner
+      linkable: true
+    lime_wool:
+      name: Lime Wool
+      linkable: true
+    lingering_potion:
+      name: Lingering Potion
+      linkable: true
+    llama_spawn_egg:
+      name: Llama Spawn Egg
+      linkable: true
+    loom:
+      name: Loom
+      linkable: true
+    magenta_banner:
+      name: Magenta Banner
+      linkable: true
+    magenta_bed:
+      name: Magenta Bed
+      linkable: true
+    magenta_carpet:
+      name: Magenta Carpet
+      linkable: true
+    magenta_concrete:
+      name: Magenta Concrete
+      linkable: true
+    magenta_concrete_powder:
+      name: Magenta Concrete Powder
+      linkable: true
+    magenta_dye:
+      name: Magenta Dye
+      linkable: true
+    magenta_glazed_terracotta:
+      name: Magenta Glazed Terracotta
+      linkable: true
+    magenta_shulker_box:
+      name: Magenta Shulker Box
+      linkable: true
+    magenta_stained_glass:
+      name: Magenta Stained Glass
+      linkable: true
+    magenta_stained_glass_pane:
+      name: Magenta Stained Glass Pane
+      linkable: true
+    magenta_terracotta:
+      name: Magenta Terracotta
+      linkable: true
+    magenta_wall_banner:
+      name: Magenta Wall Banner
+      linkable: true
+    magenta_wool:
+      name: Magenta Wool
+      linkable: true
+    magma_block:
+      name: Magma Block
+      linkable: true
+    magma_cream:
+      name: Magma Cream
+      linkable: true
+    magma_cube_spawn_egg:
+      name: Magma Cube Spawn Egg
+      linkable: true
+    map:
+      name: Map
+      linkable: true
+    melon:
+      name: Melon
+      linkable: true
+    melon_seeds:
+      name: Melon Seeds
+      linkable: true
+    melon_slice:
+      name: Melon Slice
+      linkable: true
+    melon_stem:
+      name: Melon Stem
+      linkable: true
+    milk_bucket:
+      name: Milk Bucket
+      linkable: true
+    minecart:
+      name: Minecart
+      linkable: true
+    mojang_banner_pattern:
+      name: Mojang Banner Pattern
+      linkable: true
+    mooshroom_spawn_egg:
+      name: Mooshroom Spawn Egg
+      linkable: true
+    mossy_cobblestone:
+      name: Mossy Cobblestone
+      linkable: true
+    mossy_cobblestone_slab:
+      name: Mossy Cobblestone Slab
+      linkable: true
+    mossy_cobblestone_stairs:
+      name: Mossy Cobblestone Stairs
+      linkable: true
+    mossy_cobblestone_wall:
+      name: Mossy Cobblestone Wall
+      linkable: true
+    mossy_stone_bricks:
+      name: Mossy Stone Bricks
+      linkable: true
+    mossy_stone_brick_slab:
+      name: Mossy Stone Brick Slab
+      linkable: true
+    mossy_stone_brick_stairs:
+      name: Mossy Stone Brick Stairs
+      linkable: true
+    mossy_stone_brick_wall:
+      name: Mossy Stone Brick Wall
+      linkable: true
+    moving_piston:
+      name: Moving Piston
+      linkable: true
+    mule_spawn_egg:
+      name: Mule Spawn Egg
+      linkable: true
+    mushroom_stem:
+      name: Mushroom Stem
+      linkable: true
+    mushroom_stew:
+      name: Mushroom Stew
+      linkable: true
+    music_disc_11:
+      name: Music Disc 11
+      linkable: true
+    music_disc_13:
+      name: Music Disc 13
+      linkable: true
+    music_disc_blocks:
+      name: Music Disc Blocks
+      linkable: true
+    music_disc_cat:
+      name: Music Disc Cat
+      linkable: true
+    music_disc_chirp:
+      name: Music Disc Chirp
+      linkable: true
+    music_disc_far:
+      name: Music Disc Far
+      linkable: true
+    music_disc_mall:
+      name: Music Disc Mall
+      linkable: true
+    music_disc_mellohi:
+      name: Music Disc Mellohi
+      linkable: true
+    music_disc_stal:
+      name: Music Disc Stal
+      linkable: true
+    music_disc_strad:
+      name: Music Disc Strad
+      linkable: true
+    music_disc_wait:
+      name: Music Disc Wait
+      linkable: true
+    music_disc_ward:
+      name: Music Disc Ward
+      linkable: true
+    mutton:
+      name: Mutton
+      linkable: true
+    mycelium:
+      name: Mycelium
+      linkable: true
+    name_tag:
+      name: Name Tag
+      linkable: true
+    nautilus_shell:
+      name: Nautilus Shell
+      linkable: true
+    netherrack:
+      name: Netherrack
+      linkable: true
+    nether_brick:
+      name: Nether Brick
+      linkable: true
+    nether_bricks:
+      name: Nether Bricks
+      linkable: true
+    nether_brick_fence:
+      name: Nether Brick Fence
+      linkable: true
+    nether_brick_slab:
+      name: Nether Brick Slab
+      linkable: true
+    nether_brick_stairs:
+      name: Nether Brick Stairs
+      linkable: true
+    nether_brick_wall:
+      name: Nether Brick Wall
+      linkable: true
+    nether_portal:
+      name: Nether Portal
+      linkable: true
+    nether_quartz_ore:
+      name: Nether Quartz Ore
+      linkable: true
+    nether_star:
+      name: Nether Star
+      linkable: true
+    nether_wart:
+      name: Nether Wart
+      linkable: true
+    nether_wart_block:
+      name: Nether Wart Block
+      linkable: true
+    note_block:
+      name: Note Block
+      linkable: true
+    oak_boat:
+      name: Oak Boat
+      linkable: true
+    oak_button:
+      name: Oak Button
+      linkable: true
+    oak_door:
+      name: Oak Door
+      linkable: true
+    oak_fence:
+      name: Oak Fence
+      linkable: true
+    oak_fence_gate:
+      name: Oak Fence Gate
+      linkable: true
+    oak_leaves:
+      name: Oak Leaves
+      linkable: true
+    oak_log:
+      name: Oak Log
+      linkable: true
+    oak_planks:
+      name: Oak Planks
+      linkable: true
+    oak_pressure_plate:
+      name: Oak Pressure Plate
+      linkable: true
+    oak_sapling:
+      name: Oak Sapling
+      linkable: true
+    oak_sign:
+      name: Oak Sign
+      linkable: true
+    oak_slab:
+      name: Oak Slab
+      linkable: true
+    oak_stairs:
+      name: Oak Stairs
+      linkable: true
+    oak_trapdoor:
+      name: Oak Trapdoor
+      linkable: true
+    oak_wall_sign:
+      name: Oak Wall Sign
+      linkable: true
+    oak_wood:
+      name: Oak Wood
+      linkable: true
+    observer:
+      name: Observer
+      linkable: true
+    obsidian:
+      name: Obsidian
+      linkable: true
+    ocelot_spawn_egg:
+      name: Ocelot Spawn Egg
+      linkable: true
+    orange_banner:
+      name: Orange Banner
+      linkable: true
+    orange_bed:
+      name: Orange Bed
+      linkable: true
+    orange_carpet:
+      name: Orange Carpet
+      linkable: true
+    orange_concrete:
+      name: Orange Concrete
+      linkable: true
+    orange_concrete_powder:
+      name: Orange Concrete Powder
+      linkable: true
+    orange_dye:
+      name: Orange Dye
+      linkable: true
+    orange_glazed_terracotta:
+      name: Orange Glazed Terracotta
+      linkable: true
+    orange_shulker_box:
+      name: Orange Shulker Box
+      linkable: true
+    orange_stained_glass:
+      name: Orange Stained Glass
+      linkable: true
+    orange_stained_glass_pane:
+      name: Orange Stained Glass Pane
+      linkable: true
+    orange_terracotta:
+      name: Orange Terracotta
+      linkable: true
+    orange_tulip:
+      name: Orange Tulip
+      linkable: true
+    orange_wall_banner:
+      name: Orange Wall Banner
+      linkable: true
+    orange_wool:
+      name: Orange Wool
+      linkable: true
+    oxeye_daisy:
+      name: Oxeye Daisy
+      linkable: true
+    packed_ice:
+      name: Packed Ice
+      linkable: true
+    painting:
+      name: Painting
+      linkable: true
+    panda_spawn_egg:
+      name: Panda Spawn Egg
+      linkable: true
+    paper:
+      name: Paper
+      linkable: true
+    parrot_spawn_egg:
+      name: Parrot Spawn Egg
+      linkable: true
+    peony:
+      name: Peony
+      linkable: true
+    petrified_oak_slab:
+      name: Petrified Oak Slab
+      linkable: true
+    phantom_membrane:
+      name: Phantom Membrane
+      linkable: true
+    phantom_spawn_egg:
+      name: Phantom Spawn Egg
+      linkable: true
+    pig_spawn_egg:
+      name: Pig Spawn Egg
+      linkable: true
+    pillager_spawn_egg:
+      name: Pillager Spawn Egg
+      linkable: true
+    pink_banner:
+      name: Pink Banner
+      linkable: true
+    pink_bed:
+      name: Pink Bed
+      linkable: true
+    pink_carpet:
+      name: Pink Carpet
+      linkable: true
+    pink_concrete:
+      name: Pink Concrete
+      linkable: true
+    pink_concrete_powder:
+      name: Pink Concrete Powder
+      linkable: true
+    pink_dye:
+      name: Pink Dye
+      linkable: true
+    pink_glazed_terracotta:
+      name: Pink Glazed Terracotta
+      linkable: true
+    pink_shulker_box:
+      name: Pink Shulker Box
+      linkable: true
+    pink_stained_glass:
+      name: Pink Stained Glass
+      linkable: true
+    pink_stained_glass_pane:
+      name: Pink Stained Glass Pane
+      linkable: true
+    pink_terracotta:
+      name: Pink Terracotta
+      linkable: true
+    pink_tulip:
+      name: Pink Tulip
+      linkable: true
+    pink_wall_banner:
+      name: Pink Wall Banner
+      linkable: true
+    pink_wool:
+      name: Pink Wool
+      linkable: true
+    piston:
+      name: Piston
+      linkable: true
+    piston_head:
+      name: Piston Head
+      linkable: true
+    player_head:
+      name: Player Head
+      linkable: true
+    player_wall_head:
+      name: Player Wall Head
+      linkable: true
+    podzol:
+      name: Podzol
+      linkable: true
+    poisonous_potato:
+      name: Poisonous Potato
+      linkable: true
+    polar_bear_spawn_egg:
+      name: Polar Bear Spawn Egg
+      linkable: true
+    polished_andesite:
+      name: Polished Andesite
+      linkable: true
+    polished_andesite_slab:
+      name: Polished Andesite Slab
+      linkable: true
+    polished_andesite_stairs:
+      name: Polished Andesite Stairs
+      linkable: true
+    polished_diorite:
+      name: Polished Diorite
+      linkable: true
+    polished_diorite_slab:
+      name: Polished Diorite Slab
+      linkable: true
+    polished_diorite_stairs:
+      name: Polished Diorite Stairs
+      linkable: true
+    polished_granite:
+      name: Polished Granite
+      linkable: true
+    polished_granite_slab:
+      name: Polished Granite Slab
+      linkable: true
+    polished_granite_stairs:
+      name: Polished Granite Stairs
+      linkable: true
+    popped_chorus_fruit:
+      name: Popped Chorus Fruit
+      linkable: true
+    poppy:
+      name: Poppy
+      linkable: true
+    porkchop:
+      name: Porkchop
+      linkable: true
+    potato:
+      name: Potato
+      linkable: true
+    potatoes:
+      name: Potatoes
+      linkable: true
+    potion:
+      name: Potion
+      linkable: true
+    potted_acacia_sapling:
+      name: Potted Acacia Sapling
+      linkable: true
+    potted_allium:
+      name: Potted Allium
+      linkable: true
+    potted_azure_bluet:
+      name: Potted Azure Bluet
+      linkable: true
+    potted_bamboo:
+      name: Potted Bamboo
+      linkable: true
+    potted_birch_sapling:
+      name: Potted Birch Sapling
+      linkable: true
+    potted_blue_orchid:
+      name: Potted Blue Orchid
+      linkable: true
+    potted_brown_mushroom:
+      name: Potted Brown Mushroom
+      linkable: true
+    potted_cactus:
+      name: Potted Cactus
+      linkable: true
+    potted_cornflower:
+      name: Potted Cornflower
+      linkable: true
+    potted_dandelion:
+      name: Potted Dandelion
+      linkable: true
+    potted_dark_oak_sapling:
+      name: Potted Dark Oak Sapling
+      linkable: true
+    potted_dead_bush:
+      name: Potted Dead Bush
+      linkable: true
+    potted_fern:
+      name: Potted Fern
+      linkable: true
+    potted_jungle_sapling:
+      name: Potted Jungle Sapling
+      linkable: true
+    potted_lily_of_the_valley:
+      name: Potted Lily Of The Valley
+      linkable: true
+    potted_oak_sapling:
+      name: Potted Oak Sapling
+      linkable: true
+    potted_orange_tulip:
+      name: Potted Orange Tulip
+      linkable: true
+    potted_oxeye_daisy:
+      name: Potted Oxeye Daisy
+      linkable: true
+    potted_pink_tulip:
+      name: Potted Pink Tulip
+      linkable: true
+    potted_poppy:
+      name: Potted Poppy
+      linkable: true
+    potted_red_mushroom:
+      name: Potted Red Mushroom
+      linkable: true
+    potted_red_tulip:
+      name: Potted Red Tulip
+      linkable: true
+    potted_spruce_sapling:
+      name: Potted Spruce Sapling
+      linkable: true
+    potted_white_tulip:
+      name: Potted White Tulip
+      linkable: true
+    potted_wither_rose:
+      name: Potted Wither Rose
+      linkable: true
+    powered_rail:
+      name: Powered Rail
+      linkable: true
+    prismarine:
+      name: Prismarine
+      linkable: true
+    prismarine_bricks:
+      name: Prismarine Bricks
+      linkable: true
+    prismarine_brick_slab:
+      name: Prismarine Brick Slab
+      linkable: true
+    prismarine_brick_stairs:
+      name: Prismarine Brick Stairs
+      linkable: true
+    prismarine_crystals:
+      name: Prismarine Crystals
+      linkable: true
+    prismarine_shard:
+      name: Prismarine Shard
+      linkable: true
+    prismarine_slab:
+      name: Prismarine Slab
+      linkable: true
+    prismarine_stairs:
+      name: Prismarine Stairs
+      linkable: true
+    prismarine_wall:
+      name: Prismarine Wall
+      linkable: true
+    pufferfish:
+      name: Pufferfish
+      linkable: true
+    pufferfish_bucket:
+      name: Pufferfish Bucket
+      linkable: true
+    pufferfish_spawn_egg:
+      name: Pufferfish Spawn Egg
+      linkable: true
+    pumpkin:
+      name: Pumpkin
+      linkable: true
+    pumpkin_pie:
+      name: Pumpkin Pie
+      linkable: true
+    pumpkin_seeds:
+      name: Pumpkin Seeds
+      linkable: true
+    pumpkin_stem:
+      name: Pumpkin Stem
+      linkable: true
+    purple_banner:
+      name: Purple Banner
+      linkable: true
+    purple_bed:
+      name: Purple Bed
+      linkable: true
+    purple_carpet:
+      name: Purple Carpet
+      linkable: true
+    purple_concrete:
+      name: Purple Concrete
+      linkable: true
+    purple_concrete_powder:
+      name: Purple Concrete Powder
+      linkable: true
+    purple_dye:
+      name: Purple Dye
+      linkable: true
+    purple_glazed_terracotta:
+      name: Purple Glazed Terracotta
+      linkable: true
+    purple_shulker_box:
+      name: Purple Shulker Box
+      linkable: true
+    purple_stained_glass:
+      name: Purple Stained Glass
+      linkable: true
+    purple_stained_glass_pane:
+      name: Purple Stained Glass Pane
+      linkable: true
+    purple_terracotta:
+      name: Purple Terracotta
+      linkable: true
+    purple_wall_banner:
+      name: Purple Wall Banner
+      linkable: true
+    purple_wool:
+      name: Purple Wool
+      linkable: true
+    purpur_block:
+      name: Purpur Block
+      linkable: true
+    purpur_pillar:
+      name: Purpur Pillar
+      linkable: true
+    purpur_slab:
+      name: Purpur Slab
+      linkable: true
+    purpur_stairs:
+      name: Purpur Stairs
+      linkable: true
+    quartz:
+      name: Quartz
+      linkable: true
+    quartz_block:
+      name: Quartz Block
+      linkable: true
+    quartz_pillar:
+      name: Quartz Pillar
+      linkable: true
+    quartz_slab:
+      name: Quartz Slab
+      linkable: true
+    quartz_stairs:
+      name: Quartz Stairs
+      linkable: true
+    rabbit:
+      name: Rabbit
+      linkable: true
+    rabbit_foot:
+      name: Rabbit Foot
+      linkable: true
+    rabbit_hide:
+      name: Rabbit Hide
+      linkable: true
+    rabbit_spawn_egg:
+      name: Rabbit Spawn Egg
+      linkable: true
+    rabbit_stew:
+      name: Rabbit Stew
+      linkable: true
+    rail:
+      name: Rail
+      linkable: true
+    ravager_spawn_egg:
+      name: Ravager Spawn Egg
+      linkable: true
+    redstone:
+      name: Redstone
+      linkable: true
+    redstone_block:
+      name: Redstone Block
+      linkable: true
+    redstone_lamp:
+      name: Redstone Lamp
+      linkable: true
+    redstone_ore:
+      name: Redstone Ore
+      linkable: true
+    redstone_torch:
+      name: Redstone Torch
+      linkable: true
+    redstone_wall_torch:
+      name: Redstone Wall Torch
+      linkable: true
+    redstone_wire:
+      name: Redstone Wire
+      linkable: true
+    red_banner:
+      name: Red Banner
+      linkable: true
+    red_bed:
+      name: Red Bed
+      linkable: true
+    red_carpet:
+      name: Red Carpet
+      linkable: true
+    red_concrete:
+      name: Red Concrete
+      linkable: true
+    red_concrete_powder:
+      name: Red Concrete Powder
+      linkable: true
+    red_dye:
+      name: Red Dye
+      linkable: true
+    red_glazed_terracotta:
+      name: Red Glazed Terracotta
+      linkable: true
+    red_mushroom:
+      name: Red Mushroom
+      linkable: true
+    red_mushroom_block:
+      name: Red Mushroom Block
+      linkable: true
+    red_nether_bricks:
+      name: Red Nether Bricks
+      linkable: true
+    red_nether_brick_slab:
+      name: Red Nether Brick Slab
+      linkable: true
+    red_nether_brick_stairs:
+      name: Red Nether Brick Stairs
+      linkable: true
+    red_nether_brick_wall:
+      name: Red Nether Brick Wall
+      linkable: true
+    red_sand:
+      name: Red Sand
+      linkable: true
+    red_sandstone:
+      name: Red Sandstone
+      linkable: true
+    red_sandstone_slab:
+      name: Red Sandstone Slab
+      linkable: true
+    red_sandstone_stairs:
+      name: Red Sandstone Stairs
+      linkable: true
+    red_sandstone_wall:
+      name: Red Sandstone Wall
+      linkable: true
+    red_shulker_box:
+      name: Red Shulker Box
+      linkable: true
+    red_stained_glass:
+      name: Red Stained Glass
+      linkable: true
+    red_stained_glass_pane:
+      name: Red Stained Glass Pane
+      linkable: true
+    red_terracotta:
+      name: Red Terracotta
+      linkable: true
+    red_tulip:
+      name: Red Tulip
+      linkable: true
+    red_wall_banner:
+      name: Red Wall Banner
+      linkable: true
+    red_wool:
+      name: Red Wool
+      linkable: true
+    repeater:
+      name: Repeater
+      linkable: true
+    repeating_command_block:
+      name: Repeating Command Block
+      linkable: true
+    rose_bush:
+      name: Rose Bush
+      linkable: true
+    rotten_flesh:
+      name: Rotten Flesh
+      linkable: true
+    saddle:
+      name: Saddle
+      linkable: true
+    salmon:
+      name: Salmon
+      linkable: true
+    salmon_bucket:
+      name: Salmon Bucket
+      linkable: true
+    salmon_spawn_egg:
+      name: Salmon Spawn Egg
+      linkable: true
+    sand:
+      name: Sand
+      linkable: true
+    sandstone:
+      name: Sandstone
+      linkable: true
+    sandstone_slab:
+      name: Sandstone Slab
+      linkable: true
+    sandstone_stairs:
+      name: Sandstone Stairs
+      linkable: true
+    sandstone_wall:
+      name: Sandstone Wall
+      linkable: true
+    scaffolding:
+      name: Scaffolding
+      linkable: true
+    scute:
+      name: Scute
+      linkable: true
+    seagrass:
+      name: Seagrass
+      linkable: true
+    sea_lantern:
+      name: Sea Lantern
+      linkable: true
+    sea_pickle:
+      name: Sea Pickle
+      linkable: true
+    shears:
+      name: Shears
+      linkable: true
+    sheep_spawn_egg:
+      name: Sheep Spawn Egg
+      linkable: true
+    shield:
+      name: Shield
+      linkable: true
+    shulker_box:
+      name: Shulker Box
+      linkable: true
+    shulker_shell:
+      name: Shulker Shell
+      linkable: true
+    shulker_spawn_egg:
+      name: Shulker Spawn Egg
+      linkable: true
+    silverfish_spawn_egg:
+      name: Silverfish Spawn Egg
+      linkable: true
+    skeleton_horse_spawn_egg:
+      name: Skeleton Horse Spawn Egg
+      linkable: true
+    skeleton_skull:
+      name: Skeleton Skull
+      linkable: true
+    skeleton_spawn_egg:
+      name: Skeleton Spawn Egg
+      linkable: true
+    skeleton_wall_skull:
+      name: Skeleton Wall Skull
+      linkable: true
+    skull_banner_pattern:
+      name: Skull Banner Pattern
+      linkable: true
+    slime_ball:
+      name: Slime Ball
+      linkable: true
+    slime_block:
+      name: Slime Block
+      linkable: true
+    slime_spawn_egg:
+      name: Slime Spawn Egg
+      linkable: true
+    smithing_table:
+      name: Smithing Table
+      linkable: true
+    smoker:
+      name: Smoker
+      linkable: true
+    smooth_quartz:
+      name: Smooth Quartz
+      linkable: true
+    smooth_quartz_slab:
+      name: Smooth Quartz Slab
+      linkable: true
+    smooth_quartz_stairs:
+      name: Smooth Quartz Stairs
+      linkable: true
+    smooth_red_sandstone:
+      name: Smooth Red Sandstone
+      linkable: true
+    smooth_red_sandstone_slab:
+      name: Smooth Red Sandstone Slab
+      linkable: true
+    smooth_red_sandstone_stairs:
+      name: Smooth Red Sandstone Stairs
+      linkable: true
+    smooth_sandstone:
+      name: Smooth Sandstone
+      linkable: true
+    smooth_sandstone_slab:
+      name: Smooth Sandstone Slab
+      linkable: true
+    smooth_sandstone_stairs:
+      name: Smooth Sandstone Stairs
+      linkable: true
+    smooth_stone:
+      name: Smooth Stone
+      linkable: true
+    smooth_stone_slab:
+      name: Smooth Stone Slab
+      linkable: true
+    snow:
+      name: Snow
+      linkable: true
+    snowball:
+      name: Snowball
+      linkable: true
+    snow_block:
+      name: Snow Block
+      linkable: true
+    soul_sand:
+      name: Soul Sand
+      linkable: true
+    spawner:
+      name: Spawner
+      linkable: true
+    spectral_arrow:
+      name: Spectral Arrow
+      linkable: true
+    spider_eye:
+      name: Spider Eye
+      linkable: true
+    spider_spawn_egg:
+      name: Spider Spawn Egg
+      linkable: true
+    splash_potion:
+      name: Splash Potion
+      linkable: true
+    sponge:
+      name: Sponge
+      linkable: true
+    spruce_boat:
+      name: Spruce Boat
+      linkable: true
+    spruce_button:
+      name: Spruce Button
+      linkable: true
+    spruce_door:
+      name: Spruce Door
+      linkable: true
+    spruce_fence:
+      name: Spruce Fence
+      linkable: true
+    spruce_fence_gate:
+      name: Spruce Fence Gate
+      linkable: true
+    spruce_leaves:
+      name: Spruce Leaves
+      linkable: true
+    spruce_log:
+      name: Spruce Log
+      linkable: true
+    spruce_planks:
+      name: Spruce Planks
+      linkable: true
+    spruce_pressure_plate:
+      name: Spruce Pressure Plate
+      linkable: true
+    spruce_sapling:
+      name: Spruce Sapling
+      linkable: true
+    spruce_sign:
+      name: Spruce Sign
+      linkable: true
+    spruce_slab:
+      name: Spruce Slab
+      linkable: true
+    spruce_stairs:
+      name: Spruce Stairs
+      linkable: true
+    spruce_trapdoor:
+      name: Spruce Trapdoor
+      linkable: true
+    spruce_wall_sign:
+      name: Spruce Wall Sign
+      linkable: true
+    spruce_wood:
+      name: Spruce Wood
+      linkable: true
+    squid_spawn_egg:
+      name: Squid Spawn Egg
+      linkable: true
+    stick:
+      name: Stick
+      linkable: true
+    sticky_piston:
+      name: Sticky Piston
+      linkable: true
+    stone:
+      name: Stone
+      linkable: true
+    stonecutter:
+      name: Stonecutter
+      linkable: true
+    stone_axe:
+      name: Stone Axe
+      linkable: true
+    stone_bricks:
+      name: Stone Bricks
+      linkable: true
+    stone_brick_slab:
+      name: Stone Brick Slab
+      linkable: true
+    stone_brick_stairs:
+      name: Stone Brick Stairs
+      linkable: true
+    stone_brick_wall:
+      name: Stone Brick Wall
+      linkable: true
+    stone_button:
+      name: Stone Button
+      linkable: true
+    stone_hoe:
+      name: Stone Hoe
+      linkable: true
+    stone_pickaxe:
+      name: Stone Pickaxe
+      linkable: true
+    stone_pressure_plate:
+      name: Stone Pressure Plate
+      linkable: true
+    stone_shovel:
+      name: Stone Shovel
+      linkable: true
+    stone_slab:
+      name: Stone Slab
+      linkable: true
+    stone_stairs:
+      name: Stone Stairs
+      linkable: true
+    stone_sword:
+      name: Stone Sword
+      linkable: true
+    stray_spawn_egg:
+      name: Stray Spawn Egg
+      linkable: true
+    string:
+      name: String
+      linkable: true
+    stripped_acacia_log:
+      name: Stripped Acacia Log
+      linkable: true
+    stripped_acacia_wood:
+      name: Stripped Acacia Wood
+      linkable: true
+    stripped_birch_log:
+      name: Stripped Birch Log
+      linkable: true
+    stripped_birch_wood:
+      name: Stripped Birch Wood
+      linkable: true
+    stripped_dark_oak_log:
+      name: Stripped Dark Oak Log
+      linkable: true
+    stripped_dark_oak_wood:
+      name: Stripped Dark Oak Wood
+      linkable: true
+    stripped_jungle_log:
+      name: Stripped Jungle Log
+      linkable: true
+    stripped_jungle_wood:
+      name: Stripped Jungle Wood
+      linkable: true
+    stripped_oak_log:
+      name: Stripped Oak Log
+      linkable: true
+    stripped_oak_wood:
+      name: Stripped Oak Wood
+      linkable: true
+    stripped_spruce_log:
+      name: Stripped Spruce Log
+      linkable: true
+    stripped_spruce_wood:
+      name: Stripped Spruce Wood
+      linkable: true
+    structure_block:
+      name: Structure Block
+      linkable: true
+    structure_void:
+      name: Structure Void
+      linkable: true
+    sugar:
+      name: Sugar
+      linkable: true
+    sugar_cane:
+      name: Sugar Cane
+      linkable: true
+    sunflower:
+      name: Sunflower
+      linkable: true
+    suspicious_stew:
+      name: Suspicious Stew
+      linkable: true
+    sweet_berries:
+      name: Sweet Berries
+      linkable: true
+    sweet_berry_bush:
+      name: Sweet Berry Bush
+      linkable: true
+    tall_grass:
+      name: Tall Grass
+      linkable: true
+    tall_seagrass:
+      name: Tall Seagrass
+      linkable: true
+    terracotta:
+      name: Terracotta
+      linkable: true
+    tipped_arrow:
+      name: Tipped Arrow
+      linkable: true
+    tnt:
+      name: Tnt
+      linkable: true
+    tnt_minecart:
+      name: Tnt Minecart
+      linkable: true
+    torch:
+      name: Torch
+      linkable: true
+    totem_of_undying:
+      name: Totem Of Undying
+      linkable: true
+    trader_llama_spawn_egg:
+      name: Trader Llama Spawn Egg
+      linkable: true
+    trapped_chest:
+      name: Trapped Chest
+      linkable: true
+    trident:
+      name: Trident
+      linkable: true
+    tripwire:
+      name: Tripwire
+      linkable: true
+    tripwire_hook:
+      name: Tripwire Hook
+      linkable: true
+    tropical_fish:
+      name: Tropical Fish
+      linkable: true
+    tropical_fish_bucket:
+      name: Tropical Fish Bucket
+      linkable: true
+    tropical_fish_spawn_egg:
+      name: Tropical Fish Spawn Egg
+      linkable: true
+    tube_coral:
+      name: Tube Coral
+      linkable: true
+    tube_coral_block:
+      name: Tube Coral Block
+      linkable: true
+    tube_coral_fan:
+      name: Tube Coral Fan
+      linkable: true
+    tube_coral_wall_fan:
+      name: Tube Coral Wall Fan
+      linkable: true
+    turtle_egg:
+      name: Turtle Egg
+      linkable: true
+    turtle_helmet:
+      name: Turtle Helmet
+      linkable: true
+    turtle_spawn_egg:
+      name: Turtle Spawn Egg
+      linkable: true
+    vex_spawn_egg:
+      name: Vex Spawn Egg
+      linkable: true
+    villager_spawn_egg:
+      name: Villager Spawn Egg
+      linkable: true
+    vindicator_spawn_egg:
+      name: Vindicator Spawn Egg
+      linkable: true
+    vine:
+      name: Vine
+      linkable: true
+    void_air:
+      name: Void Air
+      linkable: true
+    wall_torch:
+      name: Wall Torch
+      linkable: true
+    wandering_trader_spawn_egg:
+      name: Wandering Trader Spawn Egg
+      linkable: true
+    water:
+      name: Water
+      linkable: true
+    water_bucket:
+      name: Water Bucket
+      linkable: true
+    wet_sponge:
+      name: Wet Sponge
+      linkable: true
+    wheat:
+      name: Wheat
+      linkable: true
+    wheat_seeds:
+      name: Wheat Seeds
+      linkable: true
+    white_banner:
+      name: White Banner
+      linkable: true
+    white_bed:
+      name: White Bed
+      linkable: true
+    white_carpet:
+      name: White Carpet
+      linkable: true
+    white_concrete:
+      name: White Concrete
+      linkable: true
+    white_concrete_powder:
+      name: White Concrete Powder
+      linkable: true
+    white_dye:
+      name: White Dye
+      linkable: true
+    white_glazed_terracotta:
+      name: White Glazed Terracotta
+      linkable: true
+    white_shulker_box:
+      name: White Shulker Box
+      linkable: true
+    white_stained_glass:
+      name: White Stained Glass
+      linkable: true
+    white_stained_glass_pane:
+      name: White Stained Glass Pane
+      linkable: true
+    white_terracotta:
+      name: White Terracotta
+      linkable: true
+    white_tulip:
+      name: White Tulip
+      linkable: true
+    white_wall_banner:
+      name: White Wall Banner
+      linkable: true
+    white_wool:
+      name: White Wool
+      linkable: true
+    witch_spawn_egg:
+      name: Witch Spawn Egg
+      linkable: true
+    wither_rose:
+      name: Wither Rose
+      linkable: true
+    wither_skeleton_skull:
+      name: Wither Skeleton Skull
+      linkable: true
+    wither_skeleton_spawn_egg:
+      name: Wither Skeleton Spawn Egg
+      linkable: true
+    wither_skeleton_wall_skull:
+      name: Wither Skeleton Wall Skull
+      linkable: true
+    wolf_spawn_egg:
+      name: Wolf Spawn Egg
+      linkable: true
+    wooden_axe:
+      name: Wooden Axe
+      linkable: true
+    wooden_hoe:
+      name: Wooden Hoe
+      linkable: true
+    wooden_pickaxe:
+      name: Wooden Pickaxe
+      linkable: true
+    wooden_shovel:
+      name: Wooden Shovel
+      linkable: true
+    wooden_sword:
+      name: Wooden Sword
+      linkable: true
+    writable_book:
+      name: Writable Book
+      linkable: true
+    written_book:
+      name: Written Book
+      linkable: true
+    yellow_banner:
+      name: Yellow Banner
+      linkable: true
+    yellow_bed:
+      name: Yellow Bed
+      linkable: true
+    yellow_carpet:
+      name: Yellow Carpet
+      linkable: true
+    yellow_concrete:
+      name: Yellow Concrete
+      linkable: true
+    yellow_concrete_powder:
+      name: Yellow Concrete Powder
+      linkable: true
+    yellow_dye:
+      name: Yellow Dye
+      linkable: true
+    yellow_glazed_terracotta:
+      name: Yellow Glazed Terracotta
+      linkable: true
+    yellow_shulker_box:
+      name: Yellow Shulker Box
+      linkable: true
+    yellow_stained_glass:
+      name: Yellow Stained Glass
+      linkable: true
+    yellow_stained_glass_pane:
+      name: Yellow Stained Glass Pane
+      linkable: true
+    yellow_terracotta:
+      name: Yellow Terracotta
+      linkable: true
+    yellow_wall_banner:
+      name: Yellow Wall Banner
+      linkable: true
+    yellow_wool:
+      name: Yellow Wool
+      linkable: true
+    zombie_head:
+      name: Zombie Head
+      linkable: true
+    zombie_horse_spawn_egg:
+      name: Zombie Horse Spawn Egg
+      linkable: true
+    zombie_pigman_spawn_egg:
+      name: Zombie Pigman Spawn Egg
+      linkable: true
+    zombie_spawn_egg:
+      name: Zombie Spawn Egg
+      linkable: true
+    zombie_villager_spawn_egg:
+      name: Zombie Villager Spawn Egg
+      linkable: true
+    zombie_wall_head:
+      name: Zombie Wall Head
+      linkable: true

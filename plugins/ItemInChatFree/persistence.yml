@@ -1,0 +1,16 @@
+persistence:
+  enabled: true
+  stacktrace: false
+  sql:
+    passwd: ''
+    host: localhost
+    database: database
+    enabled: false
+    user: root
+    port: 3306
+  version:
+    unsupported:
+      minor: '1.15'
+      allow: false
+  yml:
+    enabled: false

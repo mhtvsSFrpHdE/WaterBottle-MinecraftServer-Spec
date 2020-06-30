@@ -1,7 +1,7 @@
 chat:
   enabled: true
   notify:
-    enabled: true
+    enabled: false
     tag:
       sound:
         enabled: true

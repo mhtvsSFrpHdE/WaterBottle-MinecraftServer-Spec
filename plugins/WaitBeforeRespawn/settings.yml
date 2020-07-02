@@ -69,13 +69,13 @@ messages-settings:
       chat-message:
       
          # If after message are in chat.
-         enable: true
+         enable: false
          
          # Add space before and after messages.
          space: true
 
       # If after message are in bar message.
-      bar-message: false
+      bar-message: true
       
       # If after message are in title message.
       title-message: false

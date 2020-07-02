@@ -3,8 +3,8 @@ global-messages:
    unknow-command: "&cUnknow command. Type &7&o/wbr &cto show help message"
 
 waiting-messages:
-   countdown: "&cYou will respawn in &e<seconds> seconds&c."
-   after: "&cBuy VIP grade to skip respawn waiting time !"
+   countdown: "&c菜"
+   after: "&c菜"
    commands-disabled: "&cYou can't use commands while waiting to respawn !"
    break-blocks: "&cYou're not allowed to break blocks while waiting to respawn !"
    place-blocks: "&cYou're not allowed to place blocks while waiting to respawn !"

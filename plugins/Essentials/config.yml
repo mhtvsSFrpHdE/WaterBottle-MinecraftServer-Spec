@@ -695,9 +695,9 @@ protect:
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
-    tnt-explosion: true
+    tnt-explosion: false
     tnt-playerdamage: false
-    tnt-minecart-explosion: true
+    tnt-minecart-explosion: false
     tnt-minecart-playerdamage: false
     fireball-explosion: false
     fireball-fire: false
@@ -708,9 +708,9 @@ protect:
     wither-blockreplace: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: true
-    enderdragon-blockdamage: false
-    enderman-pickup: true
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
     villager-death: false
     # Monsters won't follow players.
     # permission essentials.protect.entitytarget.bypass disables this.

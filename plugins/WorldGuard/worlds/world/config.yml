@@ -9,4 +9,18 @@
 # Remove the {} and add your own entries.
 #
 
-{}
+fire:
+    disable-all-fire-spread: true
+ignition:
+    block-tnt-block-damage: true
+mobs:
+    block-creeper-block-damage: true
+    block-wither-block-damage: true
+    block-wither-skull-block-damage: true
+    block-enderdragon-block-damage: true
+    block-fireball-block-damage: true
+    anti-wolf-dumbness: true
+    disable-enderman-griefing: true
+    block-painting-destroy: true
+    block-item-frame-destroy: true
+    block-zombie-door-destruction: true

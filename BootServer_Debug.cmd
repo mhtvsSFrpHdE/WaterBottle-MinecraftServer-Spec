@@ -1,6 +1,6 @@
 cd /d %~dp0
 
-set serverJar=spigot-1.12.2.jar
+set serverJar=spigot-1.15.2.jar
 set minMem=1G
 set maxMem=2G
 

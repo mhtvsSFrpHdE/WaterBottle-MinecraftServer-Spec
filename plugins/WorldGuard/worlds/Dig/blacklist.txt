@@ -64,3 +64,9 @@
 #ignore-groups=admins,mods
 #on-break=notify,deny,log
 
+# Deny sleep in Dig world to prevent lose home at main world
+[white_bed,orange_bed,magenta_bed,light_blue_bed,yellow_bed,lime_bed,pink_bed,gray_bed,light_gray_bed,cyan_bed,purple_bed,blue_bed,brown_bed,green_bed,red_bed,black_bed]
+on-place=deny,tell
+on-interact=deny,tell
+on-dispense=deny
+message=&cRefused to use %s &f此世界不能使用

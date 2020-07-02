@@ -34,17 +34,17 @@ anti-unlogin:
 spectator-mode:
    
    # If enable, player wait in the death place in spectator mode.
-   enable: false
+   enable: true
    
    # If enable and player quit the game during waiting time, when he come back waiting time continue to his death place.
    # Else he is teleported to his respawn location (or waiting room if enabled) to finish the countdown.
    continue-on-join: false
    
    # If enable, players can trough blocks in spectator mode.
-   through-blocks: true
+   through-blocks: false
    
    # If enable, players can teleport themself to other player with spectator menu.
-   player-teleportation: true
+   player-teleportation: false
 
 messages-settings:
 

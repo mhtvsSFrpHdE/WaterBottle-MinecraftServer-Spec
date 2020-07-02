@@ -98,4 +98,4 @@ sounds-settings:
 
 # Help me to make this plugin better with this form : https://goo.gl/forms/lStfisTNrWbAoz0o1
 # Only the console and the admin can see this message. To disable it set on "false"
-form-message: true
+form-message: false

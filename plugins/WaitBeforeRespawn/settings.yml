@@ -1,7 +1,7 @@
 global-settings:
 
    # Enable it if you're running a cracked server.
-   crack-version: false
+   crack-version: true
 
    # Waiting time in seconds.
    waiting-time: 10

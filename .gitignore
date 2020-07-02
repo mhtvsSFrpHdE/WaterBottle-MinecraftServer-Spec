@@ -102,6 +102,8 @@ plugins/Multiverse-Core/worlds.yml
 # Sensitive data
 plugins/WorldGuard/report.txt
 
+# Include blacklist etc explicit
+!plugins/WorldGuard/worlds/*
 
 
 # IllegalSack

@@ -1,0 +1,31 @@
+global-messages:
+   no-permissions: "&cYou don't have permissions to do this."
+   unknow-command: "&cUnknow command. Type &7&o/wbr &cto show help message"
+
+waiting-messages:
+   countdown: "&cYou will respawn in &e<seconds> seconds&c."
+   after: "&cBuy VIP grade to skip respawn waiting time !"
+   commands-disabled: "&cYou can't use commands while waiting to respawn !"
+   break-blocks: "&cYou're not allowed to break blocks while waiting to respawn !"
+   place-blocks: "&cYou're not allowed to place blocks while waiting to respawn !"
+   reset-on-quit: "&cYour countdown was reseted because you leave during waiting time."
+   
+   title:
+      # Let "" if you want none.
+      top: "&c&lYou died"
+      subtitle: "&cYou will respawn in &e<seconds> seconds&c."
+
+waiting-room-messages:
+   set-room: "&aWaiting Room defined !"
+   undefined-room: "&cYou need to define waiting-room location ! Use /wbr setroom"
+
+anti-unlogin-message: "&c<player> quit during respawn."
+   
+spectator-messages:
+   through-walls: "&cYou're not allowed to through walls while waiting to respawn !"
+   player-teleportation: "&cYou're not allowed to use teleportation while waiting to respawn !"
+
+help-page:
+- "&a- /wbr reload &f&o- Reload all configurations files."
+- "&a- /wbr setroom &f&o- Set the waiting room spawn."
+   

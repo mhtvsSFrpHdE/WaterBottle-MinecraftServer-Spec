@@ -1,0 +1,101 @@
+global-settings:
+
+   # Enable it if you're running a cracked server.
+   crack-version: false
+
+   # Waiting time in seconds.
+   waiting-time: 10
+   
+   # Player can send messages while waiting to respawn. 
+   player-chat: true
+
+   # If enable, players can't move their views while waiting to respawn.   
+   hardcore-hold: false
+   
+   # If enable, players can break blocks while waiting to respawn.
+   break-blocks: false
+   
+   # If enable, players can break blocks while waiting to respawn.
+   place-blocks: false
+
+waiting-room:
+
+   # Enable a waiting room.
+   enable: false
+
+   # Player can move in waiting room.
+   player-moves: false
+
+anti-unlogin:
+   
+   # If player on waiting time quit, cooldown begin again.
+   reset-on-quit: false
+
+spectator-mode:
+   
+   # If enable, player wait in the death place in spectator mode.
+   enable: false
+   
+   # If enable and player quit the game during waiting time, when he come back waiting time continue to his death place.
+   # Else he is teleported to his respawn location (or waiting room if enabled) to finish the countdown.
+   continue-on-join: false
+   
+   # If enable, players can trough blocks in spectator mode.
+   through-blocks: true
+   
+   # If enable, players can teleport themself to other player with spectator menu.
+   player-teleportation: true
+
+messages-settings:
+
+   chat-message:
+   
+      # If waiting messages are in chat.
+      enable: false
+      
+      # Add space before and after messages.
+      space: true
+
+   # If waiting messages are in bar message.
+   bar-message: true
+   
+   # If waiting messages are in title message.
+   title-message: false
+   
+   # Message showed after waiting
+   after-message:
+      enable: true
+      
+      chat-message:
+      
+         # If after message are in chat.
+         enable: true
+         
+         # Add space before and after messages.
+         space: true
+
+      # If after message are in bar message.
+      bar-message: false
+      
+      # If after message are in title message.
+      title-message: false
+
+sounds-settings:
+   
+   # Enable or disable waiting time sound.
+   enable: false
+   
+   # Bukkit name of the sound. Be carefull this name change between minecraft's versions.
+   # 1.7 sounds name : http://docs.codelanx.com/Bukkit/1.7.10/
+   # 1.8 sounds name : http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+   # 1.9 sounds name : ?
+   # 1.10 sounds name : ?
+   # 1.11 sounds name : ?
+   # 1.12 sounds name : ?
+   # last version sounds name : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+   # If you found some sound list tell me in PM !
+   name: BLOCK_STONE_BUTTON_CLICK_ON
+
+# Help me to make this plugin better with this form : https://goo.gl/forms/lStfisTNrWbAoz0o1
+# Only the console and the admin can see this message. To disable it set on "false"
+form-message: true

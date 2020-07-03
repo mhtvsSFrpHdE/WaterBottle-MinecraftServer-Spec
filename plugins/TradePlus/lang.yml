@@ -1,0 +1,55 @@
+request:
+  sent: '&6&l(!) &r&6You sent a trade request to &e%PLAYER%'
+  received:
+    text: '&6&l(!) &r&6You received a trade request from &e%PLAYER%%NEWLINE%&6&l(!)
+      &r&6Type &e/trade %PLAYER% &6to begin trading'
+    hover: '&6&lClick here to trade with &e&l%PLAYER%'
+errors:
+  creative: '&4&l(!) &r&4You can''t trade in creative mode!'
+  creative-them: '&4&l(!) &r&4That player is in creative mode!'
+  within-range:
+    same-world: '&4&l(!) &r&4You must be within %AMOUNT% blocks of a player to trade
+      with them'
+    cross-world: '&4&l(!) &r&4You must be within %AMOUNT% blocks of a player%NEWLINE%&4&l(!)
+      &r&4in a different world to trade with them!'
+  no-cross-world: '&4&l(!) &r&4You must be in the same world as a player to trade
+    with them!'
+  wait-for-expire: '&4&l(!) &r&4You still have an active trade request%NEWLINE%&4&l(!)
+    &r&4It will expire shortly'
+  player-not-found: '&4&l(!) &r&4Could not find specified player'
+  self-trade: '&4&l(!) &r&4You cannot trade with yourself'
+  invalid-usage: '&4&l(!) &r&4Invalid arguments. Usage: %NEWLINE%    &c- /trade <player
+    name>%NEWLINE%    &c- /trade deny'
+  no-perms:
+    accept: '&4&l(!) &r&4You do not have permission to trade'
+    send: '&4&l(!) &r&4You do not have permission to send a trade'
+    receive: '&4&l(!) &r&4That player does not have permission to accept a trade'
+    admin: '&4&l(!) &r&4You do not have permission to use this command'
+accept:
+  sender: '&6&l(!) &r&e%PLAYER% &6accepted your trade request'
+  receiver: '&6&l(!) &r&6You accepted &e%PLAYER%''s &6trade request'
+cancelled: '&4&l(!) &r&4The trade was cancelled'
+expired: '&4&l(!) &r&4Your last trade request expired'
+trade-complete: '&6&l(!) &r&6The trade was successful!'
+forced-trade: '&6&l(!) &r&6You''ve been forced into a trade with &e%PLAYER%'
+denied:
+  them: '&4&l(!) &r&4Your trade request to &c%PLAYER% &4was denied'
+  you: '&4&l(!) &r&4Any recent incoming trade requests have been denied.'
+spectate:
+  message: '&6&l(!) &e%PLAYER1% &6and &e%PLAYER2% &6have started a trade %NEWLINE%&6&l(!)
+    &6Type &e/tradeplus spectate %PLAYER1% %PLAYER2% &6to spectate'
+  hover: '&6&lClick here to spectate this trade'
+antiscam:
+  discrepancy: '&4&l(!) &r&4A discrepancy was detected in the traded items.%NEWLINE%&4&l(!)
+    &4The trade has been cancelled.'
+admin:
+  configs-reloaded: '&6&l(!) &6Configs reloaded!'
+  invalid-players: '&4&l(!) &4Invalid players!'
+  forced-trade: '&6&l(!) &6You forced a trade between &e%PLAYER1% &6and &e%PLAYER2%'
+  players-only: '&4&l(!) &4This command is for players only.'
+  no-trade: '&4&l(!) &4No trade was found with those arguments.'
+hooks:
+  factions:
+    enemy-territory: '&4&l(!) &4You can''t trade in enemy territory!'
+  worldguard:
+    trading-not-allowed: '&4&l(!) &4You can''t trade in this area.'

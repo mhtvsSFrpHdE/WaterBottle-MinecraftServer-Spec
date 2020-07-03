@@ -1,0 +1,181 @@
+aliases:
+- trade+
+trade-command-compatible-mode: false
+excess-chest:
+  enabled: true
+  title: '&7Your inventory is full!'
+trade-logs: false
+allow-same-ip-trade: true
+permissions:
+  required: false
+  send: tradeplus.send
+  accept: tradeplus.accept
+requestcooldownseconds: 20
+allow-trade-in-creative: false
+blocked:
+  blacklist:
+  - bedrock
+  - monster_egg
+  named-items: false
+  lore:
+  - EXAMPLE_BLOCKED_LORE
+  regex: ''
+action: crouchrightclick
+ranges:
+  sameworld: 10.0
+  crossworld: 0.0
+  allowcrossworld: false
+  blocked-worlds:
+  - ThisWorldDoesntExistButItsBlocked
+  - NeitherDoesThisOneButItIsToo
+antiscam:
+  countdown: 10
+  cancelonchange: true
+  preventchangeonaccept: true
+  discrepancy-detection: true
+spectate:
+  enabled: true
+  broadcast: true
+gui:
+  title: Your Items <|     |> Their Items
+  spectator-title: Player 1 <|          |> Player 2
+  head: '&7You are trading with: &3&l%PLAYER%'
+  showhead: true
+  accept:
+    display: '&a&lClick to accept the trade'
+    theirdisplay: ' '
+    type: green_stained_glass_pane
+    customModelData: 0
+  cancel:
+    display: '&c&lClick to cancel the trade'
+    theirdisplay: ' '
+    type: red_stained_glass_pane
+    customModelData: 0
+  showaccept: true
+  separator:
+    type: black_stained_glass_pane
+    customModelData: 0
+  force:
+    enabled: true
+    type: clock
+    name: '&4&lForce Trade'
+    lore:
+    - '&cClick here to force'
+    - '&cacceptance.'
+    - ''
+    - '&cThis shows only for admins.'
+extras:
+  type:
+    prefix: '&6&l!!&6> '
+    empty: '&eHow much %EXTRA% to offer?'
+    valid: '&aClick output slot to submit offer.'
+    invalid: '&cInvalid amount entered!'
+    maximum: '&cYou have %BALANCE% %EXTRA%'
+  economy:
+    enabled: true
+    name: money
+    material: gold_ingot
+    display: '&eYour current money offer is &6%AMOUNT%'
+    theirdisplay: '&eTheir current money offer is &6%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 10.0
+    taxpercent: 0
+    mode: chat
+  experience:
+    enabled: true
+    name: experience points
+    material: experience_bottle
+    display: '&aYour current XP offer is &2%AMOUNT%'
+    theirdisplay: '&aTheir current XP offer is &2%AMOUNT% &a(+%LEVELS% levels)'
+    lore:
+    - '&fClick to edit your offer!'
+    - '&fYou have %BALANCE% XP.'
+    customModelData: 0
+    increment: 5
+    taxpercent: 0
+    mode: chat
+    levelMode: false
+  playerpoints:
+    enabled: true
+    name: player points
+    material: diamond
+    display: '&bYour current PlayerPoints offer is &3%AMOUNT%'
+    theirdisplay: '&bTheir current PlayerPoints offer is &3%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 5
+    taxpercent: 0
+    mode: chat
+  griefprevention:
+    enabled: true
+    name: grief prevention
+    material: golden_shovel
+    display: '&eYour current GriefPrevention offer is &6%AMOUNT%'
+    theirdisplay: '&eTheir current GriefPrevention offer is &6%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 1
+    taxperecent: 0
+    mode: chat
+  enjinpoints:
+    enabled: false
+    name: enjin points
+    material: emerald
+    display: '&eYour current EnjinPoints offer is &6%AMOUNT%'
+    theirdisplay: '&eTheir current EnjinPoints offer is &6%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 1
+    taxpercent: 0
+    mode: chat
+  tokenenchant:
+    enabled: true
+    name: token enchant points
+    material: enchanted_book
+    display: '&eYour current TokenEnchant tokens offer is &6%AMOUNT%'
+    theirdisplay: '&eTheir current TokenEnchants tokens offer is &6%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 1
+    taxpercent: 0
+    mode: chat
+  tokenmanager:
+    enabled: true
+    name: tokens
+    material: emerald
+    display: '&eYour current tokens offer is &6%AMOUNT%'
+    theirdisplay: '&eTheir current TokenManager tokens offer is &6%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    customModelData: 0
+    increment: 1
+    taxpercent: 0
+    mode: chat
+  votingplugin:
+    name: vote points
+    enabled: false
+    material: sunflower
+    display: '&7Your current vote points offer is &b%AMOUNT%'
+    theirdisplay: '&7Their current vote points offer is &b%AMOUNT%'
+    lore:
+    - '&fClick to edit your offer!'
+    taxpercent: 0
+hooks:
+  factions:
+    allow-trades-in-enemy-territory: false
+  worldguard:
+    trading-flag: true
+soundeffects:
+  enabled: true
+  onchange: true
+  onaccept: true
+  oncomplete: true
+  oncountdown: true
+debug-mode: false
+configversion: 3.72

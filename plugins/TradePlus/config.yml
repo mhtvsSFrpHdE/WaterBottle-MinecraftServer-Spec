@@ -37,17 +37,17 @@ spectate:
   enabled: true
   broadcast: true
 gui:
-  title: Your Items <|     |> Their Items
+  title: My 我的 <|     |> Trade target 对方
   spectator-title: Player 1 <|          |> Player 2
-  head: '&7You are trading with: &3&l%PLAYER%'
+  head: '&7Trading with &f正与&7: &3&l%PLAYER% &f交换'
   showhead: true
   accept:
-    display: '&a&lClick to accept the trade'
+    display: '&a&lConfirm &f确认'
     theirdisplay: ' '
     type: green_stained_glass_pane
     customModelData: 0
   cancel:
-    display: '&c&lClick to cancel the trade'
+    display: '&c&lCancel &f取消'
     theirdisplay: ' '
     type: red_stained_glass_pane
     customModelData: 0
@@ -67,18 +67,19 @@ gui:
 extras:
   type:
     prefix: '&6&l!!&6> '
-    empty: '&eHow much %EXTRA% to offer?'
+    empty: '&eSend new value in chat &f在聊天发送新数值'
     valid: '&aClick output slot to submit offer.'
-    invalid: '&cInvalid amount entered!'
-    maximum: '&cYou have %BALANCE% %EXTRA%'
+    invalid: '&cInvalid value &f无效数值'
+    maximum: '&cInsufficient balance, available: &f%BALANCE% 余额不足'
   economy:
     enabled: true
     name: money
     material: gold_ingot
-    display: '&eYour current money offer is &6%AMOUNT%'
-    theirdisplay: '&eTheir current money offer is &6%AMOUNT%'
+    display: '&eMoney &f钱 &6%AMOUNT%'
+    theirdisplay: '&eMoney &f钱 &6%AMOUNT%'
     lore:
-    - '&fClick to edit your offer!'
+    - '&7Click to edit'
+    - '&f点击以修改'
     customModelData: 0
     increment: 10.0
     taxpercent: 0
@@ -87,11 +88,15 @@ extras:
     enabled: true
     name: experience points
     material: experience_bottle
-    display: '&aYour current XP offer is &2%AMOUNT%'
-    theirdisplay: '&aTheir current XP offer is &2%AMOUNT% &a(+%LEVELS% levels)'
+    display: '&aXP 经验值 &2%AMOUNT%'
+    theirdisplay: '&aXP 经验值 &2%AMOUNT% &a(+%LEVELS% levels 等级)'
     lore:
-    - '&fClick to edit your offer!'
-    - '&fYou have %BALANCE% XP.'
+    - '&7Click to edit'
+    - '&f点击以修改'
+    - ' '
+    - '&7Have XP'
+    - '&f剩余经验值'
+    - '&a%BALANCE%'
     customModelData: 0
     increment: 5
     taxpercent: 0

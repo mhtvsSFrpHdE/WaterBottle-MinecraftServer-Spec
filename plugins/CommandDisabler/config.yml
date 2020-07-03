@@ -32,7 +32,7 @@ commands:
   - heh ads
   - heh auction
   - heh balance
-  - heh help
+  - heh kit
   - heh mute
   - heh requisition
   - heh retrieve

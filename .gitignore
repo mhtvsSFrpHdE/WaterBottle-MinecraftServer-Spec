@@ -148,3 +148,11 @@ plugins/ProtocolLib/lastupdate
 
 # Dependencies jar
 plugins/LuckPerms/libs/
+
+# Residence
+
+# Sensitive data
+plugins/Residence/Save/Worlds/
+
+# Backup
+plugins/Residence/Backup/

@@ -75,9 +75,12 @@ extras:
     enabled: true
     name: money
     material: gold_ingot
-    display: '&eMoney &f钱 &6%AMOUNT%'
-    theirdisplay: '&eMoney &f钱 &6%AMOUNT%'
+    display: '&e[ i ]'
+    theirdisplay: '&e[ i ]'
     lore:
+    - '&7Money &f钱'
+    - '&6%AMOUNT%'
+    - ' '
     - '&7Click to edit'
     - '&f点击以修改'
     customModelData: 0
@@ -88,15 +91,17 @@ extras:
     enabled: true
     name: experience points
     material: experience_bottle
-    display: '&aXP 经验值 &2%AMOUNT%'
-    theirdisplay: '&aXP 经验值 &2%AMOUNT% &a(+%LEVELS% levels 等级)'
+    display: '&a[ i ]'
+    theirdisplay: '&a[ i ] &f+%LEVELS% &alevels &f等级)'
     lore:
+    - '&7XP &f经验值'
+    - '&2%AMOUNT%'
+    - ' '
+    - '&7Have XP &f剩余经验值'
+    - '&a%BALANCE%'
+    - ' '
     - '&7Click to edit'
     - '&f点击以修改'
-    - ' '
-    - '&7Have XP'
-    - '&f剩余经验值'
-    - '&a%BALANCE%'
     customModelData: 0
     increment: 5
     taxpercent: 0

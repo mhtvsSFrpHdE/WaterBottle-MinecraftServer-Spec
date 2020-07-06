@@ -12,7 +12,7 @@ Global:
   Language: English
   # Wooden Hoe is the default selection tool for Residence.
   # You can change it to another item ID listed here: http://www.minecraftwiki.net/wiki/Data_values
-  SelectionToolId: WOODEN_HOE
+  SelectionToolId: STICK
   Selection:
     # By setting this to true, all selections will be made from bedrock to sky ignoring Y coordinates
     IgnoreY: false
@@ -24,7 +24,7 @@ Global:
     NoCostForYBlocks: false
   # This determins which tool you can use to see info on residences, default is String.
   # Simply equip this tool and hit a location inside the residence and it will display the info for it.
-  InfoToolId: STRING
+  InfoToolId: WHEAT
   Optimizations:
     # This will slightly change behavior of groups file CanTeleport section which will include server owner into check
     # When this is set to false and CanTeleport set to false, players will not have option to teleport to other player residences, only to their own

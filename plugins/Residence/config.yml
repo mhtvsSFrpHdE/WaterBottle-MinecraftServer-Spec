@@ -214,11 +214,11 @@ Global:
     - world
   Lwc:
     # Removes lwc protection from all defined objects when removing residence
-    OnDelete: true
+    OnDelete: false
     # Removes lwc protection from all defined objects when buying residence
-    OnBuy: true
+    OnBuy: false
     # Removes lwc protection from all defined objects when unrenting residence
-    OnUnrent: true
+    OnUnrent: false
     # List of blocks you want to remove protection from
     MaterialList:
     - CHEST

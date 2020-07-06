@@ -149,7 +149,7 @@ Jesus:
       '1': spartan warn {player} You were detected for {detection}
       '2': spartan kick {player} {detection}
 NoSlowdown:
-  enabled: true
+  enabled: false
   name: NoSlowdown
   violation_divisor: 3
   disabled_worlds: ''
@@ -387,7 +387,7 @@ IllegalPosition:
       '1': spartan warn {player} You were detected for {detection}
       '2': spartan kick {player} {detection}
 FastEat:
-  enabled: true
+  enabled: false
   name: FastEat
   violation_divisor: 2
   disabled_worlds: ''

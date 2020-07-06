@@ -30,7 +30,7 @@ Global:
     # When this is set to false and CanTeleport set to false, players will not have option to teleport to other player residences, only to their own
     # When this is set to true and CanTeleport set to false, players will not have option to teleport to residences in general
     # Keep in mind that this only applies for commands like /res tp
-    CanTeleportIncludeOwner: false
+    CanTeleportIncludeOwner: true
     # Name of your main residence world. Usually normal starting world 'World'. Capitalization essential
     DefaultWorld: world
     DisabledWorlds:

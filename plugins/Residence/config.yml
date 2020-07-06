@@ -229,21 +229,21 @@ Global:
     TNT:
       # When set to true will allow tnt and minecart with tnt to explode below 62 (default) level outside of residence
       # This will allow mining with tnt and more vanilla play
-      ExplodeBelow: false
+      ExplodeBelow: true
       level: 62
     Creeper:
       # When set to true will allow Creeper explode below 62 (default) level outside of residence
       # This will give more realistic game play
-      ExplodeBelow: false
+      ExplodeBelow: true
       level: 62
     Flow:
       # Level from which one to start lava and water flow blocking
       # This dont have effect in residence area
       Level: 63
       # With this set to true, lava flow outside residence is blocked
-      NoLavaFlow: true
+      NoLavaFlow: false
       # With this set to true, water flow outside residence is blocked
-      NoWaterFlow: true
+      NoWaterFlow: false
       Worlds:
       - world
     Place:
@@ -251,9 +251,9 @@ Global:
       # This don't have effect in residence area
       Level: 63
       # With this set to true, playrs cant place lava outside residence
-      NoLavaPlace: true
+      NoLavaPlace: false
       # With this set to true, playrs cant place water outside residence
-      NoWaterPlace: true
+      NoWaterPlace: false
       Worlds:
       - world
     BlockFall:

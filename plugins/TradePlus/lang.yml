@@ -2,7 +2,7 @@ request:
   sent: '&6&l(!) &r&6Sent request to &e%PLAYER%%NEWLINE%&f发送交换请求'
   received:
     text: '&6&l(!) &r&6Trade request from &e%PLAYER% %NEWLINE%&f收到交换请求 %NEWLINE%&6&l(!)&r&6Type
-      &e/trade %PLAYER% &6to accept %NEWLINE%&f发送 &e/trade %PLAYER% &f开始交换'
+      &e/trade %PLAYER% &6to accept %NEWLINE%&f发送或点击以上指令开始交换'
     hover: '&6&lClick to trade with &e&l%PLAYER% &6directly &f点击此处直接开始交换'
 errors:
   creative: '&4&l(!) &r&4You can''t trade in creative mode!'
@@ -12,8 +12,7 @@ errors:
     cross-world: '&4&l(!) &r&4You must be within %AMOUNT% blocks of a player%NEWLINE%&4&l(!)
       &r&4in a different world to trade with them!'
   no-cross-world: '&4&l(!) &r&4Must be within the same world %NEWLINE%&f必须在同一世界'
-  wait-for-expire: '&4&l(!) &r&4You still have an active trade request%NEWLINE%&4&l(!)
-    &r&4It will expire shortly'
+  wait-for-expire: '&4&l(!) &r&4Another trade request is waiting for response %NEWLINE%&f有已发送的交换请求正在等待回应'
   player-not-found: '&4&l(!) &r&4Player not found %NEWLINE%&f未找到目标'
   self-trade: '&4&l(!) &r&4Player not found %NEWLINE%&f未找到目标'
   invalid-usage: '&4&l(!) &r&4Invalid arguments. Usage: %NEWLINE%    &c- /trade <player

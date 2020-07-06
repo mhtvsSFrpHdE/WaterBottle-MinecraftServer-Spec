@@ -35,7 +35,7 @@ antiscam:
   discrepancy-detection: true
 spectate:
   enabled: true
-  broadcast: true
+  broadcast: false
 gui:
   title: My 我的 <|     |> Trade target 对方
   spectator-title: Player 1 <|          |> Player 2

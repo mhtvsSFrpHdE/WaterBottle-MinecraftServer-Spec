@@ -14,119 +14,119 @@ Global:
       pvp: true
   # This gives permission to change certain flags to all groups, unless specifically denied to the group.
   FlagPermission:
-    move: true
-    build: true
-    place: true
-    destroy: true
-    use: true
-    container: true
-    pvp: true
-    tp: true
-    ignite: true
-    firespread: true
-    flow: true
-    lavaflow: true
-    waterflow: true
-    creeper: true
-    tnt: true
-    monsters: true
-    animals: true
-    animalkilling: true
-    mobkilling: true
-    vehicledestroy: true
-    trade: true
-    shear: true
-    leash: true
+    move: false
+    build: false
+    place: false
+    destroy: false
+    use: false
+    container: false
+    pvp: false
+    tp: false
+    ignite: false
+    firespread: false
+    flow: false
+    lavaflow: false
+    waterflow: false
+    creeper: false
+    tnt: false
+    monsters: false
+    animals: false
+    animalkilling: false
+    mobkilling: false
+    vehicledestroy: false
+    trade: false
+    shear: false
+    leash: false
     nofly: false
-    subzone: true
-    healing: true
-    piston: true
-    diode: true
-    lever: true
-    button: true
-    door: true
-    table: true
-    enchant: true
-    brew: true
-    bed: true
-    cake: true
-    note: true
-    trample: true
-    burn: true
-    explode: true
-    fireball: true
+    subzone: false
+    healing: false
+    piston: false
+    diode: false
+    lever: false
+    button: false
+    door: false
+    table: false
+    enchant: false
+    brew: false
+    bed: false
+    cake: false
+    note: false
+    trample: false
+    burn: false
+    explode: false
+    fireball: false
     command: false
-    day: true
-    night: true
-    chat: true
+    day: false
+    night: false
+    chat: false
     hidden: false
     overridepvp: false
     keepinv: false
     keepexp: false
-    shop: true
+    shop: false
     bank: false
-    anvil: true
-    admin: true
-    anvilbreak: true
+    anvil: false
+    admin: false
+    anvilbreak: false
     backup: false
-    beacon: true
-    canimals: true
-    chorustp: true
-    cmonsters: true
+    beacon: false
+    canimals: false
+    chorustp: false
+    cmonsters: false
     commandblock: false
-    coords: true
-    craft: true
-    dragongrief: true
-    dye: true
+    coords: false
+    craft: false
+    dragongrief: false
+    dye: false
     damage: false
-    decay: true
-    dryup: true
-    egg: true
-    enderpearl: true
-    fallinprotection: true
-    falldamage: true
-    feed: true
+    decay: false
+    dryup: false
+    egg: false
+    enderpearl: false
+    fallinprotection: false
+    falldamage: false
+    feed: false
     friendlyfire: false
-    flowinprotection: true
-    flowerpot: true
-    grow: true
-    glow: true
-    hotfloor: true
+    flowinprotection: false
+    flowerpot: false
+    grow: false
+    glow: false
+    hotfloor: false
     hook: false
-    iceform: true
-    icemelt: true
-    itemdrop: true
-    itempickup: true
+    iceform: false
+    icemelt: false
+    itemdrop: false
+    itempickup: false
     jump2: false
     jump3: false
-    mobexpdrop: true
-    mobitemdrop: true
-    nanimals: true
-    nmonsters: true
+    mobexpdrop: false
+    mobitemdrop: false
+    nanimals: false
+    nmonsters: false
     fly: false
-    nomobs: true
+    nomobs: false
     nodurability: false
-    pressure: true
-    pistonprotection: true
-    rain: true
-    redstone: true
+    pressure: false
+    pistonprotection: false
+    rain: false
+    redstone: false
     respawn: false
-    riding: true
-    shoot: true
-    sun: true
-    snowtrail: true
-    spread: true
-    snowball: true
-    sanimals: true
-    smonsters: true
-    title: true
-    trusted: true
-    witherspawn: true
-    phantomspawn: true
-    witherdamage: true
-    witherdestruction: true
-    wspeed1: true
-    wspeed2: true
+    riding: false
+    shoot: false
+    sun: false
+    snowtrail: false
+    spread: false
+    snowball: false
+    sanimals: false
+    smonsters: false
+    title: false
+    trusted: false
+    witherspawn: false
+    phantomspawn: false
+    witherdamage: false
+    witherdestruction: false
+    wspeed1: false
+    wspeed2: false
   # This sets GUI items to represent each flag, if not given, then gray wool will be used
   FlagGui:
     animalkilling: CHICKEN
@@ -259,8 +259,8 @@ Global:
     hook: false
     shear: false
     leash: false
-    pistonprotection: true
-    tp: true
+    pistonprotection: false
+    tp: false
     explode: false
   # These are default flags applied to the residence creator of any group.
   CreatorDefault:

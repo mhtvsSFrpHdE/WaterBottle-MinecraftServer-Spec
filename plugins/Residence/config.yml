@@ -357,7 +357,7 @@ Global:
   Messages:
     # Defines where you want to send residence enter/leave/deny move and similar messages. Possible options: ActionBar, TitleBar, ChatBox
     # TitleBar can have %subtitle% variable to define second line
-    GeneralMessages: ChatBox
+    GeneralMessages: ActionBar
   ActionBar:
     ShowOnSelection: true
   # Color of residence chat.

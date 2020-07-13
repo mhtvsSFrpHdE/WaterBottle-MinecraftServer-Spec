@@ -63,10 +63,10 @@ Groups:
            CanChange: true
            # The default enter message to apply to new Residences created by players in this group.
            # Leaving the message blank will disable it.
-           DefaultEnter: "Welcome %player to %residence, owned by %owner."
+           DefaultEnter: "已进入监控摄像区域"
            # The default leave message to apply to new Residences created by players in this group.
            # Leaving the message blank will disable it.
-           DefaultLeave: "Now leaving %residence."
+           DefaultLeave: "离开监控摄像区域"
        # Options relating to the Lease system.
        Lease:
           # The maximum number of days to allow leases.

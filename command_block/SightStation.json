@@ -1,0 +1,45 @@
+{
+    "function_name": "Travel between two sights",
+    "version": "1.15.2",
+    "command_blocks": [
+        {
+            "name": "Increase waiting counter",
+            "x-position": 0,
+            "y-position": 0,
+            "type": [
+                "Repeat",
+                "Unconditional",
+                "Always Active"
+            ],
+            "command": "/scoreboard players add @a[x=<value>,dx=<value>,y=<value>,dy=<value>,z=<value>,dz=value] <scoreboard name>",
+            "comment": "Increase station wait counter by 20 a second in a range",
+            "depends": "Scoreboard objective that only effect by command (\"dummy\" type)"
+        },
+        {
+            "name": "Teleport when counter exceeds",
+            "x-position": 1,
+            "y-position": 0,
+            "type": [
+                "Chain",
+                "Unconditional",
+                "Always Active"
+            ],
+            "command": "/minecraft:tp @a[x=<value>,dx=<value>,y=<value>,dy=<value>,z=<value>,dz=<value>,scores={<scoreboard objective>=<value>..}] <value> <value> <value> <value> <value>",
+            "comment": "Teleport player to destination when wait counter exceeds specified seconds",
+            "depends": ""
+        },
+        {
+            "name": "Reset waiting counter after teleport",
+            "x-position": 2,
+            "y-position": 0,
+            "type": [
+                "Chain",
+                "Unconditional",
+                "Always Active"
+            ],
+            "command": "/scoreboard players set @a[scores={<scoreboard objective>=<value>..] <same scoreboard objective> 0",
+            "comment": "Reset waiting counter to zero after teleport",
+            "depends": ""
+        }
+    ]
+}

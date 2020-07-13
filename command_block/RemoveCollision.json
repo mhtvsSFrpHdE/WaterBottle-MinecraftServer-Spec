@@ -1,0 +1,45 @@
+{
+    "function_name": "Remove collision (optional)",
+    "version": "1.15.2",
+    "command_blocks": [
+        {
+            "name": "Default team watchdog",
+            "x-position": 0,
+            "y-position": 0,
+            "type": [
+                "Repeat",
+                "Unconditional",
+                "Always Active"
+            ],
+            "command": "/team join removeCollision @a[team=]",
+            "comment": "Select player not joining any team, add to team \"removeCollision\" as default team",
+            "depends": "Related team option \"collisionRule\" set to FALSE"
+        },
+        {
+            "name": "Add collision back for nearest player",
+            "x-position": 1,
+            "y-position": 0,
+            "type": [
+                "Impulse",
+                "Unconditional",
+                "Needs Redstone"
+            ],
+            "command": "/team join addCollision @p",
+            "comment": "Use redstone, move nearest player to another team",
+            "depends": "Related team option \"collisionRule\" set to TRUE"
+        },
+        {
+            "name": "Remove collision (team) for nearest player",
+            "x-position": 3,
+            "y-position": 0,
+            "type": [
+                "Impulse",
+                "Unconditional",
+                "Needs Redstone"
+            ],
+            "command": "/team leave @p",
+            "comment": "Use redstone, move nearest player to leave any team",
+            "depends": "\"Default team watchdog\" is activating in order to remove collision automatically"
+        }
+    ]
+}

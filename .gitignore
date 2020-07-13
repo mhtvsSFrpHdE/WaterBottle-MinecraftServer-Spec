@@ -149,6 +149,8 @@ plugins/ProtocolLib/lastupdate
 # Dependencies jar
 plugins/LuckPerms/libs/
 
+
+
 # Residence
 
 # Sensitive data
@@ -156,3 +158,13 @@ plugins/Residence/Save/Worlds/
 
 # Backup
 plugins/Residence/Backup/
+plugins/Residence/Save/Backup/
+
+
+
+# WorldEdit
+
+# Sensitive data
+plugins/WorldEdit/sessions/
+*.yml
+plugins/Residence/Language/Chinese.yml

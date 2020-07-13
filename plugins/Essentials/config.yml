@@ -869,7 +869,7 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # Teleport all joining players to the spawnpoint
 spawn-on-join: false

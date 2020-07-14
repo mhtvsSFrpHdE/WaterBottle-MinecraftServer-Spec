@@ -1,0 +1,7 @@
+{
+    "demo_command": "/scoreboard objectives add <objective name> dummy \"<display name>\"",
+    "version": "1.15.2",
+    "comment": "Create dummy type scoreboard objectives that only change by command.\n<objective name> can not contains Unicode, only ANSI are allowed,\n<display name supports Unicode>",
+    "objectives_list": {
+    }
+}

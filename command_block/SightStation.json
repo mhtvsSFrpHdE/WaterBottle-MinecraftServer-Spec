@@ -11,8 +11,8 @@
                 "Unconditional",
                 "Always Active"
             ],
-            "command": "/scoreboard players add @a[x=<value>,dx=<value>,y=<value>,dy=<value>,z=<value>,dz=value] <scoreboard name> 1",
             "comment": "Increase station wait counter by 20 a second in a range",
+            "command": "/scoreboard players add @a[x=<value>,dx=<value>,y=<value>,dy=<value>,z=<value>,dz=<value>] <scoreboard name> 1",
             "depends": "Scoreboard objective that only effect by command (\"dummy\" type)"
         },
         {
@@ -37,7 +37,7 @@
                 "Unconditional",
                 "Always Active"
             ],
-            "command": "/scoreboard players set @a[scores={<scoreboard objective>=<value>..] <same scoreboard objective> 0",
+            "command": "/scoreboard players set @a[scores={<scoreboard objective>=<value>..}] <same scoreboard objective> 0",
             "comment": "Reset waiting counter to zero after teleport",
             "depends": ""
         }

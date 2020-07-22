@@ -11,8 +11,8 @@
                 "Unconditional",
                 "Always Active"
             ],
-            "comment": "Increase station wait counter by 20 a second in a range",
             "command": "/scoreboard players add @a[x=<value>,dx=<value>,y=<value>,dy=<value>,z=<value>,dz=<value>] <scoreboard name> 1",
+            "comment": "Increase station wait counter by 20 a second in a range\nTo test the range, use \"/playsound minecraft:block.anvil.land voice <selector>\"",
             "depends": "Scoreboard objective that only effect by command (\"dummy\" type)"
         },
         {

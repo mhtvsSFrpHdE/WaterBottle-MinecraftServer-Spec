@@ -30,7 +30,6 @@ set nonProxyHosts="127.0.0.1"
 
 :boot
 java %basicArgs% %networkArgs% %optimizedArgs% %jarArgs% %postArgs%
-
 @echo Restart server after 15 seconds.
 @timeout /t 15
 

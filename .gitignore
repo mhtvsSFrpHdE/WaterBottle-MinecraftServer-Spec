@@ -64,6 +64,9 @@ plugins/Essentials/spawn.yml
 # Binary files
 plugins/SkinsRestorer/userdata
 plugins/SkinsRestorer/Skins
+plugins/SkinsRestorer/cache
+plugins/SkinsRestorer/legacy
+plugins/SkinsRestorer/recommendations.json
 
 # Sensitive data
 plugins/SkinsRestorer/Players/

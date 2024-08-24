@@ -29,7 +29,7 @@ storage:
   type: mysql
   hostname: localhost
   port: 3306
-  database: dynmap?allowReconnect=true?useSSL=false
+  database: dynmap?autoReconnect=true&useSSL=false
   userid: dynmap
   password: dynmap
   #prefix: ""

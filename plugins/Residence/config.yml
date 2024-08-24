@@ -143,31 +143,7 @@ Global:
     TeleportTitleMessage: true
   RandomTeleportation:
     Worlds:
-      world_nether:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      Dig:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      DigTheEnd:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      world:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      world_the_end:
+      DigNether:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
@@ -460,6 +436,11 @@ Global:
   EnableLeaseMoneyAccount: true
   # By setting this to true, partial compatibility for kCouldron servers will be enabled. Action bar messages and selection visualizer will be disabled automatically as off incorrect compatibility
   Couldroncompatibility: false
+Enabled: true
+MaxCoord: 1000
+MinCoord: 500
+CenterX: 0
+CenterZ: 0
 DynMap:
   # Enables or disable DynMap Support
   Use: false

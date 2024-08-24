@@ -55,6 +55,54 @@ protections:
         bed:
             enabled: true
             autoRegister: private
+        white_bed:
+            enabled: true
+            autoRegister: private
+        orange_bed:
+            enabled: true
+            autoRegister: private
+        magenta_bed:
+            enabled: true
+            autoRegister: private
+        light_blue_bed:
+            enabled: true
+            autoRegister: private
+        yellow_bed:
+            enabled: true
+            autoRegister: private
+        lime_bed:
+            enabled: true
+            autoRegister: private
+        pink_bed:
+            enabled: true
+            autoRegister: private
+        gray_bed:
+            enabled: true
+            autoRegister: private
+        light_gray_bed:
+            enabled: true
+            autoRegister: private
+        cyan_bed:
+            enabled: true
+            autoRegister: private
+        purple_bed:
+            enabled: true
+            autoRegister: private
+        blue_bed:
+            enabled: true
+            autoRegister: private
+        brown_bed:
+            enabled: true
+            autoRegister: private
+        green_bed:
+            enabled: true
+            autoRegister: private
+        red_bed:
+            enabled: true
+            autoRegister: private
+        black_bed:
+            enabled: true
+            autoRegister: private
         anvil:
             enabled: true
             autoRegister: private

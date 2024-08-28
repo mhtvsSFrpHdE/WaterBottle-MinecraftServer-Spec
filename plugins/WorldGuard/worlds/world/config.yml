@@ -24,3 +24,5 @@ mobs:
     block-painting-destroy: true
     block-item-frame-destroy: true
     block-zombie-door-destruction: true
+regions:
+    titles-always-use-default-times: true

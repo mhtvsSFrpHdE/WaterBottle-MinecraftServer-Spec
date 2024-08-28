@@ -10,3 +10,9 @@ updateUsersHomesFormat: true
 banFormatChange: true
 userMapRepaired: true
 kitsyml: true
+updateLegacyToAdventure: true
+newUidCacheBuilt: true
+updateUsersIgnoreListUUID: true
+updateUsersStupidLegacyPathNames: true
+updateUsersMailList: true
+updatePurgeBrokenNpcAccounts: true

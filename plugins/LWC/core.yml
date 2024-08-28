@@ -18,6 +18,7 @@ optional:
     blacklistedBlocks:
     - '166'
     - '154'
+    - hopper
     blacklistedPlayers:
     - plr
     useProtectionLimits: true
@@ -33,6 +34,8 @@ database:
     password: ''
     prefix: lwc_
     ping_interval: 300
+    useSSL: false
+    allowPublicKeyRetrieval: false
 protections:
     denyRedstone: false
     denyHoppers: true

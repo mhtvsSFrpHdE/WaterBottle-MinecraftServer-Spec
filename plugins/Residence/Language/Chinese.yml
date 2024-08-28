@@ -27,6 +27,13 @@ Language:
     NameCharacters: '&c名字中包含无效字符...'
     FromConsole: '&cYou can only use this in the console!'
     Ingame: '&cYou can only use this in game!'
+    Location: '&cInvalid Location...'
+    FlagType:
+      Fail: '&cInvalid Flag... This flag can only be used on %1'
+      Player: Player
+      Residence: Residence
+    PortalDestination: '&cPortal destination is in restricted zone. Portal creation
+      canceled. &7Find new location'
   Area:
     Exists: '&c区域名已存在.'
     Create: '&e领地区域创建成功, ID &6%1'
@@ -52,6 +59,9 @@ Language:
     SizeLimit: '&e区域大小超出了允许的尺寸上限.'
     HighLimit: '&c你不能保护这么高的领地, 高度上限为 &6%1'
     LowLimit: '&c你不能保护这么深的领地, 深度上限为 &6%1'
+    TooClose: '&cToo close to another residence. You need atleast &e%1 &cblock gap.'
+    WeirdShape: '&3Residence is out of regular shape. &6%1 &3side is &6%2 &3times
+      bigger than &6%3 &3side'
   Select:
     Points: '&e执行命令前需要先选中两个选取点!'
     Overlap: '&c选取点与区域 &6%1 &c重叠!'
@@ -94,6 +104,7 @@ Language:
     LookAt: '&c请将鼠标准星对准木牌.'
     ResName: '&8%1'
     Owner: '&5%1'
+    TooMany: '&cToo many signs for this residence'
   Raid:
     NotEnabled: '&cRaid feature is not enabled!'
     NotIn: '&cYou are not in the raid!'
@@ -129,6 +140,18 @@ Language:
       notRaided: '&cResidence is not under the raid'
       alreadyInAnother: '&cCan''t join this residence defence, you are in another
         one already (%1)'
+      Join: '&7Join &6%1 &7raid defence'
+      Invitation: '&7Accept raid defend from &6%1'
+    status:
+      title: '&7----------- &f%1(%2) &7-----------'
+      immune: '&eImmune to raids for next: %1'
+      starts: '&7Raid starts in: %1'
+      attackers: '&7Attackers: &4%1'
+      defenders: '&7Defenders: &4%1'
+      ends: '&7Raid ends in: %1'
+      canraid: '&2Can be raided'
+      raidin: '&ePosible raid in: %1'
+    stopped: '&eRaid on &6%1 &ewas stopped'
   info:
     years: '&e%1 &6years '
     oneYear: '&e%1 &6year '
@@ -139,6 +162,8 @@ Language:
     min: '&e%1 &6min '
     sec: '&e%1 &6sec '
     click: '&7Click'
+    listSplitter: ', '
+    clickToConfirm: '&7Click to confirm'
   server:
     land: Server_Land
   Flag:
@@ -164,6 +189,9 @@ Language:
     ChangedFor: '&eChanged &6%1 &eflags from &6%2 &eresidences checked'
     reset: '&eReset flags for &6%1 &eresidence'
     resetAll: '&eReset flags for &6%1 &eresidences'
+    lackColor: '&7'
+    lackPrefix: ''
+    others: '&eand &2%1 &eothers'
   Bank:
     NoAccess: '&c你没有权限使用银行.'
     Name: ' &e银行: &6%1'
@@ -171,6 +199,7 @@ Language:
     Deposit: '&e你向领地银行存款 &6%1 &e元.'
     Withdraw: '&e你从领地银行中取出 &6%1 &e元.'
     rentedWithdraw: '&cCan''t withdraw from rented residence bank.'
+    full: '&eResidence bank is full!'
   Subzone:
     Rename: '&e领地子区域 &6%1 &e已被重命名为 &6%2'
     Remove: '&e已删除领地子区域 &6%1&e.'
@@ -255,6 +284,10 @@ Language:
     IsForRent: '&6(出租)'
     IsForSale: '&6(出售)'
     IsRented: '&6(已出租)'
+    BaseFlagDeny: '&cYou dont have &6%1 &cpermission'
+    TrustedResList: ' &a%1. &f%2 &e- &6%3 %4&6%5'
+    TeleportBlockedWorlds: '&cCan''t teleport to residence in blocked world'
+    Balance: '&eBalance: &6%1'
   Rent:
     Disabled: '&c领地出租已禁用.'
     DisableRenew: '&e领地 &6%1 &e不会在租约到期时自动续期.'
@@ -281,6 +314,9 @@ Language:
     removedBlock: '&e删除了一个禁用的命令给 &6%1 &e领地'
     Blocked: '&e禁用的命令: &6%1'
     Allowed: '&e允许的命令: &6%1'
+    Parsed: '%1'
+    PlacehlderList: '&e%1. &6%2'
+    PlacehlderResult: ' &eresult: &6%1'
   Rentable:
     Land: '&e出租领地: &6'
     AllowRenewing: '&e可以续费: &6%1'
@@ -374,6 +410,9 @@ Language:
     GeneralList: '&2 %1 &6- &e%2'
     FlagsList: '&2 %1 &6- &e%2'
     SmallSeparator: '&6------'
+    Top: '&e___/ &a %1 - %2 &e \___'
+    TopSingle: '&e___/ &a %1 &e \___'
+    NextPage2: '&e-----< &6%1 &e>-----'
   Chat:
     ChatChannelChange: '&e领地聊天频道已更改为 &6%1!'
     ChatChannelLeave: '&e离开领地聊天'
@@ -385,6 +424,8 @@ Language:
     InvalidPrefixLength: '&4前缀过长. 最大长度: %1'
     ChangedColor: '&e领地频道颜色更改为 %1'
     ChangedPrefix: '&e领地频道前缀更改为 %1'
+    ChatMessage: '%1 %2%3: %4%5'
+    ChatListeningMessage: '&2[Listening %6]%1 %2%3: %4%5'
   Shop:
     ListTopLine: '&6%1 &e商店列表 - 第 &6%2 &e页, 共 &6%3 %4'
     List: ' &e%1. &6%2 &e(&6%3&e) %4'
@@ -528,6 +569,15 @@ Language:
     # The below lines represent various messages residence sends to the players.
     # Note that some messages have variables such as %1 that are inserted at runtime.
     NewPlayerInfo: '&e如果要创建领地以保护房屋, 请用木锄选取保护区的两个对角, 然后执行 &2/res create 领地名称 &e命令.'
+    CantCreate: '&cCan''t create residences in this world'
+    TeleportConfirmLava: '&cThis teleport is not safe, you will fall into &6lava&c.
+      Use &6/res tpconfirm &cto perform teleportation anyways.'
+    TeleportConfirmVoid: '&cThis teleport is not safe, you will fall into &6void&c.
+      Use &6/res tpconfirm &cto perform teleportation anyways.'
+    ResSize:
+      eastWest: '&eEast/West: &6%1'
+      northSouth: '&eNorth/South: &6%1'
+      upDown: '&eUp/Down: &6%1'
 CommandHelp:
   Description: 领地的命令帮助
   SubCommands:
@@ -1522,6 +1572,57 @@ CommandHelp:
               Info:
               - '&eUsage: &6/res set <residence> phantomspawn true/false/remove'
               Translated: phantomspawn
+            anchor:
+              Translated: anchor
+              Description: Allows or denys respawn anchor usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> anchor true/false/remove'
+            safezone:
+              Translated: safezone
+              Description: Setting to true makes the residence clean bad effects from
+                its occupants
+              Info:
+              - '&eUsage: &6/res set <residence> safezone true/false/remove'
+            honey:
+              Translated: honey
+              Description: Allows or denys players to get honey
+              Info:
+              - '&eUsage: &6/res set/pset <residence> honey true/false/remove'
+            honeycomb:
+              Translated: honeycomb
+              Description: Allows or denys players to get honeycomb
+              Info:
+              - '&eUsage: &6/res set/pset <residence> honeycomb true/false/remove'
+            brush:
+              Translated: brush
+              Description: Allows or denys block brushing
+              Info:
+              - '&eUsage: &6/res set/pset <residence> brush true/false/remove'
+            copper:
+              Translated: copper
+              Description: Allows to modify copper blocks
+              Info:
+              - '&eUsage: &6/res set/pset <residence> copper true/false/remove'
+            elytra:
+              Translated: elytra
+              Description: Allows or denys elytra usage in residences
+              Info:
+              - '&eUsage: &6/res set/pset <residence> elytra true/false/remove'
+            goathorn:
+              Translated: goathorn
+              Description: Allows or denys goat horn usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> goathorn true/false/remove'
+            harvest:
+              Translated: harvest
+              Description: Allows harvesting
+              Info:
+              - '&eUsage: &6/res set/pset <residence> harvest true/false/remove'
+            nametag:
+              Translated: nametag
+              Description: Allows or denys name tag usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> nametag true/false/remove'
         remove:
           Info:
           - '&e用法: &6/res remove <领地名>'
@@ -1699,3 +1800,8 @@ CommandHelp:
           - '&e用法: &6/resload'
           - 该命令不安全! 它不会先保存领地状态.
           - 对领地做出改变后重新加载存档.
+        placeholders:
+          Info:
+          - '&eUsage: &6/res placeholders (parse) (placeholder) (playerName)'
+          Description: List of placeholders
+          parse: '[result]'

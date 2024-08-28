@@ -1,4 +1,11 @@
-config-version: 4
+config-version: 8
 settings:
   disable-saving: false
-  locale: en_US
+  disable-offline-access: false
+  command:
+    open:
+      no-args-opens-self: false
+    searchcontainer:
+      max-radius: 10
+  console-locale: en
+  equal-access: view

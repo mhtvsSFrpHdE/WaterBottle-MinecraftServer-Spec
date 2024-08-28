@@ -1,0 +1,24 @@
+{
+    "database": {
+        "type": "SQLITE"
+    },
+    "expiration": {
+        "listingsToMailsNotifCommand": [
+            "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from listings and its in your mailbox."
+        ],
+        "mailsToDeleteNotifCommand": [
+            "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from mailbox and has been deleted."
+        ]
+    },
+    "sellerItemNotifCommand": [
+        "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has been sell for {{price}}."
+    ],
+    "maxDecimalMoney": 2,
+    "maxMoneyToSellItem": 1.0E12,
+    "inventoryLoreMaterial": {
+        "empty": "GRAY_STAINED_GLASS_PANE",
+        "filter": "COMPARATOR"
+    },
+    "inventoryValidItem": "GREEN_STAINED_GLASS_PANE",
+    "inventoryCancelItem": "RED_STAINED_GLASS_PANE"
+}

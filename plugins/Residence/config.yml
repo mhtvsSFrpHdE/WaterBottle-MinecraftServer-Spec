@@ -3,7 +3,8 @@ Global:
   # Starts UUID conversion on plugin startup
   # DONT change this if you are not sure what you doing
   UUIDConvertion: false
-  # If you running offline server, better to check this as true. This will help to solve issues with changing players UUID.
+  # STRONGLY not recomended to be used anymore. Only enable if you are sure you want to use this
+  # If you running offline server. Suggestion would be to keep this at false and base residence ownership from UUID and not on players name
   OfflineMode: false
   # Players with residence.versioncheck permission node will be noticed about new residence version on login
   versionCheck: true
@@ -11,7 +12,6 @@ Global:
   # All Residence text comes from this file. (NOT DONE YET)
   Language: Chinese
   # Wooden Hoe is the default selection tool for Residence.
-  # You can change it to another item ID listed here: http://www.minecraftwiki.net/wiki/Data_values
   SelectionToolId: STICK
   Selection:
     # By setting this to true, all selections will be made from bedrock to sky ignoring Y coordinates
@@ -19,13 +19,23 @@ Global:
     # When this set to true, selections inside existing residence will be from bottom to top of that residence
     # When this set to false, selections inside existing residence will be exactly as they are
     IgnoreYInSubzone: false
+    # Defines height of nether when creating residences. This mostly applies when performing commands like /res select vert or /res auto which will expand residence to defined height
+    # This cant be higher than 319 or lower than 1
+    netherHeight: 128
     # By setting this to true, player will only pay for x*z blocks ignoring height
-    # This will lower residence price by up to 256 times, so adjust block price BEFORE enabling this
+    # This will lower residence price by up to 319 times, so adjust block price BEFORE enabling this
     NoCostForYBlocks: false
+    # Enable or disable world edit integration into Residence plugin
+    WorldEditIntegration: true
   # This determins which tool you can use to see info on residences, default is String.
   # Simply equip this tool and hit a location inside the residence and it will display the info for it.
   InfoToolId: WHEAT
   Optimizations:
+    # When enabled we will load data from every single world file even if world doesn't exist but might be loaded later on
+    # Usually only useful when you have multiverse plugin which loads worlds durring server work time
+    LoadEveryWorld: false
+    # While enabled we will avoid showing extra feedback lines on startup
+    CleanerStartupLog: true
     # This will slightly change behavior of groups file CanTeleport section which will include server owner into check
     # When this is set to false and CanTeleport set to false, players will not have option to teleport to other player residences, only to their own
     # When this is set to true and CanTeleport set to false, players will not have option to teleport to residences in general
@@ -35,11 +45,14 @@ Global:
     DefaultWorld: world
     DisabledWorlds:
       # List Of Worlds where this plugin is disabled
+      # Make sure that world names capitalization is correct
       List: []
       # Disables all listeners in included worlds
       DisableListeners: true
-      # Disabled any command usage in included worlds
+      # Disables any command usage in included worlds
       DisableCommands: true
+      # Disables residence creation in included worlds
+      DisableResidenceCreation: true
     # Delay in seconds between item pickups after residence flag prevents it
     # Keep it at arround 10 sec to lower unesecery checks
     ItemPickUpDelay: 10
@@ -47,8 +60,32 @@ Global:
       # When set to true /res auto command will check for new area collision with other residences to avoid overlapping.
       # Set it to false to gain some performace but new residence can often overlap with old ones
       CheckCollision: true
+      # Weird shaped residence detection when using automatic residence creation
+      # This will inform player about residence shape being iregular cuboid before creation of it
+      Ratio:
+        Inform: true
+        Confirmation: true
+        # Defines value of ration when residence will be counted as weird shaped ones
+        # Value of 3 will mean that one of the sides of cuboid is atleast 3 times bigger than one of the remaining ones
+        Value: 3
+      # Enabled this will switch to old method for calculating new residence area
+      # Old method is allot less efficient, so its not recomended to be used when you have residence areas over 100
+      OldMethod: false
       # Defines new residence name increment when using automatic residence creation command if residence with that name already exist
       IncrementFormat: _[number]
+      Size:
+        # When enabled we will try to create region by defined bounds
+        Enabled: false
+        # Value between 1 and 100 which will define size of residence we will create in percentage depending on players permission group
+        Percentage: 50
+        # Value in blocks. While previous percentage will determine general size, this can be used to avoid having tiny residences
+        # For example if player has access to 30x30 residence and Percentage is set to 50% then instead of using 15 block size we will use 20 (default)
+        # Keep in mind that this will not override actual max/min residence sizes player can have
+        Min: 5
+        # Value in blocks. While previous percentage will determine general size, this can be used to avoid having huge residences
+        # For example if player has access to 500x500 residence and Percentage is set to 50% then instead of using 250 block size we will use 100 (default)
+        # Keep in mind that this will not override actual max/min residence sizes player can have
+        Max: 100
     GlobalChat:
       # Enables or disables chat modification by including players main residence name
       Enabled: false
@@ -58,18 +95,6 @@ Global:
     # When this set to true, any teleportation to residence where player dont have tp flag, action will be denyied
     # This can prevent from teleporting players to residence with 3rd party plugins like esentials /tpa
     BlockAnyTeleportation: true
-    # Set this as low as possible depending of residence.max.res.[number] permission you are using
-    # In example if you are giving max number of 10 for players, set it to 15, if its 30, set it to 35 just to have some small buffer in case
-    MaxResCount: 30
-    # Set this as low as possible depending of residence.max.rents.[number] permission you are using
-    # In example if you are giving max number of 10 for players, set it to 15, if its 30, set it to 35 just to have some small buffer in case
-    MaxRentCount: 10
-    # Set this as low as possible depending of residence.max.subzones.[number] permission you are using
-    # In example if you are giving max number of 10 for players, set it to 15, if its 30, set it to 35 just to have some small buffer in case
-    MaxSubzoneCount: 5
-    # Set this as low as possible depending of residence.max.subzonedepth.[number] permission you are using
-    # In example if you are giving max number of 10 for players, set it to 15, if its 30, set it to 35 just to have some small buffer in case
-    MaxSubzoneDepthCount: 5
     # By setting this to true, regular pvp flag will be acting as overridepvp flag
     # Overridepvp flag tries to ignore any pvp protection in that residence by any other plugin
     OverridePvp: false
@@ -94,9 +119,12 @@ Global:
       Pitch: 0.0
       # Head position to left and right. Range from -180 to 180
       Yaw: 0.0
-    ShortInfo:
+    InfoCommand:
       # By setting this to true, when checking residence info with /res info, you will get only names in list, by hovering on them, you will get flag list
-      Use: true
+      ShortInformation: true
+      # When set to true default residence flags set in flags.yml file will get excluded from info command output and will not be shown
+      # If flag gets different state then it will be shown
+      ExcludeDefaultFlags: false
     Vote:
       # Range players can vote to, by default its from 0 to 10 points
       RangeFrom: 0
@@ -108,9 +136,11 @@ Global:
       ShowFlagChanges: true
     Intervals:
       # How often in seconds to heal/feed players in residence with appropriate flag
-      # Bigger numbers can save some resources
+      # Bigger numbers can save some server resources
+      # Set to 0 if you want to disable specific checks entirely. Recommended in case you are not using specific flags
       Heal: 1
       Feed: 5
+      SafeZone: 3
     # Potions containing one of thos effects will be ignored if residence dont have pvp true flag set
     NegativePotionEffects:
     - blindness
@@ -131,6 +161,8 @@ Global:
     WalkSpeed:
       '1': 0.5
       '2': 2.0
+  Signs:
+    MaxPerResidence: 5
   # The interval, in milliseconds, between movement checks.
   # Reducing this will increase the load on the server.
   # Increasing this will allow players to move further in movement restricted zones before they are teleported out.
@@ -141,9 +173,37 @@ Global:
     TeleportDelay: 3
     # Show aditional message in title message area when player is teleporting to residence
     TeleportTitleMessage: true
+    # List of worlds where teleportation using /res tp is not allowed
+    # This only blocks teleportation to those worlds, not from them
+    BlockedWorlds:
+    - SomeWorldNames
   RandomTeleportation:
     Worlds:
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
       DigNether:
+        Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
+        MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
+      world_the_end:
+        Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
+        MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      world:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      world_nether:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
@@ -182,12 +242,18 @@ Global:
     Use: false
     # For how long player should be offline to delete hes residence
     Days: 60
+    # Extra heavy on server and will lag it out while regeneration is ongoing
     # Do you want to regenerate old residence area
     # This requires world edit to be present
     Regenerate: false
     # Worlds to be included in check list
     Worlds:
     - world
+    # When enabled we will transfer residence to defined user instead of removing it
+    # Defined user will be excluded from cleanup operation
+    TrasnferToUser: false
+    # Name of the user which receives removed residence
+    UserName: Server_Land
   Lwc:
     # Removes lwc protection from all defined objects when removing residence
     OnDelete: false
@@ -202,6 +268,15 @@ Global:
     - furnace
     - dispenser
   AntiGreef:
+    # Distance in blocks between residences to be left out
+    # This will prevent from residences being created back to back
+    # In case owner of old residence and new one is the same this range restriction wont be taken into effect
+    # Set to 0 or an empty list if you want to disable this
+    # Use 'all' if you want to use same limitation on all worlds
+    # Use specific world name if you only want to use this limitation on this world
+    # Specific world name will override 'all' value
+    RangeGaps:
+    - all-8
     TNT:
       # When set to true will allow tnt and minecart with tnt to explode below 62 (default) level outside of residence
       # This will allow mining with tnt and more vanilla play
@@ -210,6 +285,7 @@ Global:
     Creeper:
       # When set to true will allow Creeper explode below 62 (default) level outside of residence
       # This will give more realistic game play
+      # For this to work properly you will need to disable creeper explosion in the world in general. This can be done in flags file under global world section
       ExplodeBelow: true
       level: 62
     Flow:
@@ -228,7 +304,7 @@ Global:
       Level: 63
       # With this set to true, playrs cant place lava outside residence
       NoLavaPlace: false
-      # With this set to true, playrs cant place water outside residence
+      # With this set to true, players cant place water outside residence
       NoWaterPlace: false
       Worlds:
       - world
@@ -275,19 +351,27 @@ Global:
   TimeZone: Asia/Shanghai
   # Enable / Disable money returning on residence removal.
   ResMoneyBack: false
+  # Enable / Disable money returning from residence bank on residence removal.
+  ResBankBack: true
   # The interval, in minutes, between residence lease checks (if leases are enabled).
   LeaseCheckInterval: 10
   # Allows leases to automatically renew so long as the player has the money, if economy is disabled, this setting does nothing.
   LeaseAutoRenew: true
   # Whether or not to use the Permissions system in conjunction with this config.
   EnablePermissions: true
-  # Set to true if NOT using Permissions or PermissionsBukkit, or using a really old version of Permissions
-  LegacyPermissions: false
   # Enable / Disable Residence's Economy System (iConomy, MineConomy, Essentials, BOSEconomy, and RealEconomy supported).
   EnableEconomy: true
+  # Defines when we should charge money. Only works if economy is enabled
+  ChargeWhen:
+    # Charges money on residence creation, this includes /res create and /res auto
+    Creating: true
+    # Charges money on residence area expansion
+    Expanding: true
+    # Charges money on area addition
+    AreaAdd: true
   # Defaults to None which will start by looking to default economy engine throw vault API and if it fails to any supported economy engine
   # Custom economy engines can be defined to access economy directly
-  # Supported variables: Vault, iConomy, MineConomy, Essentials, BOSEconomy, RealEconomy, CMIEconomy, None
+  # Supported variables: Vault, iConomy, Essentials, RealEconomy, CMIEconomy, None
   Type: None
   # When enabled extra message will appear in chat if residence is for rent or for sell to inform how he can rent/buy residence with basic information.
   ExtraEnterMessage: true
@@ -326,18 +410,25 @@ Global:
       # When set to false, area state will be saved before each renting to have always up to date area look
       # Keep in mind that when its set to false, there is slightly bigger server load as it has to save area each time when some one rents it
       SaveOnFlagChange: true
+  Bank:
+    # Defines max amount residence bank can hold
+    # Setting to 0 will disable limitations
+    Capacity: 0.0
   # The interval, in minutes, between residence rent expiration checks (if the rent system is enabled).
   RentCheckInterval: 10
-  # Enable or disable residence chat channels.
-  ResidenceChatEnable: true
   Messages:
     # Defines where you want to send residence enter/leave/deny move and similar messages. Possible options: ActionBar, TitleBar, ChatBox
     # TitleBar can have %subtitle% variable to define second line
     GeneralMessages: ActionBar
   ActionBar:
     ShowOnSelection: true
+  # Enable or disable residence chat channels.
+  ResidenceChatEnable: true
   # Color of residence chat.
   ResidenceChatColor: DARK_PURPLE
+  # When enabled players with access to chat flag will be able to listen to residence chat without joining it
+  ResidenceChatListening: false
+  # Max lenght of residence chat prefix including color codes
   ResidenceChatPrefixLength: 16
   # Whether or not to ignore the usual Permission flags and only allow OPs and groups with 'residence.admin' to change residences.
   AdminOnlyCommands: false
@@ -368,7 +459,7 @@ Global:
     # Setting this to true, residence will be created for free
     # By setting to false, money will be taken from player, if he has them
     Free: true
-    # Range from placed chest o both sides. By setting to 5, residence will be 5+5+1 = 11 blocks wide
+    # Range from placed chest to both sides. By setting to 5, residence will be 5+5+1 = 11 blocks wide in total
     Range:
       X: 5
       Y: 5
@@ -405,7 +496,7 @@ Global:
     #  droplet, take, mobappearance
 
     # If using spigot based server different particles can be used:
-    # click2, click1, bow_fire, door_toggle, iron_door_toggle, trapdoor_toggle, iron_trapdoor_toggle, fence_gate_toggle, door_close, iron_door_close, trapdoor_close, iron_trapdoor_close, fence_gate_close, extinguish, record_play, ghast_shriek, ghast_shoot, blaze_shoot, zombie_chew_wooden_door, zombie_chew_iron_door, zombie_destroy_door, smoke, step_sound, potion_break, instant_potion_break, ender_signal, mobspawner_flames, brewing_stand_brew, chorus_flower_grow, chorus_flower_death, portal_travel, endereye_launch, firework_shoot, villager_plant_grow, dragon_breath, anvil_break, anvil_use, anvil_land, enderdragon_shoot, wither_break_block, wither_shoot, zombie_infect, zombie_converted_villager, bat_takeoff, end_gateway_spawn, enderdragon_growl, 
+    # click2, click1, bow_fire, door_toggle, iron_door_toggle, trapdoor_toggle, iron_trapdoor_toggle, fence_gate_toggle, door_close, iron_door_close, trapdoor_close, iron_trapdoor_close, fence_gate_close, extinguish, record_play, ghast_shriek, ghast_shoot, blaze_shoot, zombie_chew_wooden_door, zombie_chew_iron_door, zombie_destroy_door, smoke, step_sound, potion_break, instant_potion_break, ender_signal, mobspawner_flames, brewing_stand_brew, chorus_flower_grow, chorus_flower_death, portal_travel, endereye_launch, firework_shoot, villager_plant_grow, dragon_breath, anvil_break, anvil_use, anvil_land, enderdragon_shoot, wither_break_block, wither_shoot, zombie_infect, zombie_converted_villager, bat_takeoff, end_gateway_spawn, enderdragon_growl, phantom_bite, zombie_converted_to_drowned, husk_converted_to_zombie, grindstone_use, book_page_turn, smithing_table_use, pointed_dripstone_land, pointed_dripstone_drip_lava_into_cauldron, pointed_dripstone_drip_water_into_cauldron, skeleton_converted_to_stray, composter_fill_attempt, lava_interact, redstone_torch_burnout, end_portal_frame_fill, dripping_dripstone, bone_meal_use, ender_dragon_destroy_block, sponge_dry, electric_spark, copper_wax_on, copper_wax_off, oxidised_copper_scrape
     Selected:
       Frame: happyVillager
       Sides: reddust
@@ -436,16 +527,16 @@ Global:
   EnableLeaseMoneyAccount: true
   # By setting this to true, partial compatibility for kCouldron servers will be enabled. Action bar messages and selection visualizer will be disabled automatically as off incorrect compatibility
   Couldroncompatibility: false
-Enabled: true
-MaxCoord: 1000
-MinCoord: 500
-CenterX: 0
-CenterZ: 0
 DynMap:
   # Enables or disable DynMap Support
   Use: false
+  # When set to true we will hide residence areas by default on dynmap window
+  # Residences can still be enabled throw provided DynMap option on left top side
+  HideByDefault: false
   # Shows or hides residence flags
   ShowFlags: true
+  # When enabled default flags will not be included in residence overview
+  ExcludeDefaultFlags: true
   # If set true, residence with hidden flag set to true will be hidden from dynmap
   HideHidden: true
   Layer:
@@ -463,6 +554,38 @@ DynMap:
   Fill:
     Opacity: 0.3
     Color: '#FFFF00'
+    ForRent: '#33cc33'
+    Rented: '#99ff33'
+    ForSale: '#0066ff'
+  # Shows only regions on this list
+  VisibleRegions: []
+  # Hides region on map even if its not hidden in game
+  HiddenRegions: []
+Pl3xMap:
+  # Enables or disable Pl3xMap Support
+  Use: false
+  # When set to true we will hide residence areas by default on Pl3xMap window
+  # Residences can still be enabled throw provided Pl3xMap option on left top side
+  HideByDefault: false
+  # Shows or hides residence flags
+  ShowFlags: true
+  # When enabled default flags will not be included in residence overview
+  ExcludeDefaultFlags: true
+  # If set true, residence with hidden flag set to true will be hidden from Pl3xMap
+  HideHidden: true
+  Layer:
+    # How deep to go into subzones to show
+    SubZoneDepth: 2
+  Border:
+    # Color of border. Pick color from this page http://www.w3schools.com/colors/colors_picker.asp
+    Color: '#FF0000'
+    # Transparency. 0.3 means that only 30% of color will be visible
+    Opacity: 0.3
+    # Border thickness
+    Weight: 3
+  Fill:
+    Opacity: 0.3
+    Color: '#FF0000'
     ForRent: '#33cc33'
     Rented: '#99ff33'
     ForSale: '#0066ff'

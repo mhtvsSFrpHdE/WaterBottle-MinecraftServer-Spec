@@ -127,3 +127,23 @@ username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
 worldedit: true
+
+# CoreProtect is donationware. Obtain a donation key from coreprotect.net/donate/
+donation-key: 
+
+# If modified, will automatically attempt to translate languages phrases.
+# List of language codes: https://coreprotect.net/languages/
+language: en
+
+# Logs the spread of sculk blocks from sculk catalysts.
+sculk-spread: true
+
+# Logs items dropped by players.
+item-drops: true
+
+# Logs items picked up by players.
+item-pickups: true
+
+# Track all hopper transactions, such as when a hopper removes items from a
+# chest, furnace, or dispenser.
+hopper-transactions: true

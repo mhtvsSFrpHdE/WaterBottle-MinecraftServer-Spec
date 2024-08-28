@@ -1,6 +1,6 @@
 DataSource:
     # What type of database do you want to use?
-    # Valid values: SQLITE, MYSQL, POSTGRESQL
+    # Valid values: SQLITE, MARIADB, MYSQL, POSTGRESQL
     backend: SQLITE
     # Enable the database caching system, should be disabled on bungeecord environments
     # or when a website integration is being used.
@@ -15,6 +15,9 @@ DataSource:
     # We would not recommend to set this option to false.
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: true
+    # Authorize client to retrieve RSA server public key.
+    # Advanced option, ignore if you don't know what it means.
+    mySQLAllowPublicKeyRetrieval: true
     # Username to connect to the MySQL database
     mySQLUsername: authme
     # Password to connect to the MySQL database
@@ -383,10 +386,12 @@ Protection:
     # Apply the protection also to registered usernames
     enableProtectionRegistered: true
     geoIpDatabase:
+        # Enable GeoIp database
+        enabled: true
         # The MaxMind clientId used to download the GeoIp database,
         # get one at https://www.maxmind.com/en/accounts/current/license-key
         # The EssentialsX project has a very useful tutorial on how to generate
-        # the license key: https://essentialsx.cf/wiki/GeoIP.html
+        # the license key: https://github.com/EssentialsX/Wiki/blob/master/GeoIP.md
         clientId: ''
         # The MaxMind licenseKey used to download the GeoIp database.
         licenseKey: ''

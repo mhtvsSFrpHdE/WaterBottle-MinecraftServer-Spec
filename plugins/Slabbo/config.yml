@@ -37,7 +37,7 @@ maxStockSize: -1
 
 # The item to use to create shops.
 # Item types can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html, under the "Enum Constant Summary"
-shopCreationItem: STICK
+shopCreationItem: BREEZE_ROD
 
 punchRestock:
   # If a user can punch a shop with the item to restock it

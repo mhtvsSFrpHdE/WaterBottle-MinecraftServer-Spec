@@ -7,7 +7,7 @@ set maxMem=4G
 @REM Auto updates brings trouble more than useful
 set proxyHost=127.0.0.1
 set proxyPort=1
-set nonProxyHosts="localhost|127.0.0.1
+set nonProxyHosts="localhost|127.0.0.1|*.mojang.com|*.luckperms.net"
 
 @REM JVM startup flags
 

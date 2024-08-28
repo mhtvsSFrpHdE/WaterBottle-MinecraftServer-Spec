@@ -1,0 +1,134 @@
+# Slabbo Config
+
+########################
+#       General        #
+########################
+
+# How the hovering items should be displayed
+# Accepts the following values:
+# - Quantity (The amount the shop sells)
+# - Full (A full stack (64 items))
+# - Single (A single item)
+# - None (No item display)
+itemdisplay: quantity
+
+# If Slabbo should check for updates
+checkupdates: true
+
+# If users should be able to use upside down stairs as shops
+stairs: true
+
+# If barrier blocks can be used as shops
+barriershops: true
+
+# If shops can add in oversized stacks
+# I.e, a regular stack of pickaxes can only have one item,
+# an oversized stack can have 64 items.
+sellOversized: false
+
+# If shops can withdraw oversized stacks
+# I.e, a regular stack of pickaxes can only have one item,
+# an oversized stack can have 64 items.
+withdrawOversized: false
+
+# The maximum amount of items a shop can keep in stock.
+# Set to -1 for unlimited
+maxStockSize: -1
+
+# The item to use to create shops.
+# Item types can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html, under the "Enum Constant Summary"
+shopCreationItem: STICK
+
+punchRestock:
+  # If a user can punch a shop with the item to restock it
+  single: true
+
+  # If a user can shift punch a shop with the item to restock it with
+  # all matching items in their inventory
+  bulk: true
+
+# If the shop functionality should be disabled
+disableShops: false
+
+# If the shops should allow for setting prices using decimal points (i.e. 1.05)
+allowCents: false
+
+# How to format the currency strings.
+# If set to "Slabbo", the "general.currency-format" language key will be used.
+# If set to "Vault", the formatting from vault (and your economy plugin) will be used.
+currencyFormat: Vault
+
+########################
+#     Messages         #
+########################
+
+# Whether or not to send the message that a shop is out of stock
+sendRestockMessages: true
+# Whether or not to send the message that a virtual shop is out of stock
+sendVirtualRestockMessages: true
+
+########################
+#     Chest links      #
+########################
+
+chestlinks:
+
+  # If linking chests is enabled
+  enabled: true
+
+  # If users need a permission to link a chest
+  enforcepermission: false
+
+  # Hopper functionality for linked chest
+  hoppers:
+    # If hoppers are enabled to restock shops via linked chests
+    enabled: true
+
+    # How long Slabbo should wait before saving shops when they've been stocked by a hopper
+    # Delay in seconds
+    savetime: 5
+
+  player:
+    # If the player is able to deposit to the chest
+    enabled: true
+
+    # How long Slabbo should wait before saving shops when they've been stocked by a player through a chest
+    # Delay in seconds
+    savetime: 5
+
+########################
+#     Shop Defaults    #
+########################
+
+defaults:
+    buyPrice: 0
+    sellPrice: 0
+    quantity: 0
+
+
+########################
+#  Custom Model Items  #
+########################
+
+# Please note that these only work in 1.14+
+
+items:
+  customModelData:
+      redStainedPane: 0
+      greenStainedPane: 0
+      yellowStainedPane: 0
+      limeStainedPane: 0
+      commandBlock: 0
+      chestMinecart: 0
+      comparator: 0
+      oakSign: 0
+      hopperMinecart: 0
+      minecart: 0
+      chest: 0
+      enderChest: 0
+      barrier: 0
+      netherStar: 0
+      goldIngot: 0
+      ironIngot: 0
+      paper: 0
+      nametag: 0

@@ -1,0 +1,29 @@
+# [Configuration file for NotifyUser] (For message {placeholders}, see dev.bukkkit.org/projects/notifyuser)
+
+notifications:
+  sound-effect: BLOCK_ANVIL_PLACE
+  volume: 1.0
+  pitch: 1
+chat:
+  symbol: '@'
+  highlight-color: '&d'
+  message-color: '&r'
+  min-name-length: 3
+  highlight-for-all: false
+  allow-partial: true
+  notify: true
+mute:
+  sound: true
+  highlight: false
+messages:
+  errors:
+    no-perm: '&cYou do not have permission to perform that command.'
+    not-min: '&cYou must type at least {min} characters to ping!'
+    not-found: '&cError: &4Player not found.'
+  mute:
+    toggle: Incoming notifications have been {toggle}.
+    alert: '&c{receiver} has muted notifications.'
+  ping:
+    from: Notification sent to {receiver}.
+    to: '&a{sender} has pinged you!'
+    anon: '&aYou have been pinged!'

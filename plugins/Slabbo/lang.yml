@@ -1,0 +1,184 @@
+# Translation file and properties for Slabbo
+
+error-message:
+  chestlink:
+    no-destroy-linked: You can't destroy that chest because it's linked to a shop.
+    already-linked: That chest's already linked to a shop.
+  general:
+    limit-hit: You've created all the shops you can! ({limit})
+    not-a-shop: That's not a shop.
+    not-a-linked-chest: That's not a linked chest.
+    not-shop-owner: That's not your shop.
+    not-linked-chest-owner: That's not your linked chest.
+    no-shops-found: No shops were found!
+    not-admin-shop: That's not an admin shop.
+    no-command-entered: Please enter a command!
+    no-buy-commands-in-shop: That shop doesn't have any buy commands.
+    no-sell-commands-in-shop: That shop doesn't have any sell commands.
+    invalid-index: That's not a valid index!
+    shop-does-not-exist: That shop doesn't exist!
+    named-shop-already-exists: A shop with that name already exists.
+  import:
+    file-not-found: That file can't be found
+    plugin-not-supported: That plugin can't be imported
+    general-error: An error occured when importing. See the console for more details.
+  modify:
+    invalid-buy-price: Please provide a positive buy price or -1 for not buying.
+    invalid-sell-price: Please provide a positive sell price or -1 for not selling.
+    invalid-quantity: Please provide a positive quantity
+    not-a-valid-number: That's not a valid number!
+    invalid-note: That's an invalid sellers note!
+  shop-errors:
+    out-of-stock: This shop is out of stock!
+    not-enough-funds: You don't have enough funds!
+    not-enough-items: You don't have enough items!
+    not-enough-shop-funds: The shop doesn't have enough funds!
+    not-enough-inventory-space: You don't have enough inventory space!
+    buy-limit-reached: The shops buy limit has been reached!
+    sell-limit-reached: The shops sell limit has been reached!
+    not-enough-stock: The shop doesn't have enough stock left!
+    stock-limit-reached: The shop can't have more than {limit} items in stock!
+    change-item-disallowed: Please empty the shop before changing the item!
+  plugin:
+    worldguard:
+      region-creation-prevented: WorldGuard prevents you from creating a shop in this region.
+      region-creation-limit-reached: You've created the maximum amount of shops in this region.
+
+success-message:
+  chestlink:
+    link-success: Chest linked to shop at {location}
+    linking-cancelled: Linking has been cancelled.
+    linking-removed: Shop linking has been removed.
+    previous-linking-cancelled: Your previous linking has been cancelled.
+  general:
+    admin-create: The shop is now an admin shop!
+    admin-destroy: The shop is no longer an admin shop
+    owner-name-set: The displayed owner name has been set.
+    owner-name-removed: The displayed owner name has been removed.
+    shops-saved: Saved shops!
+    limited-stock:
+      create: The shop now has a limited stock!
+      destroy: The shop no longer has a limited stock!
+      set-time: Restock time has been set to {time} seconds!
+      set-sell-stock: Selling stock has been set to {stock}!
+      set-buy-stock: Buying stock has been set to {stock}!
+    shop-commands:
+     added-command: The command {command} has been added.
+     removed-command: The command {command} has been removed.
+  import:
+    importing: Importing shops!
+    success: Imported {count} shops. Skipped {skipped} as shops already exist at their locations.
+  modify:
+    buyprice-set: Buy price set to {price}
+    sellprice-set: Sell price set to {price}
+    quantity-set: Quantity set to {quantity}
+    owner-set: Owner set to {owner}
+    stock-set: Stock set to {stock}
+    note-set: Shop note set to {note}
+  client:
+    buy-success: Bought {count} {item} for a total of {cost}
+    sell-success: Sold {count} {item} for a total of {cost}
+  owner:
+    buy-success: "{user} bought {count} {item} for a total of {cost} at your shop."
+    sell-success: "{user} sold {count} {item} for a total of {cost} at your shop."
+
+general:
+  currency-format: "${amount}"
+  shop-prefix: "[Slabbo] "
+  user-info-item-name: "Slabbo Shop"
+  chestlink:
+    chest-name: "Chest [{location}]"
+    crouch-to-link: Please crouch and punch the chest you want to link.
+    link-for-refill: Link a chest for refilling!
+    cancel-chest-link: Cancel chest link
+  general:
+    reloading: Reloading
+    reloaded: Reloaded
+    restock-message: Your shop at {location} is out of {item}
+    virtual-restock-message: Your virtual shop {name} is out of {item}
+    stacks: Stacks
+    cancel: Cancel
+    confirm: Confirm
+    item: Item
+
+    next-page: Next Page
+    previous-page: Previous Page
+
+    unknown-user: Unknown User
+
+
+    buy-price: Buy price
+    sell-price: Sell price
+
+    click-to-set: Click to set
+
+    quantity: Quantity
+
+    current-funds: Current funds
+    new-shop: New Shop
+
+    shop: Shop
+    destroy-shop: Destroy Shop
+
+    destroy-shop-item-warning: This will destroy your items.
+    type-new-rate: Please type the new rate
+    type-new-buy-price: Please type the new buying price
+    type-new-sell-price: Please type the new selling price
+    type-new-quantity: Please type the new quantity
+    type-new-note: "Please type the new sellers note. Type # to cancel."
+
+    not-for-sale-explain: (-1 means not for sale)
+    not-buying-explain: (-1 means not buying)
+    quantity-explain: (Amount of items per buy / sell)
+
+    amount-per-transaction: "Amount per transaction: {count}"
+    amount-per-click: "Amount per click: {count}"
+    in-stock: "In stock: {count}"
+
+    buy-for: "Buy for: {price}"
+    sell-for: "Sell for: {price}"
+    funds-message: "Funds: {funds}"
+
+    default-shop-note: "Let's trade!"
+
+    pager: "(Page {page} / {pageCount})"
+
+    shift-bulk:
+      deposit: +Shift for bulk deposit
+      withdraw: +Shift for bulk withdrawal
+
+    limited-stock:
+      sell-stock-left: "Sell stock left: {count}"
+      buy-stock-left: "Buy stock left: {count}"
+
+
+# [Slabbo] Owner
+gui:
+  owner-title: Owner
+  editing-shop: Editing Shop
+  client: Client
+  items:
+    admin:
+      deposit-item: Deposit {item}
+      withdraw-item: Withdraw {item}
+      changerate-item: Change rate
+      modify-shop: Modify Shop
+      view-as-customer: View as customer
+      link-chest: Link chest
+    user:
+      buy-item: Buy {item} * {quantity}
+      sell-item: Sell {item} * {quantity}
+      sellers-note: Sellers note
+    info:
+      owned-by: Owned by {owner}
+      selling-item: "Selling: {item}"
+      buy-each: Buy {quantity} for {buyPrice} ({buyPerItem} each)
+      sell-each: Sell {quantity} for {sellPrice} ({sellPerItem} each)
+      limit:
+        sell-stock: "Selling stock: {sellStock}"
+        buy-stock: "Buying stock: {buyStock}"
+        restock-time: "Restock time: {restockTime} seconds"
+        next-restock: "Next restock: {time}"
+
+    new-shop:
+      click-item-below: Click item below

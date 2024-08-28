@@ -1,0 +1,13 @@
+bounceback: true
+teleport_entities: true
+send_no_destination_message: true
+send_disabled_portal_message: true
+end_platform_drop_blocks: true
+portal-auto-link-when:
+  nether:
+    prefix: ''
+    suffix: _nether
+  end:
+    prefix: ''
+    suffix: _the_end
+worlds: {}

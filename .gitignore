@@ -8,31 +8,24 @@
 
 
 
-# FreeFileSync
-
-# Non config files
-*.ffs_db
-*.ffs_tmp
-
-
-
 # Server
+/libraries
+logs/
+crash-reports/
 
 # Sensitive data
 usercache.json
+whitelist.json
 
 # Worlds
 world/
 world_nether/
 world_the_end/
-Dig/
-DigTheEnd/
+dig/
+dig_nether/
+dig_the_end/
 
-# Logs
-logs/
 
-# Crash reports
-crash-reports/
 
 # Other non config files
 #
@@ -50,6 +43,8 @@ plugins/ProtocolLib/lastupdate
 # Sensitive data
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
+plugins/Essentials/usermap.bin
+plugins/Essentials/uuids.bin
 
 # Upgrade process log
 plugins/Essentials/upgrades-done.yml
@@ -73,24 +68,10 @@ plugins/SkinsRestorer/Players/
 
 
 
-# FirstJoinCommands
-
-# Sensitive data
-plugins/FirstJoinCommands/UserData/
-
-
-
 # Orebfuscator
 
 # Cache
 orebfuscator_cache/
-
-
-
-# InvRestore2
-
-# Sensitive data
-plugins/InvRestore2/players.json
 
 
 
@@ -110,12 +91,6 @@ plugins/WorldGuard/report.txt
 !plugins/WorldGuard/worlds/*
 
 
-# IllegalSack
-
-# Sensitive data
-plugins/IllegalStack/OffenseLog.txt
-
-
 
 # Dynmap
 
@@ -129,14 +104,6 @@ plugins/dynmap/*.pending
 # Sensitive data
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
-
-
-
-# Spartan
-
-# Sensitive data
-plugins/Spartan/wave.yml
-plugins/Spartan/bans.yml
 
 
 
@@ -166,8 +133,7 @@ plugins/Residence/Save/Backup/
 
 
 # WorldEdit
+/plugins/WorldEdit/.archive-unpack
 
 # Sensitive data
 plugins/WorldEdit/sessions/
-*.yml
-plugins/Residence/Language/Chinese.yml

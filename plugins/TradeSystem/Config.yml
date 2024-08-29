@@ -10,7 +10,7 @@ TradeSystem:
   TradeProxy: false
   
   # Both traders have to add an item/money to finish the trade
-  Trade_Both: true
+  Trade_Both: false
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
   Input_GUI: ANVIL
   Trade_Distance:

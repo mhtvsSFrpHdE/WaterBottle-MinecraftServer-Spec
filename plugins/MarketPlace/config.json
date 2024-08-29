@@ -6,14 +6,14 @@
         "playerToListings": 0,
         "listingsToMails": 0,
         "listingsToMailsNotifCommand": [
-            "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from listings and its in your mailbox."
+            "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from listings and its in your mailbox."
         ],
         "mailsToDeleteNotifCommand": [
-            "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from mailbox and has been deleted."
+            "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from mailbox and has been deleted."
         ]
     },
     "sellerItemNotifCommand": [
-        "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has been sell for {{price}}."
+        "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has been sell for {{price}}."
     ],
     "maxDecimalMoney": 2,
     "maxMoneyToSellItem": 1.0E12,

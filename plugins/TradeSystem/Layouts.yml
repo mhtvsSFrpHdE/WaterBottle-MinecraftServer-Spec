@@ -432,6 +432,174 @@ Layouts:
     53:
       icon: TradeSlotOther
 - size: 54
+  name: All
+  icons:
+    0:
+      icon: TradeSlot
+    1:
+      icon: TradeSlot
+    2:
+      icon: TradeSlot
+    3:
+      icon: ExpLevelIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: EXPERIENCE_BOTTLE
+    4:
+      icon: DecorationIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BLACK_STAINED_GLASS_PANE
+    5:
+      icon: ShowExpLevelIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: EXPERIENCE_BOTTLE
+    6:
+      icon: TradeSlotOther
+    7:
+      icon: TradeSlotOther
+    8:
+      icon: TradeSlotOther
+    9:
+      icon: TradeSlot
+    10:
+      icon: TradeSlot
+    11:
+      icon: TradeSlot
+    12:
+      icon: EssentialsIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: GOLD_NUGGET
+    13:
+      icon: DecorationIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BLACK_STAINED_GLASS_PANE
+    14:
+      icon: ShowEssentialsIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: GOLD_NUGGET
+    15:
+      icon: TradeSlotOther
+    16:
+      icon: TradeSlotOther
+    17:
+      icon: TradeSlotOther
+    18:
+      icon: TradeSlot
+    19:
+      icon: TradeSlot
+    20:
+      icon: TradeSlot
+    21:
+      icon: StatusIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: LIGHT_GRAY_TERRACOTTA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: LIGHT_GRAY_TERRACOTTA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: LIME_TERRACOTTA
+    22:
+      icon: DecorationIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BLACK_STAINED_GLASS_PANE
+    23:
+      icon: ShowStatusIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: LIGHT_GRAY_TERRACOTTA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: LIME_TERRACOTTA
+    24:
+      icon: TradeSlotOther
+    25:
+      icon: TradeSlotOther
+    26:
+      icon: TradeSlotOther
+    27:
+      icon: TradeSlot
+    28:
+      icon: TradeSlot
+    29:
+      icon: TradeSlot
+    30:
+      icon: TradeSlot
+    31:
+      icon: DecorationIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BLACK_STAINED_GLASS_PANE
+    32:
+      icon: TradeSlotOther
+    33:
+      icon: TradeSlotOther
+    34:
+      icon: TradeSlotOther
+    35:
+      icon: TradeSlotOther
+    36:
+      icon: TradeSlot
+    37:
+      icon: TradeSlot
+    38:
+      icon: TradeSlot
+    39:
+      icon: TradeSlot
+    40:
+      icon: DecorationIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BLACK_STAINED_GLASS_PANE
+    41:
+      icon: TradeSlotOther
+    42:
+      icon: TradeSlotOther
+    43:
+      icon: TradeSlotOther
+    44:
+      icon: TradeSlotOther
+    45:
+      icon: TradeSlot
+    46:
+      icon: TradeSlot
+    47:
+      icon: TradeSlot
+    48:
+      icon: TradeSlot
+    49:
+      icon: CancelIcon
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3955
+        type: BARRIER
+    50:
+      icon: TradeSlotOther
+    51:
+      icon: TradeSlotOther
+    52:
+      icon: TradeSlotOther
+    53:
+      icon: TradeSlotOther
+- size: 54
   name: Standard-Vault
   icons:
     0:
@@ -863,4 +1031,4 @@ Layouts:
       icon: TradeSlotOther
     53:
       icon: TradeSlotOther
-Active: Standard
+Active: All

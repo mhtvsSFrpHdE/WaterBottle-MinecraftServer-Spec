@@ -51,7 +51,7 @@ punchRestock:
 disableShops: false
 
 # If the shops should allow for setting prices using decimal points (i.e. 1.05)
-allowCents: false
+allowCents: true
 
 # How to format the currency strings.
 # If set to "Slabbo", the "general.currency-format" language key will be used.

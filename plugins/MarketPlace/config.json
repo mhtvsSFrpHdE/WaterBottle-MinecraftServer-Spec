@@ -3,6 +3,8 @@
         "type": "SQLITE"
     },
     "expiration": {
+        "playerToListings": 0,
+        "listingsToMails": 0,
         "listingsToMailsNotifCommand": [
             "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from listings and its in your mailbox."
         ],

@@ -209,6 +209,30 @@ Global:
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
+      lemon_the_end:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      lemon:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      lemon_nether:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      lemon_amp:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
     # How long force player to wait before using command again.
     Cooldown: 5
     # How many times to try find correct location for teleportation.

@@ -517,7 +517,6 @@ world-time-permissions: false
 command-cooldowns:
 #  feed: 100 # 100 second cooldown on /feed command
 #  '*': 5 # 5 Second cooldown on all commands
-  home: 420
 #  home: 0
   
 # Whether command cooldowns should be persistent past server shutdowns

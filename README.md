@@ -13,12 +13,8 @@ or even you can forge your own.
 
 **Goal:**
 - Create a gamer-centric experience.
-- No unlimited system-shop.
 - Everything you can get in the vanilla game is all available. No TNT or lava are blocked.
-- No teleport or warp point, but free fast-travel between station via riding an end dragon.
+- Abandon toxin game design idea from gacha and game as a service era.
 
-**Implemented by(Plugin list):**
-- Not list yet
-
-**Comments:**
-- Not list yet
+**Plugin list:**
+- Placeholder

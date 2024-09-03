@@ -38,7 +38,7 @@ world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
     verbose: true
-    item-despawn-rate: 6000
+    item-despawn-rate: 72000
     thunder-chance: 100000
     view-distance: default
     simulation-distance: default
@@ -46,7 +46,7 @@ world-settings:
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     merge-radius:
-      exp: 3.0
+      exp: 0.0
       item: 2.5
     hunger:
       jump-walk-exhaustion: 0.05

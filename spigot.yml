@@ -10,155 +10,146 @@
 # Discord: https://www.spigotmc.org/go/discord
 # Forums: http://www.spigotmc.org/
 
+settings:
+  debug: false
+  save-user-cache-on-stop-only: false
+  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.0625
+  netty-threads: 4
+  attribute:
+    maxAbsorption:
+      max: 2048.0
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  player-shuffle: 0
+  sample-count: 12
+  user-cache-size: 1000
+  bungeecord: false
+  log-villager-deaths: true
+  log-named-deaths: true
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+world-settings:
+  default:
+    below-zero-generation-in-existing-chunks: true
+    verbose: true
+    item-despawn-rate: 6000
+    thunder-chance: 100000
+    view-distance: default
+    simulation-distance: default
+    wither-spawn-sound-radius: 0
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    hopper-can-load-chunks: false
+    end-portal-sound-radius: 0
+    enable-zombie-pigmen-portal-spawns: true
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+    unload-frozen-chunks: false
+    mob-spawn-range: 6
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      raiders: 48
+      misc: 16
+      tick-inactive-villagers: true
+      ignore-spectators: false
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-slime: 987234911
+    seed-nether: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      display: 128
+      other: 64
+    zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: false
+    dragon-death-sound-radius: 0
+    hanging-tick-frequency: 100
+  worldeditregentempworld:
+    verbose: false
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  silent-commandblock-console: false
+  tab-complete: 0
+  send-namespaced: true
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
 players:
   disable-saving: false
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
-commands:
-  log: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  send-namespaced: true
-  silent-commandblock-console: false
-  spam-exclusions:
-  - /skill
-  tab-complete: 0
 config-version: 12
-messages:
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
-  server-full: The server is full!
-  unknown-command: Unknown command. Type "/help" for help.
-  whitelist: You are not whitelisted on this server!
-settings:
-  log-named-deaths: true
-  attribute:
-    maxAbsorption:
-      max: 2048.0
-    attackDamage:
-      max: 2048
-    maxHealth:
-      max: 2048
-    movementSpeed:
-      max: 2048
-  bungeecord: false
-  debug: false
-  filter-creative-items: true
-  int-cache-limit: 1024
-  item-dirty-ticks: 20
-  late-bind: false
-  log-villager-deaths: true
-  moved-too-quickly-multiplier: 10
-  moved-wrongly-threshold: 0.0625
-  netty-threads: 4
-  player-shuffle: 0
-  restart-on-crash: true
-  restart-script: ./start.sh
-  sample-count: 12
-  save-user-cache-on-stop-only: false
-  timeout-time: 60
-  user-cache-size: 1000
 stats:
   disable-saving: false
   forced-stats: {}
-world-settings:
-  default:
-    below-zero-generation-in-existing-chunks: true
-    thunder-chance: 100000
-    simulation-distance: default
-    seed-nether: 30084232
-    seed-mansion: 10387319
-    seed-fossil: 14357921
-    seed-portal: 34222645
-    unload-frozen-chunks: false
-    hopper-can-load-chunks: false
-    arrow-despawn-rate: 1200
-    dragon-death-sound-radius: 0
-    enable-zombie-pigmen-portal-spawns: true
-    end-portal-sound-radius: 0
-    entity-activation-range:
-      ignore-spectators: false
-      animals: 24
-      misc: 16
-      monsters: 64
-      raiders: 48
-      tick-inactive-villagers: false
-    entity-tracking-range:
-      display: 128
-      animals: 48
-      misc: 32
-      monsters: 64
-      other: 64
-      players: 64
-    growth:
-      twistingvines-modifier: 100
-      weepingvines-modifier: 100
-      cavevines-modifier: 100
-      bamboo-modifier: 100
-      beetroot-modifier: 100
-      cactus-modifier: 100
-      cane-modifier: 100
-      carrot-modifier: 100
-      cocoa-modifier: 100
-      kelp-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      netherwart-modifier: 100
-      potato-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      sweetberry-modifier: 100
-      vine-modifier: 100
-      wheat-modifier: 100
-    hanging-tick-frequency: 100
-    hopper-amount: 1
-    hunger:
-      combat-exhaustion: 0.1
-      jump-sprint-exhaustion: 0.2
-      jump-walk-exhaustion: 0.05
-      other-multiplier: 0
-      regen-exhaustion: 6
-      sprint-multiplier: 0.1
-      swim-multiplier: 0.01
-    item-despawn-rate: 6000
-    max-tick-time:
-      entity: 1000
-      tile: 1000
-    max-tnt-per-tick: 100
-    merge-radius:
-      exp: 0
-      item: 2.5
-    mob-spawn-range: 6
-    nerf-spawner-mobs: false
-    random-light-updates: false
-    save-structure-info: true
-    seed-desert: 14357617
-    seed-endcity: 10387313
-    seed-feature: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-monument: 10387313
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-shipwreck: 165745295
-    seed-slime: 987234911
-    seed-swamp: 14357620
-    seed-village: 10387312
-    squid-spawn-range:
-      min: 45
-    ticks-per:
-      hopper-check: 1
-      hopper-transfer: 8
-    trident-despawn-rate: 72000
-    verbose: true
-    view-distance: default
-    wither-spawn-sound-radius: 0
-    zombie-aggressive-towards-villager: true
-  worldeditregentempworld:
-    verbose: false

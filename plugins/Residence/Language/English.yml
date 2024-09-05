@@ -18,13 +18,20 @@ Language:
     Boolean: '&cInvalid value, must be &6true(t) &cor &6false(f)'
     Area: '&cInvalid Area...'
     Group: '&cInvalid Group...'
+    Location: '&cInvalid Location...'
     MessageType: '&cMessage type must be enter or remove.'
     Flag: '&cInvalid Flag...'
+    FlagType:
+      Fail: '&cInvalid Flag... This flag can only be used on %1'
+      Player: Player
+      Residence: Residence
     FlagState: '&cInvalid flag state, must be &6true(t)&c, &6false(f)&c, or &6remove(r)'
     List: '&eUnknown list type, must be &6blacklist &eor &6ignorelist.'
     Page: '&eInvalid Page...'
     Help: '&cInvalid Help Page...'
     NameCharacters: '&cName contained unallowed characters...'
+    PortalDestination: '&cPortal destination is in restricted zone. Portal creation
+      canceled. &7Find new location'
     FromConsole: '&cYou can only use this in the console!'
     Ingame: '&cYou can only use this in game!'
   Area:
@@ -32,6 +39,7 @@ Language:
     Create: '&eResidence Area created, ID &6%1'
     DiffWorld: '&cArea is in a different world from residence.'
     Collision: '&cArea collides with residence &6%1'
+    TooClose: '&cToo close to another residence. You need atleast &e%1 &cblock gap.'
     SubzoneCollision: '&cArea collides with subzone &6%1'
     NonExist: '&cNo such area exists.'
     InvalidName: '&cInvalid Area Name...'
@@ -57,6 +65,8 @@ Language:
     SizeLimit: '&eArea size is not within your allowed limits.'
     HighLimit: '&cYou cannot protect this high up, your limit is &6%1'
     LowLimit: '&cYou cannot protect this deep, your limit is &6%1'
+    WeirdShape: '&3Residence is out of regular shape. &6%1 &3side is &6%2 &3times
+      bigger than &6%3 &3side'
   Select:
     Points: '&eSelect two points first before using this command!'
     Overlap: '&cSelected points overlap with &6%1 &cregion!'
@@ -84,23 +94,24 @@ Language:
     Updated: '&6%1 &esigns updated!'
     TopLine: '[market]'
     DateFormat: YY/MM/dd HH:mm
-    ForRentTopLine: '&8For Rent'
-    ForRentPriceLine: '&8%1&f/&8%2&f/&8%3'
-    ForRentResName: '&8%1'
+    ForRentTopLine: '&0For Rent'
+    ForRentPriceLine: '&0%1&f/&0%2&f/&0%3'
+    ForRentResName: '&0%1'
     ForRentBottomLine: '&9Available'
     RentedAutorenewTrue: '&2%1'
     RentedAutorenewFalse: '&c%1'
     RentedTopLine: '%1'
-    RentedPriceLine: '&8%1&f/&8%2&f/&8%3'
-    RentedResName: '&8%1'
+    RentedPriceLine: '&0%1&f/&0%2&f/&0%3'
+    RentedResName: '&0%1'
     RentedBottomLine: '&1%1'
-    ForSaleTopLine: '&8For Sale'
-    ForSalePriceLine: '&8%1'
-    ForSaleResName: '&8%1'
-    ForSaleBottom: '&5%1m³'
+    ForSaleTopLine: '&0For Sale'
+    ForSalePriceLine: '&0%1'
+    ForSaleResName: '&0%1'
+    ForSaleBottom: '&0%1m³'
     LookAt: '&cYou are not looking at sign'
-    ResName: '&8%1'
-    Owner: '&5%1'
+    TooMany: '&cToo many signs for this residence'
+    ResName: '&0%1'
+    Owner: '&0%1'
   Raid:
     NotEnabled: '&cRaid feature is not enabled!'
     NotIn: '&cYou are not in the raid!'
@@ -130,12 +141,24 @@ Language:
     defend:
       Joined: '&7Joined &2%1 &7defence forces!'
       Sent: '&7Request to join raid defence is sent, wait for confirmation'
+      Join: '&7Join &6%1 &7raid defence'
+      Invitation: '&7Accept raid defend from &6%1'
       JoinedDef: '&2%1&7 joined defence forces!'
       IsOffline: '&cCan''t join defend team while owner is offline!'
       noSelf: '&cYou already defending this residence'
       notRaided: '&cResidence is not under the raid'
       alreadyInAnother: '&cCan''t join this residence defence, you are in another
         one already (%1)'
+    status:
+      title: '&7----------- &f%1(%2) &7-----------'
+      immune: '&eImmune to raids for next: %1'
+      starts: '&7Raid starts in: %1'
+      attackers: '&7Attackers: &4%1'
+      defenders: '&7Defenders: &4%1'
+      ends: '&7Raid ends in: %1'
+      canraid: '&2Can be raided'
+      raidin: '&ePosible raid in: %1'
+    stopped: '&eRaid on &6%1 &ewas stopped'
   info:
     years: '&e%1 &6years '
     oneYear: '&e%1 &6year '
@@ -145,17 +168,19 @@ Language:
     oneHour: '&e%1 &6hour '
     min: '&e%1 &6min '
     sec: '&e%1 &6sec '
+    listSplitter: ', '
     click: '&7Click'
+    clickToConfirm: '&7Click to confirm'
   server:
     land: Server_Land
   Flag:
-    ownColor: '&4'
     p1Color: '&2'
     p2Color: '&a'
     haveColor: '&2'
     havePrefix: ''
-    denyColor: '&4'
-    denyPrefix: ''
+    lackColor: '&7'
+    lackPrefix: ''
+    others: '&eand &2%1 &eothers'
     Set: '&eFlag (&6%1&e) set for &6%2 &eto &6%3 &estate'
     SetFailed: '&cYou dont have access to &6%1 &cflag'
     CheckTrue: '&eFlag &6%1 &eapplies to player &6%2 &efor residence &6%3&e, value
@@ -180,6 +205,7 @@ Language:
     Deposit: '&eYou deposit &6%1 &einto the residence bank.'
     Withdraw: '&eYou withdraw &6%1 &efrom the residence bank.'
     rentedWithdraw: '&cCan''t withdraw from rented residence bank.'
+    full: '&eResidence bank is full!'
   Subzone:
     Rename: '&eRenamed subzone &6%1 &eto &6%2'
     Remove: '&eSubzone &6%1 &eremoved.'
@@ -230,17 +256,20 @@ Language:
       by &6%3'
     MoveDeny: '&cYou dont have movement permission for Residence &6%1'
     TeleportNoFlag: '&cYou dont have teleport access for that residence.'
-    FlagDeny: '&cYou dont have &6%1 &cpermission for Residence &6%2'
+    FlagDeny: '&cYou dont have &6%1 &cpermission for &6%2 &cresidence'
+    BaseFlagDeny: '&cYou dont have &6%1 &cpermission'
     GiveLimits: '&cCannot give residence to target player, because it is outside the
       target players limits.'
     GiveConfirm: '&7Click to confirm &6%1 &7residence transfer from &6%2 &7to &6%3'
     Give: '&eYou give residence &6%1 &eto player &6%2'
     Recieve: '&eYou have recieved residence &6%1 &efrom player &6%2'
     ResList: ' &a%1. &e%2 &e- &6%3 %4&6%5'
+    TrustedResList: ' &a%1. &f%2 &e- &6%3 %4&6%5'
     List: ' &e%2 &e- &6%3'
     Near: '&eNearby residences: &7%1'
     TeleportNear: '&eTeleported to near residence.'
     SetTeleportLocation: '&eTeleport Location Set...'
+    TeleportBlockedWorlds: '&cCan''t teleport to residence in blocked world'
     PermissionsApply: '&ePermissions applied to residence.'
     NotOwner: '&cYou are not owner of this residence'
     RemovePlayersResidences: '&eRemoved all residences belonging to player &6%1'
@@ -266,6 +295,7 @@ Language:
       confirm &eto confirm.'
     ChangedMain: '&eChanged main residence to &6%1'
     LwcRemoved: '&eRemoved &6%1 &eLwc protections in &6%2ms'
+    Balance: '&eBalance: &6%1'
     CanBeRented: '&6%1&e can be rented for &6%2 &eper &6%3 &edays. &6/res market rent'
     CanBeBought: '&6%1&e can be bought for &6%2&e. &6/res market buy'
     IsForRent: '&6(For rent)'
@@ -298,6 +328,9 @@ Language:
     removedBlock: '&eRemoved blocked command for &6%1 &eresidence'
     Blocked: '&eBlocked commands: &6%1'
     Allowed: '&eAllowed commands: &6%1'
+    Parsed: '%1'
+    PlacehlderList: '&e%1. &6%2'
+    PlacehlderResult: ' &eresult: &6%1'
   Rentable:
     Land: '&eRentable Land: &6'
     AllowRenewing: '&eCan Renew: &6%1'
@@ -376,17 +409,18 @@ Language:
     RenewCost: '&7- &eRenew Cost Per Block:&3 %1'
   Gui:
     Set:
-      Title: '&6%1 flags'
+      Title: '&8%1 flags'
     Pset:
-      Title: '&6%1 %2 flags'
+      Title: '&8%1 &7%2 &6flags'
     Actions:
     - '&2Left click to enable'
     - '&cRight click to disable'
     - '&eShift + left click to remove'
   InformationPage:
-    TopLine: '&e---< &a %1 &e >---'
+    Top: '&e___/ &a %1 - %2 &e \___'
+    TopSingle: '&e___/ &a %1 &e \___'
     Page: '&e-----< &6%1 &e>-----'
-    NextPage: '&e-----< &6%1 &e>-----'
+    NextPage2: '&e-----< &6%1 &e>-----'
     NoNextPage: '&e-----------------------'
     GeneralList: '&2 %1 &6- &e%2'
     FlagsList: '&2 %1 &6- &e%2'
@@ -394,6 +428,8 @@ Language:
   Chat:
     ChatChannelChange: '&eChanged residence chat channel to &6%1!'
     ChatChannelLeave: '&eLeft residence chat'
+    ChatMessage: '%1 %2%3: %4%5'
+    ChatListeningMessage: '&2[Listening %6]%1 %2%3: %4%5'
     JoinFirst: '&4Join residence chat channel first...'
     InvalidChannel: '&4Invalid Channel...'
     InvalidColor: '&4Incorrect color code'
@@ -452,6 +488,7 @@ Language:
     cmdPermissionColor: '&2'
   General:
     DisabledWorld: '&cResidence plugin is disabled in this world'
+    CantCreate: '&cCan''t create residences in this world'
     UseNumbers: '&cPlease use numbers...'
     # Replace all text with '' to disable this message
     CantPlaceLava: '&cYou can''t place lava outside residence and higher than &6%1
@@ -479,6 +516,10 @@ Language:
     InvalidHelp: '&cInvalid help page.'
     TeleportDeny: '&cYou dont have teleport access.'
     TeleportSuccess: '&eTeleported!'
+    TeleportConfirmLava: '&cThis teleport is not safe, you will fall into &6lava&c.
+      Use &6/res tpconfirm &cto perform teleportation anyways.'
+    TeleportConfirmVoid: '&cThis teleport is not safe, you will fall into &6void&c.
+      Use &6/res tpconfirm &cto perform teleportation anyways.'
     TeleportConfirm: '&cThis teleport is not safe, you will fall for &6%1 &cblocks.
       Use &6/res tpconfirm &cto perform teleportation anyways.'
     TeleportStarted: '&eTeleportation to &6%1 &estarted, don''t move for next &6%2
@@ -494,23 +535,13 @@ Language:
     PhysicalAreas: '&ePhysical Areas'
     CurrentArea: '&eCurrent Area: &6%1'
     TotalResSize: '&eTotal size: &6%1m³ (%2m²)'
+    ResSize:
+      eastWest: '&eEast/West: &6%1'
+      northSouth: '&eNorth/South: &6%1'
+      upDown: '&eUp/Down: &6%1'
     TotalWorth: '&eTotal worth of residence: &6%1 &e(&6%2&e)'
     TotalSubzones: '&eSubzones in residence: &6%1 &e(&6%2&e)'
     NotOnline: '&eTarget player must be online.'
-    prevPage: '&2----<< &6Prev '
-    prevPageGui: '&6Previous page '
-    prevPageClean: '&6Prev '
-    prevPageOff: '&2----<< &7Prev '
-    prevPageHover: '&7<<<'
-    firstPageHover: '&7|<'
-    nextPage: '&6 Next &2>>----'
-    nextPageGui: '&6Next Page'
-    nextPageClean: '&6 Next'
-    nextPageOff: '&7 Next &2>>----'
-    nextPageHover: '&7>>>'
-    lastPageHover: '&7>|'
-    pageCount: '&2%1&7/&2%2'
-    pageCountHover: '&e%1 entries'
     GenericPages: '&ePage &6%1 &eof &6%2 &e(&6%3&e)'
     WorldEditNotFound: '&cWorldEdit was not detected.'
     CoordsTop: '&eX:&6%1 &eY:&6%2 &eZ:&6%3'
@@ -634,6 +665,11 @@ CommandHelp:
           - '&eUsage: &6/res padd <residence> [player]'
           - Adds essential flags for player
           Description: Add player to residence.
+        placeholders:
+          Info:
+          - '&eUsage: &6/res placeholders (parse) (placeholder) (playerName)'
+          Description: List of placeholders
+          parse: '[result]'
         signconvert:
           Info:
           - '&eUsage: &6/res signconvert'
@@ -646,13 +682,13 @@ CommandHelp:
           Description: List All Hidden Residences
         bank:
           Info:
-          - '&eUsage: &6/res bank [deposit/withdraw] <residence> [amount]'
+          - '&eUsage: &6/res bank [deposit/withdraw/balance] <residence> <amount>'
           - You must be standing in a Residence or provide residence name
           - You must have the +bank flag.
           Description: Manage money in a Residence
         create:
           Info:
-          - '&eUsage: &6/res create <residence name>'
+          - '&eUsage: &6/res create [residence_name]'
           Description: Create Residences
         listall:
           Info:
@@ -804,11 +840,11 @@ CommandHelp:
             autopay:
               Description: Sets residence AutoPay to given value
               Info:
-              - '&eUsage: &6/res market autopay <residence> [true/false]'
+              - '&eUsage: &6/res market autopay [residence] [true/false]'
             payrent:
               Description: Pays rent for defined residence
               Info:
-              - '&eUsage: &6/res market payrent <residence>'
+              - '&eUsage: &6/res market payrent [residence]'
             confirm:
               Description: Confirms residence unrent/release action
               Info:
@@ -983,599 +1019,640 @@ CommandHelp:
           - Blacklisting a material prevents it from being placed in the residence.
           - Ignorelist causes a specific material to not be protected by Residence.
           Description: Change blacklist and ignorelist options
-        raidstatus:
-          Info:
-          - '&eUsage: &6/res raidstatus (resName/playerName)'
-          Description: Check raid status for a residence
         pset:
           Info:
           - '&eUsage: &6/res pset <residence> [player] [flag] [true/false/remove]'
           - '&eUsage: &6/res pset <residence> [player] removeall'
           - To see a list of flags, use /res flags ?
           Description: Set flags on a specific player for a Residence.
-        show:
+        raidstatus:
           Info:
-          - '&eUsage: &6/res show <residence>'
-          Description: Show residence boundaries
+          - '&eUsage: &6/res raidstatus (resName/playerName)'
+          Description: Check raid status for a residence
         flags:
           Info:
           - For flag values, usually true allows the action, and false denys the action.
           Description: List of flags
           SubCommands:
             anvil:
+              Translated: anvil
               Description: Allows or denys interaction with anvil
               Info:
               - '&eUsage: &6/res set/pset <residence> anvil true/false/remove'
-              Translated: anvil
             admin:
+              Translated: admin
               Description: Gives a player permission to change flags on a residence
               Info:
               - '&eUsage: &6/res pset <residence> admin true/false/remove'
-              Translated: admin
             animalkilling:
+              Translated: animalkilling
               Description: Allows or denys animal killing
               Info:
               - '&eUsage: &6/res set/pset <residence> animalkilling true/false/remove'
-              Translated: animalkilling
             animals:
+              Translated: animals
               Description: Allows or denys animal spawns
               Info:
               - '&eUsage: &6/res set <residence> animals true/false/remove'
-              Translated: animals
+            anchor:
+              Translated: anchor
+              Description: Allows or denys respawn anchor usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> anchor true/false/remove'
             anvilbreak:
+              Translated: anvilbreak
               Description: Allows or denys anvil break in residence
               Info:
               - '&eUsage: &6/res set <residence> anvilbreak true/false/remove'
-              Translated: anvilbreak
+            safezone:
+              Translated: safezone
+              Description: Setting to true makes the residence clean bad effects from
+                its occupants
+              Info:
+              - '&eUsage: &6/res set <residence> safezone true/false/remove'
             backup:
+              Translated: backup
               Description: If set to true, restores previous look of area (WordEdit
                 required)
               Info:
               - '&eUsage: &6/res set <residence> backup true/false/remove'
-              Translated: backup
             bank:
+              Translated: bank
               Description: Allows or denys deposit/withdraw money from res bank
               Info:
               - '&eUsage: &6/res set/pset <residence> bank true/false/remove'
-              Translated: bank
             bed:
+              Translated: bed
               Description: Allows or denys players to use beds
               Info:
               - '&eUsage: &6/res set/pset <residence> bed true/false/remove'
-              Translated: bed
+            honey:
+              Translated: honey
+              Description: Allows or denys players to get honey
+              Info:
+              - '&eUsage: &6/res set/pset <residence> honey true/false/remove'
+            honeycomb:
+              Translated: honeycomb
+              Description: Allows or denys players to get honeycomb
+              Info:
+              - '&eUsage: &6/res set/pset <residence> honeycomb true/false/remove'
             beacon:
+              Translated: beacon
               Description: Allows or denys interaction with beacon
               Info:
               - '&eUsage: &6/res set/pset <residence> beacon true/false/remove'
-              Translated: beacon
             brew:
+              Translated: brew
               Description: Allows or denys players to use brewing stands
               Info:
               - '&eUsage: &6/res set/pset <residence> brew true/false/remove'
-              Translated: brew
             build:
+              Translated: build
               Description: Allows or denys building
               Info:
               - '&eUsage: &6/res set/pset <residence> build true/false/remove'
-              Translated: build
             burn:
+              Translated: burn
               Description: Allows or denys Mob combustion in residences
               Info:
               - '&eUsage: &6/res set <residence> burn true/false/remove'
-              Translated: burn
             button:
+              Translated: button
               Description: Allows or denys players to use buttons
               Info:
               - '&eUsage: &6/res set/pset <residence> button true/false/remove'
-              Translated: button
+            brush:
+              Translated: brush
+              Description: Allows or denys block brushing
+              Info:
+              - '&eUsage: &6/res set/pset <residence> brush true/false/remove'
             cake:
+              Translated: cake
               Description: Allows or denys players to eat cake
               Info:
               - '&eUsage: &6/res set/pset <residence> cake true/false/remove'
-              Translated: cake
             canimals:
+              Translated: canimals
               Description: Allows or denys custom animal spawns
               Info:
               - '&eUsage: &6/res set <residence> canimals true/false/remove'
-              Translated: canimals
             chorustp:
+              Translated: chorustp
               Description: Allow or disallow teleporting to the residence with chorus
                 fruit
               Info:
               - '&eUsage: &6/res set/pset <residence> chorustp true/false/remove'
-              Translated: chorustp
             chat:
+              Translated: chat
               Description: Allows to join residence chat room
               Info:
               - '&eUsage: &6/res set/pset <residence> chat true/false/remove'
-              Translated: chat
             cmonsters:
+              Translated: cmonsters
               Description: Allows or denys custom monster spawns
               Info:
               - '&eUsage: &6/res set <residence> cmonsters true/false/remove'
-              Translated: cmonsters
             commandblock:
+              Translated: commandblock
               Description: Allows or denys command block interaction
               Info:
               - '&eUsage: &6/res set/pset <residence> commandblock true/false/remove'
-              Translated: commandblock
             command:
+              Translated: command
               Description: Allows or denys comamnd use in residences
               Info:
               - '&eUsage: &6/res set/pset <residence> command true/false/remove'
-              Translated: command
             container:
+              Translated: container
               Description: Allows or denys use of furnaces, chests, dispensers, etc...
               Info:
               - '&eUsage: &6/res set/pset <residence> container true/false/remove'
-              Translated: container
             coords:
+              Translated: coords
               Description: Hides residence coordinates
               Info:
               - '&eUsage: &6/res set <residence> coords true/false/remove'
-              Translated: coords
+            copper:
+              Translated: copper
+              Description: Allows to modify copper blocks
+              Info:
+              - '&eUsage: &6/res set/pset <residence> copper true/false/remove'
             craft:
+              Translated: craft
               Description: Gives table, enchant, brew flags
               Info:
               - '&eUsage: &6/res set <residence> craft true/false/remove'
-              Translated: craft
             creeper:
+              Translated: creeper
               Description: Allow or deny creeper explosions
               Info:
               - '&eUsage: &6/res set <residence> creeper true/false/remove'
-              Translated: creeper
             dragongrief:
+              Translated: dragongrief
               Description: Prevents ender dragon block griefing
               Info:
               - '&eUsage: &6/res set <residence> dragongrief true/false/remove'
-              Translated: dragongrief
             day:
+              Translated: day
               Description: Sets day time in residence
               Info:
               - '&eUsage: &6/res set <residence> day true/false/remove'
-              Translated: day
             dye:
+              Translated: dye
               Description: Allows or denys sheep dyeing
               Info:
               - '&eUsage: &6/res set/pset <residence> dye true/false/remove'
-              Translated: dye
             damage:
+              Translated: damage
               Description: Allows or denys all entity damage within the residence
               Info:
               - '&eUsage: &6/res set <residence> damage true/false/remove'
-              Translated: damage
             decay:
+              Translated: decay
               Description: Allows or denys leave decay in the residence
               Info:
               - '&eUsage: &6/res set <residence> decay true/false/remove'
-              Translated: decay
             destroy:
+              Translated: destroy
               Description: Allows or denys only destruction of blocks, overrides the
                 build flag
               Info:
               - '&eUsage: &6/res set/pset <residence> destroy true/false/remove'
-              Translated: destroy
             dryup:
+              Translated: dryup
               Description: Prevents land from drying up
               Info:
               - '&eUsage: &6/res set <residence> dryup true/false/remove'
-              Translated: dryup
             diode:
+              Translated: diode
               Description: Allows or denys players to use redstone repeaters
               Info:
               - '&eUsage: &6/res set/pset <residence> diode true/false/remove'
-              Translated: diode
             door:
+              Translated: door
               Description: Allows or denys players to use doors and trapdoors
               Info:
               - '&eUsage: &6/res set/pset <residence> door true/false/remove'
-              Translated: door
             egg:
+              Translated: egg
               Description: Allows or denys interaction with dragon egg
               Info:
               - '&eUsage: &6/res set/pset <residence> egg true/false/remove'
-              Translated: egg
             enchant:
+              Translated: enchant
               Description: Allows or denys players to use enchanting tables
               Info:
               - '&eUsage: &6/res set/pset <residence> enchant true/false/remove'
-              Translated: enchant
             explode:
+              Translated: explode
               Description: Allows or denys explosions in residences
               Info:
               - '&eUsage: &6/res set <residence> explode true/false/remove'
-              Translated: explode
+            elytra:
+              Translated: elytra
+              Description: Allows or denys elytra usage in residences
+              Info:
+              - '&eUsage: &6/res set/pset <residence> elytra true/false/remove'
             enderpearl:
+              Translated: enderpearl
               Description: Allow or disallow teleporting to the residence with enderpearl
               Info:
               - '&eUsage: &6/res set/pset <residence> enderpearl true/false/remove'
-              Translated: enderpearl
             fallinprotection:
+              Translated: fallinprotection
               Description: Protects from blocks falling into residence
               Info:
               - '&eUsage: &6/res set <residence> fallinprotection true/false/remove'
-              Translated: fallinprotection
             falldamage:
+              Translated: falldamage
               Description: Protects players from fall damage
               Info:
               - '&eUsage: &6/res set <residence> falldamage true/false/remove'
-              Translated: falldamage
             feed:
+              Translated: feed
               Description: Setting to true makes the residence feed its occupants
               Info:
               - '&eUsage: &6/res set <residence> feed true/false/remove'
-              Translated: feed
             friendlyfire:
+              Translated: friendlyfire
               Description: Allow or disallow friendly fire
               Info:
               - '&eUsage: &6/res pset <residence> friendlyfire true/false/remove'
-              Translated: friendlyfire
             fireball:
+              Translated: fireball
               Description: Allows or denys fire balls in residences
               Info:
               - '&eUsage: &6/res set <residence> fireball true/false/remove'
-              Translated: fireball
             firespread:
+              Translated: firespread
               Description: Allows or denys fire spread
               Info:
               - '&eUsage: &6/res set <residence> firespread true/false/remove'
-              Translated: firespread
             flowinprotection:
+              Translated: flowinprotection
               Description: Allows or denys liquid flow into residence
               Info:
               - '&eUsage: &6/res set <residence> flowinprotection true/false/remove'
-              Translated: flowinprotection
             flow:
+              Translated: flow
               Description: Allows or denys liquid flow
               Info:
               - '&eUsage: &6/res set <residence> flow true/false/remove'
-              Translated: flow
             flowerpot:
+              Translated: flowerpot
               Description: Allows or denys interaction with flower pot
               Info:
               - '&eUsage: &6/res set/pset <residence> flowerpot true/false/remove'
-              Translated: flowerpot
             grow:
+              Translated: grow
               Description: Allows or denys plant growing
               Info:
               - '&eUsage: &6/res set <residence> grow true/false/remove'
-              Translated: grow
             glow:
+              Translated: glow
               Description: Players will start glowing when entering residence
               Info:
               - '&eUsage: &6/res set <residence> glow true/false/remove'
-              Translated: glow
+            goathorn:
+              Translated: goathorn
+              Description: Allows or denys goat horn usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> goathorn true/false/remove'
+            harvest:
+              Translated: harvest
+              Description: Allows harvesting
+              Info:
+              - '&eUsage: &6/res set/pset <residence> harvest true/false/remove'
             hotfloor:
+              Translated: hotfloor
               Description: Prevent damage from magma blocks
               Info:
               - '&eUsage: &6/res set <residence> hotfloor true/false/remove'
-              Translated: hotfloor
             hidden:
+              Translated: hidden
               Description: Hides residence from list or listall commands
               Info:
               - '&eUsage: &6/res set <residence> hidden true/false/remove'
-              Translated: hidden
             hook:
+              Translated: hook
               Description: Allows or denys fishing rod hooking entities
               Info:
               - '&eUsage: &6/res set/pset <residence> hook true/false/remove'
-              Translated: hook
             healing:
+              Translated: healing
               Description: Setting to true makes the residence heal its occupants
               Info:
               - '&eUsage: &6/res set <residence> healing true/false/remove'
-              Translated: healing
             iceform:
+              Translated: iceform
               Description: Prevents from ice forming
               Info:
               - '&eUsage: &6/res set <residence> iceform true/false/remove'
-              Translated: iceform
             icemelt:
+              Translated: icemelt
               Description: Prevents ice from melting
               Info:
               - '&eUsage: &6/res set <residence> icemelt true/false/remove'
-              Translated: icemelt
             ignite:
+              Translated: ignite
               Description: Allows or denys fire ignition
               Info:
               - '&eUsage: &6/res set/pset <residence> ignite true/false/remove'
-              Translated: ignite
             itemdrop:
+              Translated: itemdrop
               Description: Allows or denys item drop
               Info:
               - '&eUsage: &6/res set/pset <residence> itemdrop true/false/remove'
-              Translated: itemdrop
             itempickup:
+              Translated: itempickup
               Description: Allows or denys item pickup
               Info:
               - '&eUsage: &6/res set/pset <residence> itempickup true/false/remove'
-              Translated: itempickup
             jump2:
+              Translated: jump2
               Description: Allows to jump 2 blocks high
               Info:
               - '&eUsage: &6/res set <residence> jump2 true/false/remove'
-              Translated: jump2
             jump3:
+              Translated: jump3
               Description: Allows to jump 3 blocks high
               Info:
               - '&eUsage: &6/res set <residence> jump3 true/false/remove'
-              Translated: jump3
             keepinv:
+              Translated: keepinv
               Description: Players keeps inventory after death
               Info:
               - '&eUsage: &6/res set <residence> keepinv true/false/remove'
-              Translated: keepinv
             keepexp:
+              Translated: keepexp
               Description: Players keeps exp after death
               Info:
               - '&eUsage: &6/res set <residence> keepexp true/false/remove'
-              Translated: keepexp
             lavaflow:
+              Translated: lavaflow
               Description: Allows or denys lava flow, overrides flow
               Info:
               - '&eUsage: &6/res set <residence> lavaflow true/false/remove'
-              Translated: lavaflow
             leash:
+              Translated: leash
               Description: Allows or denys aninal leash
               Info:
               - '&eUsage: &6/res set/pset <residence> leash true/false/remove'
-              Translated: leash
             lever:
+              Translated: lever
               Description: Allows or denys players to use levers
               Info:
               - '&eUsage: &6/res set/pset <residence> lever true/false/remove'
-              Translated: lever
             mobexpdrop:
+              Translated: mobexpdrop
               Description: Prevents mob droping exp on death
               Info:
               - '&eUsage: &6/res set <residence> mobexpdrop true/false/remove'
-              Translated: mobexpdrop
             mobitemdrop:
+              Translated: mobitemdrop
               Description: Prevents mob droping items on death
               Info:
               - '&eUsage: &6/res set <residence> mobitemdrop true/false/remove'
-              Translated: mobitemdrop
             mobkilling:
+              Translated: mobkilling
               Description: Allows or denys mob killing
               Info:
               - '&eUsage: &6/res set/pset <residence> mobkilling true/false/remove'
-              Translated: mobkilling
             monsters:
+              Translated: monsters
               Description: Allows or denys monster spawns
               Info:
               - '&eUsage: &6/res set <residence> monsters true/false/remove'
-              Translated: monsters
             move:
+              Translated: move
               Description: Allows or denys movement in the residence
               Info:
               - '&eUsage: &6/res set/pset <residence> move true/false/remove'
-              Translated: move
+            nametag:
+              Translated: nametag
+              Description: Allows or denys name tag usage
+              Info:
+              - '&eUsage: &6/res set/pset <residence> nametag true/false/remove'
             nanimals:
+              Translated: nanimals
               Description: Allows or denys natural animal spawns
               Info:
               - '&eUsage: &6/res set <residence> nanimals true/false/remove'
-              Translated: nanimals
             nmonsters:
+              Translated: nmonsters
               Description: Allows or denys natural monster spawns
               Info:
               - '&eUsage: &6/res set <residence> nmonsters true/false/remove'
-              Translated: nmonsters
             night:
+              Translated: night
               Description: Sets night time in residence
               Info:
               - '&eUsage: &6/res set <residence> night true/false/remove'
-              Translated: night
             nofly:
+              Translated: nofly
               Description: Allows or denys fly in residence
               Info:
               - '&eUsage: &6/res set/pset <residence> nofly true/false/remove'
-              Translated: nofly
             fly:
+              Translated: fly
               Description: Toggles fly for players in residence
               Info:
               - '&eUsage: &6/res set/pset <residence> fly true/false/remove'
-              Translated: fly
             nomobs:
+              Translated: nomobs
               Description: Prevents monsters from entering residence. Requires AutoMobRemoval
                 to be enabled
               Info:
               - '&eUsage: &6/res set <residence> nomobs true/false/remove'
-              Translated: nomobs
             note:
+              Translated: note
               Description: Allows or denys players to use note blocks
               Info:
               - '&eUsage: &6/res set/pset <residence> note true/false/remove'
-              Translated: note
             nodurability:
+              Translated: nodurability
               Description: Prevents item durability loss
               Info:
               - '&eUsage: &6/res set <residence> nodurability true/false/remove'
-              Translated: nodurability
             overridepvp:
+              Translated: overridepvp
               Description: Overrides any plugin pvp protection
               Info:
               - '&eUsage: &6/res set <residence> overridepvp true/false/remove'
-              Translated: overridepvp
             pressure:
+              Translated: pressure
               Description: Allows or denys players to use pressure plates
               Info:
               - '&eUsage: &6/res set/pset <residence> pressure true/false/remove'
-              Translated: pressure
             piston:
+              Translated: piston
               Description: Allow or deny pistons from pushing or pulling blocks in
                 the residence
               Info:
               - '&eUsage: &6/res set <residence> piston true/false/remove'
-              Translated: piston
             pistonprotection:
+              Translated: pistonprotection
               Description: Enables or disabled piston block move in or out of residence
               Info:
               - '&eUsage: &6/res set <residence> pistonprotection true/false/remove'
-              Translated: pistonprotection
             place:
+              Translated: place
               Description: Allows or denys only placement of blocks, overrides the
                 build flag
               Info:
               - '&eUsage: &6/res set/pset <residence> place true/false/remove'
-              Translated: place
             pvp:
+              Translated: pvp
               Description: Allow or deny pvp in the residence
               Info:
               - '&eUsage: &6/res set <residence> pvp true/false/remove'
-              Translated: pvp
             rain:
+              Translated: rain
               Description: Sets weather to rainny in residence
               Info:
               - '&eUsage: &6/res set <residence> rain true/false/remove'
-              Translated: rain
-            redstone:
-              Description: Gives lever, diode, button, pressure, note flags
-              Info:
-              - '&eUsage: &6/res pset <residence> redstone true/false/remove'
-              Translated: redstone
             respawn:
+              Translated: respawn
               Description: Automaticaly respawns player
               Info:
               - '&eUsage: &6/res set <residence> respawn true/false/remove'
-              Translated: respawn
             riding:
+              Translated: riding
               Description: Prevent riding a horse
               Info:
               - '&eUsage: &6/res set/pset <residence> riding true/false/remove'
-              Translated: riding
             shoot:
+              Translated: shoot
               Description: Allows or denys shooting projectile in area
               Info:
               - '&eUsage: &6/res set <residence> shoot true/false/remove'
-              Translated: shoot
             sun:
+              Translated: sun
               Description: Sets weather to sunny in residence
               Info:
               - '&eUsage: &6/res set <residence> sun true/false/remove'
-              Translated: sun
             shop:
+              Translated: shop
               Description: Adds residence to special residence shop list
               Info:
               - '&eUsage: &6/res set <residence> shop true/false/remove'
-              Translated: shop
             snowtrail:
+              Translated: snowtrail
               Description: Prevents snowman snow trails
               Info:
               - '&eUsage: &6/res set <residence> snowtrail true/false/remove'
-              Translated: snowtrail
             spread:
+              Translated: spread
               Description: Prevents block spreading
               Info:
               - '&eUsage: &6/res set <residence> spread true/false/remove'
-              Translated: spread
             snowball:
+              Translated: snowball
               Description: Prevents snowball knockback
               Info:
               - '&eUsage: &6/res set <residence> snowball true/false/remove'
-              Translated: snowball
             sanimals:
+              Translated: sanimals
               Description: Allows or denys spawner or spawn egg animal spawns
               Info:
               - '&eUsage: &6/res set <residence> sanimals true/false/remove'
-              Translated: sanimals
             shear:
+              Translated: shear
               Description: Allows or denys sheep shear
               Info:
               - '&eUsage: &6/res set/pset <residence> shear true/false/remove'
-              Translated: shear
             smonsters:
+              Translated: smonsters
               Description: Allows or denys spawner or spawn egg monster spawns
               Info:
               - '&eUsage: &6/res set <residence> smonsters true/false/remove'
-              Translated: smonsters
             subzone:
+              Translated: subzone
               Description: Allow a player to make subzones in the residence
               Info:
               - '&eUsage: &6/res set/pset <residence> subzone true/false/remove'
-              Translated: subzone
             title:
+              Translated: title
               Description: Shows or hides enter/leave message in residence
               Info:
               - '&eUsage: &6/res set <residence> title true/false/remove'
-              Translated: title
             table:
+              Translated: table
               Description: Allows or denys players to use workbenches
               Info:
               - '&eUsage: &6/res set/pset <residence> table true/false/remove'
-              Translated: table
             tnt:
+              Translated: tnt
               Description: Allow or deny tnt explosions
               Info:
               - '&eUsage: &6/res set <residence> tnt true/false/remove'
-              Translated: tnt
             tp:
+              Translated: tp
               Description: Allow or disallow teleporting to the residence
               Info:
               - '&eUsage: &6/res set/pset <residence> tp true/false/remove'
-              Translated: tp
             trade:
+              Translated: trade
               Description: Allows or denys villager trading in residence
               Info:
               - '&eUsage: &6/res set/pset <residence> trade true/false/remove'
-              Translated: trade
             trample:
+              Translated: trample
               Description: Allows or denys crop trampling in residence
               Info:
               - '&eUsage: &6/res set <residence> trample true/false/remove'
-              Translated: trample
-            trusted:
-              Description: Gives build, use, move, container and tp flags
-              Info:
-              - '&eUsage: &6/res pset <residence> trusted true/false/remove'
-              Translated: trusted
             use:
+              Translated: use
               Description: Allows or denys use of doors, lever, buttons, etc...
               Info:
               - '&eUsage: &6/res set/pset <residence> use true/false/remove'
-              Translated: use
             vehicledestroy:
+              Translated: vehicledestroy
               Description: Allows or denys vehicle destroy
               Info:
               - '&eUsage: &6/res set/pset <residence> vehicledestroy true/false/remove'
-              Translated: vehicledestroy
             witherspawn:
+              Translated: witherspawn
               Description: Allows or denys wither spawning
               Info:
               - '&eUsage: &6/res set <residence> witherspawn true/false/remove'
-              Translated: witherspawn
             phantomspawn:
+              Translated: phantomspawn
               Description: Allows or denys phantom spawning
               Info:
               - '&eUsage: &6/res set <residence> phantomspawn true/false/remove'
-              Translated: phantomspawn
             witherdamage:
+              Translated: witherdamage
               Description: Allows or denys wither damage
               Info:
               - '&eUsage: &6/res set <residence> witherdamage true/false/remove'
-              Translated: witherdamage
             witherdestruction:
+              Translated: witherdestruction
               Description: Allows or denys wither block damage
               Info:
               - '&eUsage: &6/res set <residence> witherdestruction true/false/remove'
-              Translated: witherdestruction
             waterflow:
+              Translated: waterflow
               Description: Allows or denys water flow, overrides flow
               Info:
               - '&eUsage: &6/res set <residence> waterflow true/false/remove'
-              Translated: waterflow
             wspeed1:
+              Translated: wspeed1
               Description: Change players walk speed in residence to %1
               Info:
               - '&eUsage: &6/res set <residence> wspeed1 true/false/remove'
-              Translated: wspeed1
             wspeed2:
+              Translated: wspeed2
               Description: Change players walk speed in residence to %1
               Info:
               - '&eUsage: &6/res set <residence> wspeed2 true/false/remove'
-              Translated: wspeed2
+        show:
+          Info:
+          - '&eUsage: &6/res show <residence>'
+          Description: Show residence boundaries
         remove:
           Info:
-          - '&eUsage: &6/res remove <residence name>'
+          - '&eUsage: &6/res remove [residence_name]'
           Description: Remove residences.
         signupdate:
           Info:
@@ -1585,17 +1662,17 @@ CommandHelp:
           Info:
           - '&eUsage: &6/res current'
           Description: Show residence your currently in.
-        reload:
-          Info:
-          - '&eUsage: &6/res reload [config/lang/groups/flags]'
-          Description: reload lanf or config files
         leaveraid:
           Info:
           - '&eUsage: &6/res leaveraid'
           Description: Leave raid
+        reload:
+          Info:
+          - '&eUsage: &6/res reload [config/lang/groups/flags]'
+          Description: reload lanf or config files
         setowner:
           Info:
-          - '&eUsage: &6/resadmin setowner [residence] [player]'
+          - '&eUsage: &6/resadmin setowner [residence] [player] (-keepflags)'
           Description: Change owner of a residence.
         defend:
           Info:
@@ -1665,27 +1742,27 @@ CommandHelp:
           - You must be standing in the residence to use this command.
           - You must also be the owner or have the +admin flag for the residence.
           Description: Set the teleport location of a Residence
-        tpconfirm:
-          Info:
-          - '&eUsage: &6/res tpconfirm'
-          - Teleports you to a residence, when teleportation is unsafe.
-          Description: Ignore unsafe teleportation warning
         removeall:
           Info:
           - '&eUsage: &6/res removeall [owner]'
           - Removes all residences owned by a specific player.'
           - Requires /resadmin if you use it on anyone besides yourself.
           Description: Remove all residences owned by a player.
-        material:
+        tpconfirm:
           Info:
-          - '&eUsage: &6/res material [material]'
-          Description: Check if material exists by its id
+          - '&eUsage: &6/res tpconfirm'
+          - Teleports you to a residence, when teleportation is unsafe.
+          Description: Ignore unsafe teleportation warning
         kick:
           Info:
           - '&eUsage: &6/res kick <player>'
           - You must be the owner or an admin to do this.
           - Player should be online.
           Description: Kicks player from residence.
+        material:
+          Info:
+          - '&eUsage: &6/res material [material]'
+          Description: Check if material exists by its id
         sublist:
           Info:
           - '&eUsage: &6/res sublist <residence> <page>'

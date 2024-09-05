@@ -10,9 +10,9 @@ Global:
   versionCheck: true
   # This loads the <language>.yml file in the Residence Language folder
   # All Residence text comes from this file. (NOT DONE YET)
-  Language: Chinese
+  Language: English
   # Wooden Hoe is the default selection tool for Residence.
-  SelectionToolId: STICK
+  SelectionToolId: WOODEN_HOE
   Selection:
     # By setting this to true, all selections will be made from bedrock to sky ignoring Y coordinates
     IgnoreY: false
@@ -29,7 +29,7 @@ Global:
     WorldEditIntegration: true
   # This determins which tool you can use to see info on residences, default is String.
   # Simply equip this tool and hit a location inside the residence and it will display the info for it.
-  InfoToolId: WHEAT
+  InfoToolId: STRING
   Optimizations:
     # When enabled we will load data from every single world file even if world doesn't exist but might be loaded later on
     # Usually only useful when you have multiverse plugin which loads worlds durring server work time
@@ -40,13 +40,14 @@ Global:
     # When this is set to false and CanTeleport set to false, players will not have option to teleport to other player residences, only to their own
     # When this is set to true and CanTeleport set to false, players will not have option to teleport to residences in general
     # Keep in mind that this only applies for commands like /res tp
-    CanTeleportIncludeOwner: true
+    CanTeleportIncludeOwner: false
     # Name of your main residence world. Usually normal starting world 'World'. Capitalization essential
     DefaultWorld: world
     DisabledWorlds:
       # List Of Worlds where this plugin is disabled
       # Make sure that world names capitalization is correct
-      List: []
+      List:
+      - worldNamesHere
       # Disables all listeners in included worlds
       DisableListeners: true
       # Disables any command usage in included worlds
@@ -180,16 +181,7 @@ Global:
   RandomTeleportation:
     Worlds:
       # World name to use this feature. Add annother one with appropriate name to enable random teleportation
-      DigNether:
-        Enabled: true
-        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
-        MaxCoord: 1000
-        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 500 to 1000 coordinates
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
-      world_the_end:
+      dig_nether:
         Enabled: true
         # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
         MaxCoord: 1000
@@ -198,6 +190,24 @@ Global:
         CenterX: 0
         CenterZ: 0
       world:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      world_the_end:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      dig_the_end:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      lemon_nether:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
@@ -221,13 +231,7 @@ Global:
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
-      lemon_nether:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      lemon_amp:
+      dig:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
@@ -280,11 +284,11 @@ Global:
     UserName: Server_Land
   Lwc:
     # Removes lwc protection from all defined objects when removing residence
-    OnDelete: false
+    OnDelete: true
     # Removes lwc protection from all defined objects when buying residence
-    OnBuy: false
+    OnBuy: true
     # Removes lwc protection from all defined objects when unrenting residence
-    OnUnrent: false
+    OnUnrent: true
     # List of blocks you want to remove protection from
     MaterialList:
     - CHEST
@@ -304,13 +308,13 @@ Global:
     TNT:
       # When set to true will allow tnt and minecart with tnt to explode below 62 (default) level outside of residence
       # This will allow mining with tnt and more vanilla play
-      ExplodeBelow: true
+      ExplodeBelow: false
       level: 62
     Creeper:
       # When set to true will allow Creeper explode below 62 (default) level outside of residence
       # This will give more realistic game play
       # For this to work properly you will need to disable creeper explosion in the world in general. This can be done in flags file under global world section
-      ExplodeBelow: true
+      ExplodeBelow: false
       level: 62
     Flow:
       # Level from which one to start lava and water flow blocking
@@ -372,7 +376,7 @@ Global:
   DateFormatShort: MM.dd hh:mm
   # Sets time zone for showing date, useful when server is in different country then main server player base
   # Full list of possible time zones can be found at http://www.mkyong.com/java/java-display-list-of-timezone-with-gmt/
-  TimeZone: Asia/Shanghai
+  TimeZone: Asia/Singapore
   # Enable / Disable money returning on residence removal.
   ResMoneyBack: false
   # Enable / Disable money returning from residence bank on residence removal.
@@ -443,7 +447,7 @@ Global:
   Messages:
     # Defines where you want to send residence enter/leave/deny move and similar messages. Possible options: ActionBar, TitleBar, ChatBox
     # TitleBar can have %subtitle% variable to define second line
-    GeneralMessages: ActionBar
+    GeneralMessages: ChatBox
   ActionBar:
     ShowOnSelection: true
   # Enable or disable residence chat channels.
@@ -503,13 +507,13 @@ Global:
     # How often in ticks to update particles for player
     updateInterval: 20
     # Spacing in blocks between particle effects for rows
-    RowSpacing: 2
+    RowSpacing: 1
     # Spacing in blocks between particle effects for collums
-    CollumnSpacing: 2
+    CollumnSpacing: 1
     # Defines by how many particles we need to skip
     # This will create moving particle effect and will improve overall look of selection
     # By increasing this number, you can decrease update interval
-    SkipBy: 5
+    SkipBy: 2
     # Maximum amount of frame particles to show for one player
     FrameCap: 500
     # Maximum amount of sides particles to show for one player
@@ -545,7 +549,7 @@ Global:
   AutoMobRemoval:
     Use: false
     # How often in seconds to check for monsters in residences. Keep it at reasonable amount
-    Interval: 3
+    Interval: 5
   EnforceAreaInsideArea: false
   EnableSpout: false
   EnableLeaseMoneyAccount: true

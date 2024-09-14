@@ -33,6 +33,11 @@
         },
         {
           "type": "permission",
+          "key": "essentials.balance",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "essentials.gc",
           "value": true
         },
@@ -88,6 +93,31 @@
         },
         {
           "type": "permission",
+          "key": "marketplace.add",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "marketplace.help",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "marketplace.listings",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "marketplace.mails",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "slabbo.use",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "tabtps.defaultdisplay",
           "value": true
         },
@@ -104,6 +134,16 @@
         {
           "type": "permission",
           "key": "tabtps.tps",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tradesystem.trade",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tradesystem.trade.initiate",
           "value": true
         },
         {

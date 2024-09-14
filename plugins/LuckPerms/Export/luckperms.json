@@ -38,6 +38,16 @@
         },
         {
           "type": "permission",
+          "key": "essentials.home",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sethome.bed",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "tabtps.defaultdisplay",
           "value": true
         },

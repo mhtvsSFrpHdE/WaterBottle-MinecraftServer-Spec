@@ -1,0 +1,7 @@
+/minecraft:gamerule doInsomnia false
+/mv gamerule doInsomnia false lemon
+/say world, lemon的幻翼生成已停用
+
+/minecraft:gamerule doInsomnia true
+/mv gamerule doInsomnia true lemon
+/say world, lemon的幻翼可以生成

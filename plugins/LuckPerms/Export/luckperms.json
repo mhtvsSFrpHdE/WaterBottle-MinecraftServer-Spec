@@ -211,6 +211,21 @@
           "value": true
         }
       ]
+    },
+    "permission_admin": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "luckperms.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "minecraft.command.op",
+          "value": true
+        }
+      ]
+    },
     }
   },
   "tracks": {},

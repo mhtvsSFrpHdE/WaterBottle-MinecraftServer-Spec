@@ -178,7 +178,7 @@ gui:
     # Control recommended skins in the /skins GUI
     recommendations:
         # Whether recommended skins are enabled in the /skins GUI
-        enabled: true
+        enabled: false
         # Order of recommended skins relative to the other skin types
         index: 2
         # Whether only specific recommended skins are allowed in the /skins GUI

@@ -12,7 +12,7 @@ Global:
   # All Residence text comes from this file. (NOT DONE YET)
   Language: Chinese
   # Wooden Hoe is the default selection tool for Residence.
-  SelectionToolId: WOODEN_HOE
+  SelectionToolId: STICK
   Selection:
     # By setting this to true, all selections will be made from bedrock to sky ignoring Y coordinates
     IgnoreY: false

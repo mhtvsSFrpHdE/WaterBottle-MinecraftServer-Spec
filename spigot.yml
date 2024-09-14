@@ -90,10 +90,10 @@ world-settings:
     seed-mansion: 10387319
     seed-fossil: 14357921
     seed-portal: 34222645
-    max-tnt-per-tick: 100
+    max-tnt-per-tick: 0
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 1000
+      entity: 1000
     entity-tracking-range:
       players: 48
       animals: 48
@@ -102,10 +102,13 @@ world-settings:
       display: 128
       other: 64
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      raiders: 48
-      misc: 16
+      animals: 0
+      monsters: 0
+      raiders: 0
+      misc: 0
+      water: 0
+      villagers: 0
+      flying-monsters: 0
       tick-inactive-villagers: true
       ignore-spectators: false
     growth:

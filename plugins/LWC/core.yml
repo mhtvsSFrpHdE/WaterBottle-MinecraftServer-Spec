@@ -53,11 +53,6 @@ protections:
         ender_chest:
             enabled: true
             autoRegister: public
-        dirt:
-            enabled: true
-        bed:
-            enabled: true
-            autoRegister: private
         white_bed:
             enabled: true
             autoRegister: private

@@ -1,6 +1,6 @@
 TradeSystem:
   Prefix: '&8[&cTrade&8] &r'
-  Language: ENG
+  Language: CHI
   # Permissions:
   #   "tradesystem.trade": Can accept/deny/toggle trade requests
   #   "tradesystem.trade.initiate": Can invite players for trades

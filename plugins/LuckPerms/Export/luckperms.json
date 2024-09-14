@@ -11,6 +11,21 @@
           "key": "multiverse.access.*",
           "value": true
         },
+        {
+          "type": "permission",
+          "key": "zh.friend.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "zh.claim",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "zh.give",
+          "value": true
+        }
       ]
     }
   },

@@ -17,12 +17,12 @@ templates:
     #  z: 0
     maps:
       - class: org.dynmap.hdmap.HDMap
-        name: flat
-        title: "Flat"
-        prefix: flat
-        perspective: iso_S_90_vlowres
-        shader: stdtexture
-        lighting: nethershadows
+        name: nether
+        title: "Surface"
+        prefix: nt
+        perspective: iso_SE_60_vlowres
+        shader: defaultscheme
+        lighting: default
         # Map background color (day or night)
         background: "#300806"
         # Adjust extra zoom in levels - default is 2

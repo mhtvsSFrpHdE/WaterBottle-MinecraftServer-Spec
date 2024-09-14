@@ -64,7 +64,8 @@ Groups:
            # The default enter message to apply to new Residences created by players in this group.
            # Use %zone if you want to include only current residence name without including parent zones into name
            # Leaving the message blank will disable it.
-           DefaultEnter: "Welcome %player to %residence, owned by %owner."
+           #DefaultEnter: " %residence, owned by %owner."
+           DefaultEnter: "已进入监控摄像区域"
            # The default leave message to apply to new Residences created by players in this group.
            # %player if you want to include players name
            # %playerDisplay if you want to include players display name
@@ -73,7 +74,8 @@ Groups:
            # %zone if you want to include only current residence name without including parent zones into name
            # 
            # Leaving the message blank will disable it.
-           DefaultLeave: "Now leaving %residence."
+           #DefaultLeave: "Now leaving %residence."
+           DefaultLeave: "离开监控摄像区域"
        # Options relating to the Lease system.
        Lease:
           # The maximum number of days to allow leases.

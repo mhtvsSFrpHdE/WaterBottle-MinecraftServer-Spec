@@ -132,6 +132,8 @@ world-settings:
       weepingvines-modifier: 100
       cavevines-modifier: 100
     below-zero-generation-in-existing-chunks: true
+  worldeditregentempworld:
+    verbose: false
 commands:
   silent-commandblock-console: false
   tab-complete: 0

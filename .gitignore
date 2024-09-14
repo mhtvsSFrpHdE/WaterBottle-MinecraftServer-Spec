@@ -10,20 +10,25 @@
 
 # Server
 /libraries
-logs/
-crash-reports/
+/logs
+/crash-reports
+/debug
 
 # Sensitive data
 usercache.json
 whitelist.json
 
 # Worlds
-world/
-world_nether/
-world_the_end/
-dig/
-dig_nether/
-dig_the_end/
+/world
+/world_nether
+/world_the_end
+/lemon
+/lemon_nether
+/lemon_the_end
+/lemon_amp
+/dig
+/dig_nether
+/dig_the_end
 
 
 
@@ -45,6 +50,7 @@ plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
+plugins/Essentials/warps/
 
 # Upgrade process log
 plugins/Essentials/upgrades-done.yml
@@ -137,3 +143,13 @@ plugins/Residence/Save/Backup/
 
 # Sensitive data
 plugins/WorldEdit/sessions/
+
+# TabTPS
+
+# Sensitive data
+/plugins/TabTPS/userdata
+
+
+# Syncthing
+.stignore
+/.stfolder/

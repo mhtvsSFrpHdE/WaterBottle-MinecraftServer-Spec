@@ -226,6 +226,15 @@
         }
       ]
     },
+    "shop_admin": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "slabbo.limit.*",
+          "value": true
+        }
+      ]
+    },
     }
   },
   "tracks": {},

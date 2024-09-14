@@ -217,7 +217,7 @@ proximity:
   proximity-overworld:
     enabled: true
     minY: -2032
-    maxY: 2031
+    maxY: 63
     worlds:
     - world
     - lemon

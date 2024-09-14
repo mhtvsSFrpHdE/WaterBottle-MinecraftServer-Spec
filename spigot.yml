@@ -95,7 +95,7 @@ world-settings:
       tile: 1000
       entity: 1000
     entity-tracking-range:
-      players: 48
+      players: 160
       animals: 48
       monsters: 48
       misc: 32

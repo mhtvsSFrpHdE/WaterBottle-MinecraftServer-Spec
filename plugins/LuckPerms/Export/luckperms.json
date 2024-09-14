@@ -235,6 +235,14 @@
         }
       ]
     },
+    "worldedit": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "worldedit.*",
+          "value": true
+        }
+      ]
     }
   },
   "tracks": {},

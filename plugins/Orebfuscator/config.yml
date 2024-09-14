@@ -18,7 +18,7 @@ cache:
   enabled: true
   baseDirectory: orebfuscator_cache
   maximumOpenRegionFiles: 256
-  deleteRegionFilesAfterAccess: 172800000
+  deleteRegionFilesAfterAccess: 31536000000
   enableDiskCache: true
   maximumSize: 16384
   expireAfterAccess: 60000

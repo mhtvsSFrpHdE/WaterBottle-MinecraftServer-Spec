@@ -10,7 +10,7 @@ Global:
   versionCheck: true
   # This loads the <language>.yml file in the Residence Language folder
   # All Residence text comes from this file. (NOT DONE YET)
-  Language: English
+  Language: Chinese
   # Wooden Hoe is the default selection tool for Residence.
   SelectionToolId: WOODEN_HOE
   Selection:

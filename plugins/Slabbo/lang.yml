@@ -30,10 +30,16 @@ error-message:
     invalid-note: That's an invalid sellers note!
   shop-errors:
     out-of-stock: This shop is out of stock!
-    not-enough-funds: You don't have enough funds!
-    not-enough-items: You don't have enough items!
+    not-enough-funds: |
+        You don't have enough funds!
+        &f余额不足
+    not-enough-items: |
+        You don't have enough items!
+        &f背包中没有物品
     not-enough-shop-funds: The shop doesn't have enough funds!
-    not-enough-inventory-space: You don't have enough inventory space!
+    not-enough-inventory-space: |
+        You don't have enough inventory space!
+        &f背包空间不足
     buy-limit-reached: The shops buy limit has been reached!
     sell-limit-reached: The shops sell limit has been reached!
     not-enough-stock: The shop doesn't have enough stock left!
@@ -76,8 +82,12 @@ success-message:
     stock-set: Stock set to {stock}
     note-set: Shop note set to {note}
   client:
-    buy-success: Bought {count} {item} for a total of {cost}
-    sell-success: Sold {count} {item} for a total of {cost}
+    buy-success: |
+        Bought {count} {item} for a total of {cost}
+        &f购买{count}个{item} 总价格{cost}
+    sell-success: |
+        Sold {count} {item} for a total of {cost}
+        &f出售{count}个{item} 总价格{cost}
   owner:
     buy-success: "{user} bought {count} {item} for a total of {cost} at your shop."
     sell-success: "{user} sold {count} {item} for a total of {cost} at your shop."
@@ -85,7 +95,7 @@ success-message:
 general:
   currency-format: "${amount}"
   shop-prefix: "[Slabbo] "
-  user-info-item-name: "Slabbo Shop"
+  user-info-item-name: "Slabbo Shop商店信息"
   chestlink:
     chest-name: "Chest [{location}]"
     crouch-to-link: Please crouch and punch the chest you want to link.
@@ -96,7 +106,7 @@ general:
     reloaded: Reloaded
     restock-message: Your shop at {location} is out of {item}
     virtual-restock-message: Your virtual shop {name} is out of {item}
-    stacks: Stacks
+    stacks: Stacks组
     cancel: Cancel
     confirm: Confirm
     item: Item
@@ -114,7 +124,7 @@ general:
 
     quantity: Quantity
 
-    current-funds: Current funds
+    current-funds: Current funds当前余额
     new-shop: New Shop
 
     shop: Shop
@@ -133,11 +143,11 @@ general:
 
     amount-per-transaction: "Amount per transaction: {count}"
     amount-per-click: "Amount per click: {count}"
-    in-stock: "In stock: {count}"
+    in-stock: "In stock库存: {count}"
 
-    buy-for: "Buy for: {price}"
-    sell-for: "Sell for: {price}"
-    funds-message: "Funds: {funds}"
+    buy-for: "Buy for购买价格: {price}"
+    sell-for: "Sell for出售价格: {price}"
+    funds-message: "Funds余额: {funds}"
 
     default-shop-note: "Let's trade!"
 
@@ -156,7 +166,7 @@ general:
 gui:
   owner-title: Owner
   editing-shop: Editing Shop
-  client: Client
+  client: Client商店
   items:
     admin:
       deposit-item: Deposit {item}
@@ -166,14 +176,14 @@ gui:
       view-as-customer: View as customer
       link-chest: Link chest
     user:
-      buy-item: Buy {item} * {quantity}
-      sell-item: Sell {item} * {quantity}
-      sellers-note: Sellers note
+      buy-item: Buy购买 {item} * {quantity}
+      sell-item: Sell出售 {item} * {quantity}
+      sellers-note: Sellers note物品描述
     info:
-      owned-by: Owned by {owner}
-      selling-item: "Selling: {item}"
-      buy-each: Buy {quantity} for {buyPrice} ({buyPerItem} each)
-      sell-each: Sell {quantity} for {sellPrice} ({sellPerItem} each)
+      owned-by: Owned by店主 {owner}
+      selling-item: "Selling正在出售: {item}"
+      buy-each: Buy购买 {quantity} 价格for {buyPrice} (单价{buyPerItem} each)
+      sell-each: Sell出售 {quantity} 价格for {sellPrice} (单价{sellPerItem} each)
       limit:
         sell-stock: "Selling stock: {sellStock}"
         buy-stock: "Buying stock: {buyStock}"

@@ -23,6 +23,16 @@
         },
         {
           "type": "permission",
+          "key": "coreprotect.inspect",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "coreprotect.lookup",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "essentials.gc",
           "value": true
         },

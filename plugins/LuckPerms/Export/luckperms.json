@@ -78,6 +78,16 @@
         },
         {
           "type": "permission",
+          "key": "essentials.warp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.warp.list",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "tabtps.defaultdisplay",
           "value": true
         },

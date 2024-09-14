@@ -18,6 +18,36 @@
         },
         {
           "type": "permission",
+          "key": "bukkit.command.tps",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gc",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tabtps.defaultdisplay",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tabtps.ping",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tabtps.ping.others",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "tabtps.tps",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "zh.claim",
           "value": true
         },

@@ -31,6 +31,9 @@ obfuscation:
     worlds:
     - world
     layerObfuscation: false
+    - lemon
+    - lemon_amp
+    - dig
     hiddenBlocks:
     - minecraft:emerald_ore
     - minecraft:deepslate_emerald_ore
@@ -121,6 +124,8 @@ obfuscation:
     worlds:
     - world_nether
     layerObfuscation: false
+    - lemon_nether
+    - dig_nether
     hiddenBlocks:
     - minecraft:netherrack
     - minecraft:nether_quartz_ore
@@ -176,6 +181,8 @@ obfuscation:
     worlds:
     - world_the_end
     layerObfuscation: false
+    - lemon_the_end
+    - dig_the_end
     hiddenBlocks:
     - minecraft:chest
     - minecraft:ender_chest
@@ -214,6 +221,9 @@ proximity:
     maxY: 2031
     worlds:
     - world
+    - lemon
+    - lemon_amp
+    - dig
     distance: 24
     frustumCulling:
       enabled: true
@@ -286,6 +296,8 @@ proximity:
     maxY: 2031
     worlds:
     - world_nether
+    - lemon_nether
+    - dig_nether
     distance: 24
     frustumCulling:
       enabled: true
@@ -351,6 +363,8 @@ proximity:
     maxY: 2031
     worlds:
     - world_the_end
+    - lemon_the_end
+    - dig_the_end
     distance: 24
     frustumCulling:
       enabled: true

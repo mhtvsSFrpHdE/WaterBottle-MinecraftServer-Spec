@@ -128,6 +128,31 @@
         },
         {
           "type": "permission",
+          "key": "residence.command.gset",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "residence.command.listall",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "residence.command.lists",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "residence.command.pset",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "residence.command.set",
+          "value": false
+        },
+        {
+          "type": "permission",
           "key": "residence.compass",
           "value": false
         },

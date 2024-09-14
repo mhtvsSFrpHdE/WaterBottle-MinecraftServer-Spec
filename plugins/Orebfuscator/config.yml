@@ -30,10 +30,10 @@ obfuscation:
     maxY: 2031
     worlds:
     - world
-    layerObfuscation: false
     - lemon
     - lemon_amp
     - dig
+    layerObfuscation: true
     hiddenBlocks:
     - minecraft:emerald_ore
     - minecraft:deepslate_emerald_ore
@@ -123,9 +123,9 @@ obfuscation:
     maxY: 2031
     worlds:
     - world_nether
-    layerObfuscation: false
     - lemon_nether
     - dig_nether
+    layerObfuscation: true
     hiddenBlocks:
     - minecraft:netherrack
     - minecraft:nether_quartz_ore
@@ -180,9 +180,9 @@ obfuscation:
     maxY: 2031
     worlds:
     - world_the_end
-    layerObfuscation: false
     - lemon_the_end
     - dig_the_end
+    layerObfuscation: true
     hiddenBlocks:
     - minecraft:chest
     - minecraft:ender_chest

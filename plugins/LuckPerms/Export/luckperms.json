@@ -4,15 +4,6 @@
     "generatedAt": "2024-09-14 00:00:00 SGT"
   },
   "groups": {
-    "change_self_password": {
-      "nodes": [
-        {
-          "type": "permission",
-          "key": "authme.player.changepassword",
-          "value": true
-        }
-      ]
-    },
     "default": {
       "nodes": [
         {

@@ -82,7 +82,6 @@ obfuscation:
         minY: -2032
         maxY: 2031
         blocks:
-          minecraft:cave_air: 5
           minecraft:cobblestone: 1
           minecraft:mossy_cobblestone: 1
           minecraft:obsidian: 1

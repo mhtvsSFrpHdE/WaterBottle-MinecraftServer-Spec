@@ -1,4 +1,5 @@
 {
+    "language": "zh",
     "database": {
         "type": "SQLITE"
     },
@@ -9,11 +10,12 @@
             "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from listings and its in your mailbox."
         ],
         "mailsToDeleteNotifCommand": [
-            "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from mailbox and has been deleted."
+            "mail send {{playerPseudo}} your item {{quantity}}x{{itemStack}} has expired from mailbox and has been deleted."
         ]
     },
     "sellerItemNotifCommand": [
-        "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has been sell for {{price}}."
+        "t {{playerPseudo}} your item {{quantity}}x{{itemStack}} has been sell for {{price}}.",
+        "t {{playerPseudo}} {{quantity}}个{{itemStack}}已售出，获得{{price}}."
     ],
     "maxDecimalMoney": 2,
     "maxMoneyToSellItem": 1.0E12,

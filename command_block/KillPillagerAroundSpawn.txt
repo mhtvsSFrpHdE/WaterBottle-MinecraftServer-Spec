@@ -1,0 +1,1 @@
+/minecraft:kill @e[distance=..20,type=pillager]

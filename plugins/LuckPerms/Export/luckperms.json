@@ -123,6 +123,16 @@
         },
         {
           "type": "permission",
+          "key": "residence.command.compass",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "residence.compass",
+          "value": false
+        },
+        {
+          "type": "permission",
           "key": "slabbo.use",
           "value": true
         },

@@ -384,8 +384,8 @@ Global:
   ResidenceDefault:
     build: false
     destroy: false
-    use: false
-    container: false
+    use: true
+    container: true
     pvp: false
     tnt: false
     creeper: false
@@ -397,7 +397,7 @@ Global:
     shear: false
     leash: false
     pistonprotection: true
-    tp: false
+    tp: true
     explode: false
     harvest: false
   # These are default flags applied to the residence creator of any group.

@@ -3,6 +3,7 @@
 )
 
 $serverInstanceCount = @(Get-WmiObject Win32_Process -Filter "name = 'java.exe'" | Where-Object CommandLine -match "$($ServerFileName)").Count
+#$serverInstanceCount = 0
 if ($serverInstanceCount -ne 0){
     rcon "say §aBackup server data, restart in 120 seconds"
     rcon "say 备份服务器数据，120秒后重启服务器"

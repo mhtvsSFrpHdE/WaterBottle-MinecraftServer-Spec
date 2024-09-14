@@ -58,6 +58,26 @@
         },
         {
           "type": "permission",
+          "key": "essentials.tpa",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpacancel",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpaccept",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpahere",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "tabtps.defaultdisplay",
           "value": true
         },

@@ -118,6 +118,11 @@
         },
         {
           "type": "permission",
+          "key": "residence.command.auto",
+          "value": false
+        },
+        {
+          "type": "permission",
           "key": "slabbo.use",
           "value": true
         },

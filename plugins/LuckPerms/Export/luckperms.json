@@ -48,6 +48,16 @@
         },
         {
           "type": "permission",
+          "key": "essentials.signs.color",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.signs.rgb",
+          "value": true
+        },
+        {
+          "type": "permission",
           "key": "tabtps.defaultdisplay",
           "value": true
         },

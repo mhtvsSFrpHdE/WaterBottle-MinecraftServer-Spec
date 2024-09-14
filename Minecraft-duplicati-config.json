@@ -1,0 +1,118 @@
+{
+  "CreatedByVersion": "2.0.8.1",
+  "Schedule": {
+    "ID": 1,
+    "Tags": [
+      "ID=4"
+    ],
+    "Time": "2024-09-14T19:58:00Z",
+    "Repeat": "1D",
+    "LastRun": "2024-09-13T19:58:00Z",
+    "Rule": "AllowedWeekDays=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",
+    "AllowedDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+    ]
+  },
+  "Backup": {
+    "ID": "4",
+    "Name": "Minecraft",
+    "Description": "",
+    "Tags": [],
+    "TargetURL": "file://C:\\MinecraftBackup",
+    "DBPath": "C:\\Duplicati\\KUWHTIYMOL.sqlite",
+    "Sources": [
+      "C:\\Minecraft\\1.21.1\\"
+    ],
+    "Settings": [
+      {
+        "Filter": "",
+        "Name": "encryption-module",
+        "Value": "",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "compression-module",
+        "Value": "zip",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "dblock-size",
+        "Value": "50mb",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--no-encryption",
+        "Value": "true",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--zip-compression-level",
+        "Value": "1",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--run-script-before",
+        "Value": "C:\\Minecraft\\1.21.1\\RconStopOnBackup.bat",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--run-script-after",
+        "Value": "C:\\Minecraft\\1.21.1\\ServerStartAfterBackup.bat",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--run-script-timeout",
+        "Value": "5m",
+        "Argument": null
+      }
+    ],
+    "Filters": [
+      {
+        "Order": 0,
+        "Include": false,
+        "Expression": "C:\\Minecraft\\1.21.1\\plugins\\dynmap\\web\\tiles\\"
+      },
+      {
+        "Order": 1,
+        "Include": false,
+        "Expression": "C:\\Minecraft\\1.21.1\\orebfuscator_cache\\"
+      }
+    ],
+    "Metadata": {
+      "LastBackupDate": "20240913T200006Z",
+      "BackupListCount": "14",
+      "TotalQuotaSpace": "136298102784",
+      "FreeQuotaSpace": "33202970624",
+      "AssignedQuotaSpace": "-1",
+      "TargetFilesSize": "5313876073",
+      "TargetFilesCount": "228",
+      "TargetSizeString": "4.95 GB",
+      "SourceFilesSize": "6962696309",
+      "SourceFilesCount": "3958",
+      "SourceSizeString": "6.48 GB",
+      "LastBackupStarted": "20240913T195800Z",
+      "LastBackupFinished": "20240913T200033Z",
+      "LastBackupDuration": "00:02:33.3784960",
+      "LastRestoreDuration": "00:01:38.7020201",
+      "LastRestoreStarted": "20240904T141030Z",
+      "LastRestoreFinished": "20240904T141208Z"
+    },
+    "IsTemporary": false
+  },
+  "DisplayNames": {
+    "C:\\Minecraft\\1.21.1\\": "1.21.1"
+  }
+}

@@ -6,6 +6,11 @@
   "groups": {
     "default": {
       "nodes": [
+        {
+          "type": "permission",
+          "key": "multiverse.access.*",
+          "value": true
+        },
       ]
     }
   },

@@ -10,7 +10,7 @@
 # - Full (A full stack (64 items))
 # - Single (A single item)
 # - None (No item display)
-itemdisplay: single
+itemdisplay: quantity
 
 # If Slabbo should check for updates
 checkupdates: true

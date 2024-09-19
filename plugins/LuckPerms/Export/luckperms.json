@@ -93,6 +93,31 @@
                 },
                 {
                     "type": "permission",
+                    "key": "keepchunks.chunkinfo",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "keepchunks.help",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "keepchunks.keepchunk",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "keepchunks.list",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "keepchunks.releasechunk",
+                    "value": true
+                },
+                {
+                    "type": "permission",
                     "key": "marketplace.add",
                     "value": true
                 },

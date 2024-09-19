@@ -149,6 +149,10 @@ plugins/WorldEdit/sessions/
 # Sensitive data
 /plugins/TabTPS/userdata
 
+# KeepChunks
+
+# Sensitive data
+plugins/KeepChunks/data.yml
 
 # Syncthing
 .stignore

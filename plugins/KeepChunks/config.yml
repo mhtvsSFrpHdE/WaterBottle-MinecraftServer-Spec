@@ -1,0 +1,28 @@
+#
+#  _     _                   _______ _                 _          
+# (_)   | |                 (_______) |               | |  v1.7.2
+#  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+# |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+# | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+# |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+#                     |_|                                         
+#
+# Keeping your chunks loaded since 2015! By Geitenijs
+# Information & Support: https://www.spigotmc.org/resources/23307
+#
+# general:
+#   pluginbanner: Whether or not to display the fancy banner in your console on server startup.
+#   colourfulconsole: Console messages will be coloured when this is enabled.
+#   releaseallprotection: Do you want to restrict the 'release all' command to the console?
+#
+# updates:
+#   check: When enabled, the plugin will check for updates. No automatic downloads, just a subtle notification in the console.
+#   notify: Would you like to get an in-game reminder of a new update? Requires permission 'keepchunks.notify.update'.
+
+general:
+  pluginbanner: true
+  colourfulconsole: true
+  releaseallprotection: true
+updates:
+  check: true
+  notify: true

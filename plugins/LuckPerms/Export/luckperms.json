@@ -1,242 +1,241 @@
 {
-  "metadata": {
-    "generatedBy": "Console",
-    "generatedAt": "2024-09-14 00:00:00 SGT"
-  },
-  "groups": {
-    "default": {
-      "nodes": [
-        {
-          "type": "permission",
-          "key": "multiverse.access.*",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "zh.friend.*",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "bukkit.command.tps",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "coreprotect.inspect",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "coreprotect.lookup",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.balance",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.gc",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.home",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.sethome.bed",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.signs.color",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.signs.rgb",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.tpa",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.tpacancel",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.tpaccept",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.tpahere",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.warp",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "essentials.warp.list",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "marketplace.add",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "marketplace.help",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "marketplace.listings",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "marketplace.mails",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "residence.chatcolor",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.auto",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.compass",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.gset",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.listall",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.lists",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.pset",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.command.set",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "residence.compass",
-          "value": false
-        },
-        {
-          "type": "permission",
-          "key": "slabbo.use",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tabtps.defaultdisplay",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tabtps.ping",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tabtps.ping.others",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tabtps.tps",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tradesystem.trade",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "tradesystem.trade.initiate",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "zh.claim",
-          "value": true
-        },
-        {
-          "type": "permission",
-          "key": "zh.give",
-          "value": true
-        }
-      ]
+    "metadata": {
+        "generatedBy": "Console",
+        "generatedAt": "2024-09-14 00:00:00 SGT"
     },
-    "permission_admin": {
-      "nodes": [
-        {
-          "type": "permission",
-          "key": "luckperms.*",
-          "value": true
+    "groups": {
+        "default": {
+            "nodes": [
+                {
+                    "type": "permission",
+                    "key": "multiverse.access.*",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "zh.friend.*",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "bukkit.command.tps",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "coreprotect.inspect",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "coreprotect.lookup",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.balance",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.gc",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.home",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.sethome.bed",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.signs.color",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.signs.rgb",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.tpa",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.tpacancel",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.tpaccept",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.tpahere",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.warp",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "essentials.warp.list",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "marketplace.add",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "marketplace.help",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "marketplace.listings",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "marketplace.mails",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.chatcolor",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.auto",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.compass",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.gset",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.listall",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.lists",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.pset",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.command.set",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "residence.compass",
+                    "value": false
+                },
+                {
+                    "type": "permission",
+                    "key": "slabbo.use",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tabtps.defaultdisplay",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tabtps.ping",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tabtps.ping.others",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tabtps.tps",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tradesystem.trade",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "tradesystem.trade.initiate",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "zh.claim",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "zh.give",
+                    "value": true
+                }
+            ]
         },
-        {
-          "type": "permission",
-          "key": "minecraft.command.op",
-          "value": true
+        "permission_admin": {
+            "nodes": [
+                {
+                    "type": "permission",
+                    "key": "luckperms.*",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "minecraft.command.op",
+                    "value": true
+                }
+            ]
+        },
+        "shop_admin": {
+            "nodes": [
+                {
+                    "type": "permission",
+                    "key": "slabbo.limit.*",
+                    "value": true
+                }
+            ]
+        },
+        "worldedit": {
+            "nodes": [
+                {
+                    "type": "permission",
+                    "key": "worldedit.*",
+                    "value": true
+                }
+            ]
         }
-      ]
     },
-    "shop_admin": {
-      "nodes": [
-        {
-          "type": "permission",
-          "key": "slabbo.limit.*",
-          "value": true
-        }
-      ]
-    },
-    "worldedit": {
-      "nodes": [
-        {
-          "type": "permission",
-          "key": "worldedit.*",
-          "value": true
-        }
-      ]
-    }
-  },
-  "tracks": {},
-  "users": {
-  }
+    "tracks": {},
+    "users": {}
 }

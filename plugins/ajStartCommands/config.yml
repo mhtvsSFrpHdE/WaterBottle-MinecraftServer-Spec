@@ -5,8 +5,13 @@ config-version: 3
 # To set a delay for a command, put d=5; before the command, replacing 5 with the delay (in seconds) you want.
 #  One of the default commands is an example of a delay
 start-commands:
-- "say the server just started!"
-- "d=5;say the server started 5 seconds ago!"
+- "d=120;mv modify set keepSpawnInMemory false world"
+- "d=120;mv modify set keepSpawnInMemory false world_nether"
+- "d=120;mv modify set keepSpawnInMemory false world_the_end"
+- "d=120;mv modify set keepSpawnInMemory false dig"
+- "d=120;mv modify set keepSpawnInMemory false dig_nether"
+- "d=120;mv modify set keepSpawnInMemory false dig_the_end"
+- "d=120;mv modify set keepSpawnInMemory false lemon_amp"
 
 # These commands will be executed when a player joins the server.
 # You can add flags to commands to make them only run when you want them to

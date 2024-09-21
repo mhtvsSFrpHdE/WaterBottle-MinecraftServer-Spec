@@ -5,7 +5,7 @@
 
 # Amount of time to keep chunks loaded after a player teleports in seconds
 # setting to 0 will disable pet teleports
-keep-chunk-loaded: 1
+keep-chunk-loaded: 2
 
 #   For support:
 #   https://maurxce.dev/github

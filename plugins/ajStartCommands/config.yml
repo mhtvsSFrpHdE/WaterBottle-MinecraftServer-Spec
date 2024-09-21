@@ -1,0 +1,15 @@
+# Dont touch this number please
+config-version: 3
+
+# These commands will be executed when the server is finished loading.
+# To set a delay for a command, put d=5; before the command, replacing 5 with the delay (in seconds) you want.
+#  One of the default commands is an example of a delay
+start-commands:
+- "say the server just started!"
+- "d=5;say the server started 5 seconds ago!"
+
+# These commands will be executed when a player joins the server.
+# You can add flags to commands to make them only run when you want them to
+# Here is an explanation and list of flags: https://ajgeiss72.gitbook.io/ajstartcommands/command-flags
+# In these commands, {PLAYER} will be replaced with the name of the player.
+join-commands: []

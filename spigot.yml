@@ -62,7 +62,7 @@ world-settings:
     hopper-amount: 1
     hopper-can-load-chunks: false
     dragon-death-sound-radius: 0
-    item-despawn-rate: 6000
+    item-despawn-rate: 72000
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000

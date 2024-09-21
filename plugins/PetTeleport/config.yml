@@ -1,0 +1,12 @@
+#   PetTeleport Config
+#   by Maurxce
+#
+#   This plugin makes dogs, cats and parrots teleport with you
+
+# Amount of time to keep chunks loaded after a player teleports in seconds
+# setting to 0 will disable pet teleports
+keep-chunk-loaded: 1
+
+#   For support:
+#   https://maurxce.dev/github
+#   https://maurxce.dev/discord

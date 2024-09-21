@@ -1,0 +1,4 @@
+no-permission: "&c[PetTP] Sorry! You don't have permission to do this."
+
+reload-success: "&a[PetTP] Successfully reloaded files."
+reload-error: "&c[PetTP] Failed to reload files."

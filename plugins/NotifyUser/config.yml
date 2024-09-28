@@ -9,7 +9,7 @@ chat:
   highlight-color: '&d'
   message-color: '&r'
   min-name-length: 3
-  highlight-for-all: false
+  highlight-for-all: true
   allow-partial: true
   notify: true
 mute:

@@ -1,0 +1,17 @@
+#tnt
+#hopper
+#dropper
+#dispenser
+#piston
+#campfire
+#lava
+#water
+#vine
+#bamboo
+#amethyst
+#snowman
+#fire
+#decay
+#drowning
+#fall
+#guardian

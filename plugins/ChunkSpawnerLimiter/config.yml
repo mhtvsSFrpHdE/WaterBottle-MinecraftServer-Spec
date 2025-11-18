@@ -13,10 +13,10 @@ properties:
   active-inspections: true
   
   # Check a chunk when a mob spawns (CreatureSpawnEvent).
-  watch-creature-spawns: true
+  watch-creature-spawns: false
 
   # Check a chunk when a vehicle spawns (VehicleCreateEvent).
-  watch-vehicle-create-event: true
+  watch-vehicle-create-event: false
 
   # Check a chunk when an entity spawns (ArmorStand)
   watch-entity-spawns: true
@@ -50,35 +50,36 @@ properties:
 
 # Spawn reasons to cull on.
 spawn-reasons:
-  BREEDING: true
-  BUILD_IRONGOLEM: true
-  BUILD_SNOWMAN: true
-  BUILD_WITHER: true
-  CHUNK_GEN: true
-  DEFAULT: true
-  DISPENSE_EGG: true
-  DROWNED: true
-  EGG: true
-  JOCKEY: true
-  LIGHTNING: true
-  MOUNT: true
-  NATURAL: true
-  NETHER_PORTAL: true
-  OCELOT_BABY: true
-  REINFORCEMENTS: true #proabably animals
-  SILVERFISH_BLOCK: true
-  SPAWNER: true
   SPAWNER_EGG: true
-  TRAP: true
-  VILLAGE_DEFENSE: true
-  VILLAGE_INVASION: true
+#  BREEDING: true
+#  BUILD_IRONGOLEM: true
+#  BUILD_SNOWMAN: true
+#  BUILD_WITHER: true
+#  CHUNK_GEN: true
+#  DEFAULT: true
+#  DISPENSE_EGG: true
+#  DROWNED: true
+#  EGG: true
+#  JOCKEY: true
+#  LIGHTNING: true
+#  MOUNT: true
+#  NATURAL: true
+#  NETHER_PORTAL: true
+#  OCELOT_BABY: true
+#  REINFORCEMENTS: true #proabably animals
+#  SILVERFISH_BLOCK: true
+#  SPAWNER: true
+#  SPAWNER_EGG: true
+#  TRAP: true
+#  VILLAGE_DEFENSE: true
+#  VILLAGE_INVASION: true
 
 entities:
-  ANIMAL: 50
-  MONSTER: 50
-  NPC: 50
-  OTHER: 500
   ITEM: 300
+#  ANIMAL: 50
+#  MONSTER: 50
+#  NPC: 50
+#  OTHER: 500
 #  WATER_MOB: 5
 #  AMBIENT: 5
 #  CREEPER: 10

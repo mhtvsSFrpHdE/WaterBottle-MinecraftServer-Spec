@@ -3,7 +3,7 @@ properties:
   debug-messages: false
 
   # Check a chunk upon load (ChunkLoadEvent).
-  check-chunk-load: false
+  check-chunk-load: true
   
   # Check a chunk upon unload (ChunkUnloadEvent).
   check-chunk-unload: false
@@ -22,13 +22,13 @@ properties:
   watch-entity-spawns: true
 
   # Radius of surrounding chunks to check.
-  check-surrounding-chunks: 1
+  check-surrounding-chunks: 0
 
   # How often, in seconds, to check the chunk.
   inspection-frequency: 300
   
   # Notify players in that chunk if stuff has been culled. 
-  notify-players: false
+  notify-players: true
 
   # Prioritize entities without names over older entities.
   preserve-named-entities: true
@@ -78,6 +78,7 @@ entities:
   MONSTER: 50
   NPC: 50
   OTHER: 500
+  ITEM: 300
 #  WATER_MOB: 5
 #  AMBIENT: 5
 #  CREEPER: 10

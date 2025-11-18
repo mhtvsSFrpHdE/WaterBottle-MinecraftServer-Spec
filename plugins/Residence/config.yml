@@ -171,7 +171,7 @@ Global:
   Tp:
     # The interval, in seconds, for teleportation.
     # Use 0 to disable
-    TeleportDelay: 3
+    TeleportDelay: 0
     # Show aditional message in title message area when player is teleporting to residence
     TeleportTitleMessage: true
     # List of worlds where teleportation using /res tp is not allowed

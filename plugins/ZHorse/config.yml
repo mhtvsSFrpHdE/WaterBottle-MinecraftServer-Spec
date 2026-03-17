@@ -404,3 +404,15 @@ Worlds:
   world_the_end:
     enabled: false
     crossable: false
+  world_amp:
+    enabled: true
+    crossable: true
+  lemon:
+    enabled: true
+    crossable: true
+  lemon_nether:
+    enabled: false
+    crossable: false
+  lemon_the_end:
+    enabled: false
+    crossable: false

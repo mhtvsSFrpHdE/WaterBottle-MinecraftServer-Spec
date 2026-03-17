@@ -237,9 +237,9 @@ Global:
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
-      lemon_amp:
+      world_amp:
         Enabled: true
-        MaxCoord: 1000
+        MaxCoord: 7000
         MinCoord: 500
         CenterX: 0
         CenterZ: 0

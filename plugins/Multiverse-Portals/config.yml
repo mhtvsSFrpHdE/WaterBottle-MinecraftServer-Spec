@@ -54,7 +54,7 @@ portal-usage:
   # If enabled, mvportals will teleport all vehicles along with its passengers when the vehicle enters the portal.
   # Vehicles are usually boats and minecarts.
   # (NOTE: please turn off the server before changing this config option)
-  teleport-vehicles: false
+  teleport-vehicles: true
   
   # If enabled, all living entities can use the portal if property `teleport-non-players` is true.
   # There may be some performance overhead if your server has a large amount of entities moving around.

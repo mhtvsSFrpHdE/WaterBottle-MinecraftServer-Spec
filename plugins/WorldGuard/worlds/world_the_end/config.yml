@@ -11,21 +11,3 @@
 
 regions:
     titles-always-use-default-times: true
-ignition:
-    block-tnt-block-damage: false
-fire:
-    disable-all-fire-spread: false
-mobs:
-    block-creeper-block-damage: false
-    block-wither-block-damage: false
-    block-wither-skull-block-damage: false
-    block-enderdragon-block-damage: false
-    block-fireball-block-damage: false
-    anti-wolf-dumbness: false
-    allow-tamed-spawns: false
-    disable-enderman-griefing: false
-    block-painting-destroy: false
-    block-item-frame-destroy: false
-    block-armor-stand-destroy: false
-    block-plugin-spawning: false
-    block-zombie-door-destruction: false
